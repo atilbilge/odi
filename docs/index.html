@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odi - Master Serbian with Confidence</title>
+  <meta name="description" content="Learn Serbian naturally with real-time speech recognition, smart spaced repetition, and 40 interactive lessons. Start speaking Serbian from day one.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0A0D14;
+      --bg-secondary: #111726;
+      --bg-card: rgba(22, 30, 49, 0.7);
+      --border-card: rgba(255, 255, 255, 0.08);
+      --accent: #6366F1;
+      --accent-glow: rgba(99, 102, 241, 0.35);
+      --accent-secondary: #EC4899;
+      --text-main: #F8FAFC;
+      --text-muted: #94A3B8;
+      --success: #10B981;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+
+    /* Ambient Background Glows */
+    .glow-orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(120px);
+      pointer-events: none;
+      z-index: 0;
+    }
+    .orb-1 {
+      top: -100px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 600px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(99, 102, 241, 0.25) 0%, rgba(236, 72, 153, 0.15) 100%);
+    }
+    .orb-2 {
+      top: 800px;
+      right: -100px;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(16, 185, 129, 0.12) 0%, transparent 70%);
+    }
+
+    /* Navigation */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(16px);
+      background: rgba(10, 13, 20, 0.75);
+      border-bottom: 1px solid var(--border-card);
+    }
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 24px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 800;
+      font-size: 1.4rem;
+      letter-spacing: -0.5px;
+    }
+    .logo-badge {
+      width: 38px;
+      height: 38px;
+      background: linear-gradient(135deg, #6366F1, #EC4899);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      box-shadow: 0 4px 15px var(--accent-glow);
+    }
+    nav {
+      display: flex;
+      gap: 28px;
+      align-items: center;
+    }
+    nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .nav-btn {
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+      padding: 8px 18px;
+      border-radius: 8px;
+      border: 1px solid var(--border-card);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: all 0.2s ease;
+    }
+    .nav-btn:hover {
+      background: var(--accent);
+      border-color: var(--accent);
+      box-shadow: 0 4px 16px var(--accent-glow);
+    }
+
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 100px 0 80px;
+      text-align: center;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(99, 102, 241, 0.12);
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      padding: 6px 16px;
+      border-radius: 100px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #A5B4FC;
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-size: clamp(2.5rem, 5vw, 4.2rem);
+      font-weight: 800;
+      line-height: 1.15;
+      letter-spacing: -1.5px;
+      margin-bottom: 24px;
+      max-width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, #A5B4FC 0%, #F472B6 50%, #FBBF24 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero p {
+      font-size: clamp(1.05rem, 2vw, 1.25rem);
+      color: var(--text-muted);
+      max-width: 640px;
+      margin: 0 auto 40px;
+      font-weight: 400;
+    }
+    .cta-group {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #6366F1, #4F46E5);
+      color: #fff;
+      padding: 14px 28px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      box-shadow: 0 8px 25px var(--accent-glow);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(99, 102, 241, 0.5);
+    }
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--bg-card);
+      color: #fff;
+      padding: 14px 26px;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
+      border: 1px solid var(--border-card);
+      transition: all 0.2s;
+    }
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    /* Interactive App Mockup Preview */
+    .preview-section {
+      margin: 60px auto 100px;
+      max-width: 900px;
+      background: linear-gradient(180deg, rgba(30, 41, 59, 0.5) 0%, rgba(15, 23, 42, 0.8) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 24px;
+      padding: 40px;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(20px);
+    }
+    .mockup-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      align-items: center;
+    }
+    @media (max-width: 768px) {
+      .mockup-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .exercise-card {
+      background: rgba(17, 24, 39, 0.9);
+      border: 1px solid rgba(99, 102, 241, 0.2);
+      border-radius: 18px;
+      padding: 28px;
+      text-align: left;
+    }
+    .tag {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #A5B4FC;
+      margin-bottom: 8px;
+      display: block;
+    }
+    .serbian-word {
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 6px;
+      color: #fff;
+    }
+    .english-meaning {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+    .mic-status {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 12px 16px;
+      border-radius: 12px;
+      color: var(--success);
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .pulse-dot {
+      width: 10px;
+      height: 10px;
+      background: var(--success);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--success);
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(0.95); opacity: 0.8; }
+      50% { transform: scale(1.3); opacity: 1; }
+      100% { transform: scale(0.95); opacity: 0.8; }
+    }
+
+    /* Features Grid */
+    .features {
+      padding: 60px 0 100px;
+    }
+    .section-header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .section-header h2 {
+      font-size: clamp(2rem, 3.5vw, 2.8rem);
+      font-weight: 800;
+      letter-spacing: -1px;
+      margin-bottom: 16px;
+    }
+    .section-header p {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      max-width: 580px;
+      margin: 0 auto;
+    }
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+    }
+    .feature-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-card);
+      border-radius: 20px;
+      padding: 32px;
+      transition: all 0.3s ease;
+    }
+    .feature-card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(99, 102, 241, 0.4);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    }
+    .feature-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      background: rgba(99, 102, 241, 0.15);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+    }
+    .feature-card h3 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #fff;
+    }
+    .feature-card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    /* Stats Section */
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 24px;
+      padding: 40px;
+      background: rgba(17, 24, 39, 0.6);
+      border: 1px solid var(--border-card);
+      border-radius: 20px;
+      margin-bottom: 100px;
+      text-align: center;
+    }
+    .stat-item h4 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #fff, #A5B4FC);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 4px;
+    }
+    .stat-item p {
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* CTA Section */
+    .cta-banner {
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(236, 72, 153, 0.15) 100%);
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      border-radius: 28px;
+      padding: 70px 40px;
+      text-align: center;
+      margin-bottom: 100px;
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-banner h2 {
+      font-size: clamp(2rem, 3.5vw, 3rem);
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+    .cta-banner p {
+      color: #CBD5E1;
+      font-size: 1.1rem;
+      max-width: 550px;
+      margin: 0 auto 36px;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border-card);
+      background: rgba(10, 13, 20, 0.9);
+      padding: 60px 0 30px;
+    }
+    .footer-grid {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+    .footer-links {
+      display: flex;
+      gap: 24px;
+    }
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.2s;
+    }
+    .footer-links a:hover {
+      color: #fff;
+    }
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      padding-top: 24px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #64748B;
+    }
+  </style>
+</head>
+<body>
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-badge">🎙️</div>
+        <span>Odi</span>
+      </a>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#curriculum">Curriculum</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="#download" class="nav-btn">Get App</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-badge">
+        <span>✨ Powered by Intelligent Speech Recognition</span>
+      </div>
+      <h1>Speak Serbian Naturally. <br><span class="gradient-text">From Your Very First Day.</span></h1>
+      <p>Master authentic Serbian pronunciation, absorb 600+ high-frequency words, and commit vocabulary to long-term memory with scientifically backed spaced repetition.</p>
+      
+      <div class="cta-group" id="download">
+        <a href="#download" class="btn-primary">
+          <span> Download on App Store</span>
+        </a>
+        <a href="#features" class="btn-secondary">
+          <span>Explore Features ↓</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Interactive Mockup Preview -->
+    <section class="preview-section">
+      <div class="mockup-grid">
+        <div>
+          <span class="tag">Pronunciation Coach</span>
+          <h3 style="font-size: 1.8rem; font-weight: 800; margin-bottom: 12px;">Real-Time Acoustic Feedback</h3>
+          <p style="color: var(--text-muted); line-height: 1.6; margin-bottom: 24px;">
+            Odi listens to your spoken Serbian, analyzes each phoneme with intelligent accent-tolerance, and shows you exactly which syllables you nailed.
+          </p>
+          <div class="mic-status">
+            <div class="pulse-dot"></div>
+            <span>Microphone Active • 92% Accuracy Match</span>
+          </div>
+        </div>
+        <div class="exercise-card">
+          <span class="tag">Speaking Exercise</span>
+          <div class="serbian-word">Dobar dan!</div>
+          <div class="english-meaning">Good day / Hello</div>
+          <div style="background: rgba(255,255,255,0.05); padding: 14px; border-radius: 12px; margin-top: 15px;">
+            <div style="font-size: 0.85rem; color: #94A3B8; margin-bottom: 6px;">Spoken Transcribe:</div>
+            <div style="color: #34D399; font-weight: 700; font-size: 1.1rem;">"Dobar dan" ✓</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <div class="stats-bar">
+      <div class="stat-item">
+        <h4>40</h4>
+        <p>Curated Lessons</p>
+      </div>
+      <div class="stat-item">
+        <h4>600+</h4>
+        <p>Core Vocabulary</p>
+      </div>
+      <div class="stat-item">
+        <h4>5</h4>
+        <p>Exercise Formats</p>
+      </div>
+      <div class="stat-item">
+        <h4>100%</h4>
+        <p>Offline Capable</p>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <section class="features" id="features">
+      <div class="section-header">
+        <h2>Designed for Real-World Fluency</h2>
+        <p>Everything you need to go from a complete beginner to having fluent, stress-free conversations in Serbia and Montenegro.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🗣️</div>
+          <h3>Speech-to-Text Evaluation</h3>
+          <p>Practice speaking directly into your phone. Get instant feedback on your tone, rhythm, and accuracy without feeling judged.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🧠</div>
+          <h3>Spaced Repetition (SRS)</h3>
+          <p>Our intelligent scheduling algorithm ensures you review words right when your brain is about to forget them, optimizing long-term retention.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">✈️</div>
+          <h3>Real Balkan Situations</h3>
+          <p>Learn practical phrases for cafes, public transport, grocery shopping, directions, and socializing with locals in Belgrade.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📴</div>
+          <h3>Offline-First Learning</h3>
+          <p>Foundational units are stored right on your device. Study on planes, metro commutes, or anywhere without cell reception.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📖</div>
+          <h3>Interactive Wordbook</h3>
+          <p>Access your complete personal dictionary anytime with high-fidelity native audio playback and mastery progress bars.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>Dynamic Daily Quizzes</h3>
+          <p>Multiple choice, word matching, fill-in-the-blanks, and writing drills keep your daily learning sessions engaging and diverse.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+      <h2>Start Your Serbian Journey Today</h2>
+      <p>Join thousands of travelers, digital nomads, and language lovers learning Serbian with Odi.</p>
+      <a href="#download" class="btn-primary" style="font-size: 1.1rem; padding: 16px 36px;">
+        <span> Get Odi on iOS</span>
+      </a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="logo">
+          <div class="logo-badge">🎙️</div>
+          <span>Odi</span>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="support.html">Support</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Odi (Aboptima). All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
