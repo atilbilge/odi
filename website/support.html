@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support & Help Center - Odi</title>
+  <meta name="description" content="Need help with Odi? Find answers to common questions about microphone permissions, audio playback, spaced repetition, or contact our support team.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0A0D14;
+      --bg-secondary: #111726;
+      --bg-card: rgba(22, 30, 49, 0.7);
+      --border-card: rgba(255, 255, 255, 0.08);
+      --accent: #6366F1;
+      --accent-glow: rgba(99, 102, 241, 0.35);
+      --text-main: #F8FAFC;
+      --text-muted: #94A3B8;
+      --success: #10B981;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      line-height: 1.7;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(16px);
+      background: rgba(10, 13, 20, 0.8);
+      border-bottom: 1px solid var(--border-card);
+    }
+    .nav-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 24px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 800;
+      font-size: 1.3rem;
+    }
+    .logo-badge {
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, #6366F1, #EC4899);
+      border-radius: 9px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+    }
+    nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      margin-left: 24px;
+      transition: color 0.2s ease;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 24px 100px;
+    }
+
+    .support-hero {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .support-hero h1 {
+      font-size: clamp(2.2rem, 4vw, 3rem);
+      font-weight: 800;
+      letter-spacing: -1px;
+      margin-bottom: 12px;
+    }
+    .support-hero p {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+
+    .contact-card {
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.15) 0%, rgba(236, 72, 153, 0.1) 100%);
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      border-radius: 20px;
+      padding: 36px;
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .contact-card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 8px;
+    }
+    .contact-card p {
+      color: #CBD5E1;
+      margin-bottom: 24px;
+    }
+    .contact-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--accent);
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 700;
+      text-decoration: none;
+      box-shadow: 0 4px 20px var(--accent-glow);
+      transition: transform 0.2s;
+    }
+    .contact-btn:hover {
+      transform: translateY(-2px);
+    }
+
+    /* FAQ Section */
+    .faq-title {
+      font-size: 1.8rem;
+      font-weight: 800;
+      margin-bottom: 24px;
+    }
+    .faq-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border-card);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 16px;
+      transition: border-color 0.2s;
+    }
+    .faq-item:hover {
+      border-color: rgba(99, 102, 241, 0.3);
+    }
+    .faq-question {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .faq-answer {
+      color: #CBD5E1;
+      font-size: 0.98rem;
+    }
+    .faq-answer ul {
+      margin-left: 20px;
+      margin-top: 8px;
+    }
+    .faq-answer li {
+      margin-bottom: 6px;
+    }
+
+    footer {
+      border-top: 1px solid var(--border-card);
+      background: rgba(10, 13, 20, 0.9);
+      padding: 40px 0;
+      text-align: center;
+      color: #64748B;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: var(--text-muted);
+      text-decoration: none;
+      margin: 0 12px;
+    }
+    footer a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-badge">🎙️</div>
+        <span>Odi</span>
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="support.html" style="color: #fff; font-weight: 700;">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="support-hero">
+      <h1>How Can We Help You?</h1>
+      <p>Have questions, experiencing audio issues, or want to suggest new words? We are here to support your Serbian learning journey.</p>
+    </div>
+
+    <div class="contact-card">
+      <h2>Contact Support</h2>
+      <p>Our dedicated support team typically replies within 24 hours.</p>
+      <a href="mailto:support@aboptima.com?subject=Odi%20Support%20Request" class="contact-btn">
+        <span>✉️ Email Us (support@aboptima.com)</span>
+      </a>
+    </div>
+
+    <div class="faq-section">
+      <h2 class="faq-title">Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>🎤</span>
+          <span>Why is the app not recognizing my voice in speaking exercises?</span>
+        </div>
+        <div class="faq-answer">
+          To practice speaking, iOS requires two specific permissions:
+          <ul>
+            <li><strong>Microphone Permission:</strong> Allows audio input.</li>
+            <li><strong>Speech Recognition Permission:</strong> Converts spoken phonemes into text.</li>
+          </ul>
+          To check your permissions: open your iPhone <strong>Settings > Odi</strong> and ensure both <strong>Microphone</strong> and <strong>Speech Recognition</strong> toggles are turned on (Green).
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>🔊</span>
+          <span>I cannot hear any sound from the pronunciation buttons.</span>
+        </div>
+        <div class="faq-answer">
+          Please check the following:
+          <ul>
+            <li>Ensure your iPhone volume is turned up using the physical volume buttons on the side of your device.</li>
+            <li>Make sure your phone is not connected to a silent Bluetooth device or AirPods in your bag.</li>
+            <li>Odi is optimized to play through the main loudspeaker even in silent mode, but if you still hear no sound, try restarting the app.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>🧠</span>
+          <span>How does the Spaced Repetition System (SRS) work?</span>
+        </div>
+        <div class="faq-answer">
+          Odi uses a spaced repetition algorithm to schedule word reviews at scientifically calculated intervals. When you practice a word correctly, its review interval expands (1 day, 3 days, 7 days, 16 days, etc.). If you struggle with a word, the app brings it back for review sooner so it moves into your permanent memory.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>✈️</span>
+          <span>Can I practice Serbian offline?</span>
+        </div>
+        <div class="faq-answer">
+          Yes! The first 5 foundational courses and their complete audio sets are bundled directly into the app. You can also download the remaining 35 courses while connected to Wi-Fi to enjoy completely offline learning on planes or road trips.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>🔄</span>
+          <span>How do I reset my learning progress?</span>
+        </div>
+        <div class="faq-answer">
+          If you want to start fresh from Unit 1, go to the <strong>Settings</strong> tab inside Odi and select <strong>Reset Learning Progress</strong>. This will re-initialize your spaced repetition intervals and word mastery statistics.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container" style="padding: 0;">
+      <p>© 2026 Odi (Aboptima). All rights reserved.</p>
+      <div style="margin-top: 10px;">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="support.html">Support</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

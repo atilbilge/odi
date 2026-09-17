@@ -1,0 +1,4482 @@
+[
+  {
+    "order": 1,
+    "title": "Pozdravljanje i osnovna komunikacija",
+    "description": "Essential greetings, polite expressions, and everyday communication in Serbian.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "Dobro jutro",
+        "turkishText": "Günaydın",
+        "englishText": "Good morning",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 2,
+        "serbianText": "Dobar dan",
+        "turkishText": "İyi günler",
+        "englishText": "Good day / Good afternoon",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 3,
+        "serbianText": "Dobro veče",
+        "turkishText": "İyi akşamlar",
+        "englishText": "Good evening",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 4,
+        "serbianText": "Doviđenja",
+        "turkishText": "Hoşça kalın",
+        "englishText": "Goodbye",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 5,
+        "serbianText": "Prijatno",
+        "turkishText": "İyi günler / Hoşça kalın",
+        "englishText": "Have a nice day / Goodbye",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 6,
+        "serbianText": "Zdravo",
+        "turkishText": "Merhaba",
+        "englishText": "Hello / Hi",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 7,
+        "serbianText": "Ćao",
+        "turkishText": "Merhaba / Hoşça kal",
+        "englishText": "Hi / Bye",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 8,
+        "serbianText": "Vidimo se",
+        "turkishText": "Görüşürüz",
+        "englishText": "See you",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 9,
+        "serbianText": "Hvala",
+        "turkishText": "Teşekkürler",
+        "englishText": "Thank you",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 10,
+        "serbianText": "Izvolite",
+        "turkishText": "Buyrunuz",
+        "englishText": "Here you go / Please",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 11,
+        "serbianText": "Izvini",
+        "turkishText": "Özür dilerim",
+        "englishText": "Excuse me / Sorry",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 12,
+        "serbianText": "Drago mi je",
+        "turkishText": "Memnun oldum",
+        "englishText": "Nice to meet you",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 13,
+        "serbianText": "Dobro došli",
+        "turkishText": "Hoş geldiniz",
+        "englishText": "Welcome",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 14,
+        "serbianText": "pozdrav",
+        "turkishText": "Selam",
+        "englishText": "Greeting",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "pozdravi",
+        "turkishText": "Selamlar",
+        "englishText": "Greetings",
+        "wordType": "Noun (m, pl)"
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "title": "Lične zamenice i glagol biti",
+    "description": "Personal pronouns and present tense conjugations of the auxiliary verb \"biti\" (to be).",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "ja",
+        "turkishText": "Ben",
+        "englishText": "I",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 2,
+        "serbianText": "ti",
+        "turkishText": "Sen",
+        "englishText": "You (singular)",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 3,
+        "serbianText": "on",
+        "turkishText": "O (erkek)",
+        "englishText": "He",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 4,
+        "serbianText": "ona",
+        "turkishText": "O (kadın)",
+        "englishText": "She",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 5,
+        "serbianText": "ono",
+        "turkishText": "O (nötr)",
+        "englishText": "It",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 6,
+        "serbianText": "mi",
+        "turkishText": "Biz",
+        "englishText": "We",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 7,
+        "serbianText": "vi",
+        "turkishText": "Siz",
+        "englishText": "You (plural/formal)",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 8,
+        "serbianText": "oni",
+        "turkishText": "Onlar (eril/karma)",
+        "englishText": "They (masculine/mixed)",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 9,
+        "serbianText": "one",
+        "turkishText": "Onlar (dişil)",
+        "englishText": "They (feminine)",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 10,
+        "serbianText": "sam / jesam",
+        "turkishText": "-yim (ben)",
+        "englishText": "I am",
+        "wordType": "Verb"
+      },
+      {
+        "order": 11,
+        "serbianText": "si / jesi",
+        "turkishText": "-sin (sen)",
+        "englishText": "You are",
+        "wordType": "Verb"
+      },
+      {
+        "order": 12,
+        "serbianText": "je / jeste",
+        "turkishText": "-dir (o)",
+        "englishText": "He/She/It is",
+        "wordType": "Verb"
+      },
+      {
+        "order": 13,
+        "serbianText": "smo / jesmo",
+        "turkishText": "-yiz (biz)",
+        "englishText": "We are",
+        "wordType": "Verb"
+      },
+      {
+        "order": 14,
+        "serbianText": "ste / jeste",
+        "turkishText": "-siniz (siz)",
+        "englishText": "You are",
+        "wordType": "Verb"
+      },
+      {
+        "order": 15,
+        "serbianText": "su / jesu",
+        "turkishText": "-dirler (onlar)",
+        "englishText": "They are",
+        "wordType": "Verb"
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "title": "Odrični oblici i gramatika",
+    "description": "Negative verb forms, grammatical genders, and linguistic fundamentals.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "nisam",
+        "turkishText": "Değilim",
+        "englishText": "I am not",
+        "wordType": "Verb"
+      },
+      {
+        "order": 2,
+        "serbianText": "nisi",
+        "turkishText": "Değilsin",
+        "englishText": "You are not",
+        "wordType": "Verb"
+      },
+      {
+        "order": 3,
+        "serbianText": "nije",
+        "turkishText": "Değil",
+        "englishText": "He/She/It is not",
+        "wordType": "Verb"
+      },
+      {
+        "order": 4,
+        "serbianText": "nismo",
+        "turkishText": "Değiliz",
+        "englishText": "We are not",
+        "wordType": "Verb"
+      },
+      {
+        "order": 5,
+        "serbianText": "niste",
+        "turkishText": "Değilsiniz",
+        "englishText": "You are not",
+        "wordType": "Verb"
+      },
+      {
+        "order": 6,
+        "serbianText": "nisu",
+        "turkishText": "Değiller",
+        "englishText": "They are not",
+        "wordType": "Verb"
+      },
+      {
+        "order": 7,
+        "serbianText": "bio je",
+        "turkishText": "O (erkek) idi",
+        "englishText": "He was",
+        "wordType": "Verb"
+      },
+      {
+        "order": 8,
+        "serbianText": "bila je",
+        "turkishText": "O (kadın) idi",
+        "englishText": "She was",
+        "wordType": "Verb"
+      },
+      {
+        "order": 9,
+        "serbianText": "jednina",
+        "turkishText": "Tekil",
+        "englishText": "Singular",
+        "wordType": "Grammar term"
+      },
+      {
+        "order": 10,
+        "serbianText": "množina",
+        "turkishText": "Çoğul",
+        "englishText": "Plural",
+        "wordType": "Grammar term"
+      },
+      {
+        "order": 11,
+        "serbianText": "muški rod",
+        "turkishText": "Eril cinsiyet",
+        "englishText": "Masculine gender",
+        "wordType": "Grammar term"
+      },
+      {
+        "order": 12,
+        "serbianText": "ženski rod",
+        "turkishText": "Dişil cinsiyet",
+        "englishText": "Feminine gender",
+        "wordType": "Grammar term"
+      },
+      {
+        "order": 13,
+        "serbianText": "srednji rod",
+        "turkishText": "Nötr cinsiyet",
+        "englishText": "Neuter gender",
+        "wordType": "Grammar term"
+      },
+      {
+        "order": 14,
+        "serbianText": "meki glasovi",
+        "turkishText": "Yumuşak sesler",
+        "englishText": "Soft sounds",
+        "wordType": "Grammar term"
+      },
+      {
+        "order": 15,
+        "serbianText": "tvrdi glasovi",
+        "turkishText": "Sert sesler",
+        "englishText": "Hard sounds",
+        "wordType": "Grammar term"
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "title": "Porodica i rodbina 1",
+    "description": "Immediate family members, parents, siblings, and children.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "porodica",
+        "turkishText": "Aile",
+        "englishText": "Family",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "otac",
+        "turkishText": "Baba",
+        "englishText": "Father",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "tata",
+        "turkishText": "Baba",
+        "englishText": "Dad",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "majka",
+        "turkishText": "Anne",
+        "englishText": "Mother",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "mama",
+        "turkishText": "Anne",
+        "englishText": "Mom",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "roditelji",
+        "turkishText": "Ebeveynler",
+        "englishText": "Parents",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 7,
+        "serbianText": "sin",
+        "turkishText": "Oğul",
+        "englishText": "Son",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "sinovi",
+        "turkishText": "Oğullar",
+        "englishText": "Sons",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 9,
+        "serbianText": "ćerka",
+        "turkishText": "Kız evlat",
+        "englishText": "Daughter",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "brat",
+        "turkishText": "Erkek kardeş",
+        "englishText": "Brother",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "braća",
+        "turkishText": "Erkek kardeşler",
+        "englishText": "Brothers",
+        "wordType": "Noun (pl collective)"
+      },
+      {
+        "order": 12,
+        "serbianText": "sestra",
+        "turkishText": "Kız kardeş",
+        "englishText": "Sister",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "sestre",
+        "turkishText": "Kız kardeşler",
+        "englishText": "Sisters",
+        "wordType": "Noun (f, pl)"
+      },
+      {
+        "order": 14,
+        "serbianText": "dete",
+        "turkishText": "Çocuk",
+        "englishText": "Child",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "deca",
+        "turkishText": "Çocuklar",
+        "englishText": "Children",
+        "wordType": "Noun (pl collective)"
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "title": "Porodica i rodbina 2",
+    "description": "Extended family, grandparents, in-laws, and relationships.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "deda",
+        "turkishText": "Büyükbaba / dede",
+        "englishText": "Grandfather",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "baka",
+        "turkishText": "Büyükanne / nine",
+        "englishText": "Grandmother",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "unuk",
+        "turkishText": "Erkek torun",
+        "englishText": "Grandson",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "unuci",
+        "turkishText": "Erkek torunlar",
+        "englishText": "Grandsons",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 5,
+        "serbianText": "muž",
+        "turkishText": "Koca / eş",
+        "englishText": "Husband",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "muževi",
+        "turkishText": "Kocalar / eşler",
+        "englishText": "Husbands",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 7,
+        "serbianText": "žena",
+        "turkishText": "Kadın / eş",
+        "englishText": "Woman / wife",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "žene",
+        "turkishText": "Kadınlar / eşler",
+        "englishText": "Women / wives",
+        "wordType": "Noun (f, pl)"
+      },
+      {
+        "order": 9,
+        "serbianText": "snaja",
+        "turkishText": "Gelin",
+        "englishText": "Daughter-in-law / sister-in-law",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "zet",
+        "turkishText": "Damat",
+        "englishText": "Son-in-law / brother-in-law",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "zetovi",
+        "turkishText": "Damatlar",
+        "englishText": "Sons-in-law",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 12,
+        "serbianText": "venčanje",
+        "turkishText": "Düğün / evlilik töreni",
+        "englishText": "Wedding",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "udata",
+        "turkishText": "Evli (kadın)",
+        "englishText": "Married (female)",
+        "wordType": "Adjective (f)"
+      },
+      {
+        "order": 14,
+        "serbianText": "neudata",
+        "turkishText": "Bekâr (kadın)",
+        "englishText": "Unmarried (female)",
+        "wordType": "Adjective (f)"
+      },
+      {
+        "order": 15,
+        "serbianText": "rođendan",
+        "turkishText": "Doğum günü",
+        "englishText": "Birthday",
+        "wordType": "Noun (m, sg)"
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "title": "Prijatelji i društvo",
+    "description": "Friends, social gatherings, and everyday social interactions.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "prijatelj",
+        "turkishText": "Arkadaş / dost",
+        "englishText": "Friend",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "prijatelji",
+        "turkishText": "Arkadaşlar / dostlar",
+        "englishText": "Friends",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 3,
+        "serbianText": "drug",
+        "turkishText": "Erkek arkadaş",
+        "englishText": "Friend (male)",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "drugovi",
+        "turkishText": "Erkek arkadaşlar",
+        "englishText": "Friends (male/mixed)",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 5,
+        "serbianText": "drugarica",
+        "turkishText": "Kadın arkadaş",
+        "englishText": "Female friend",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "drugarice",
+        "turkishText": "Kadın arkadaşlar",
+        "englishText": "Female friends",
+        "wordType": "Noun (f, pl)"
+      },
+      {
+        "order": 7,
+        "serbianText": "kolega",
+        "turkishText": "Meslektaş",
+        "englishText": "Colleague (male)",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "kolege",
+        "turkishText": "Meslektaşlar",
+        "englishText": "Colleagues",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 9,
+        "serbianText": "komšija",
+        "turkishText": "Erkek komşu",
+        "englishText": "Neighbor (male)",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "komšinica",
+        "turkishText": "Kadın komşu",
+        "englishText": "Neighbor (female)",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "gost",
+        "turkishText": "Misafir / konuk",
+        "englishText": "Guest",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "društvo",
+        "turkishText": "Arkadaş grubu / cemiyet",
+        "englishText": "Company of friends / society",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "druženje",
+        "turkishText": "Sosyalleşme",
+        "englishText": "Socializing",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 14,
+        "serbianText": "gostoprimstvo",
+        "turkishText": "Misafirperverlik",
+        "englishText": "Hospitality",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "osoba",
+        "turkishText": "Kişi / şahıs",
+        "englishText": "Person",
+        "wordType": "Noun (f, sg)"
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "title": "Zanimanja i obrazovanje 1",
+    "description": "Professions, education, schools, and academic fields 1.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "lekar",
+        "turkishText": "Erkek doktor",
+        "englishText": "Doctor (male)",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "lekari",
+        "turkishText": "Doktorlar",
+        "englishText": "Doctors",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 3,
+        "serbianText": "lekarka",
+        "turkishText": "Kadın doktor",
+        "englishText": "Doctor (female)",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "profesor",
+        "turkishText": "Erkek profesör / öğretmen",
+        "englishText": "Professor / teacher (male)",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "profesorica",
+        "turkishText": "Kadın profesör / öğretmen",
+        "englishText": "Professor / teacher (female)",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "profesorice",
+        "turkishText": "Kadın öğretmenler",
+        "englishText": "Female teachers",
+        "wordType": "Noun (f, pl)"
+      },
+      {
+        "order": 7,
+        "serbianText": "student",
+        "turkishText": "Erkek üniversite öğrencisi",
+        "englishText": "University student (male)",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "studenti",
+        "turkishText": "Üniversite öğrencileri",
+        "englishText": "University students",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 9,
+        "serbianText": "studentkinja",
+        "turkishText": "Kız üniversite öğrencisi",
+        "englishText": "University student (female)",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "studentkinje",
+        "turkishText": "Kız üniversite öğrencileri",
+        "englishText": "Female university students",
+        "wordType": "Noun (f, pl)"
+      },
+      {
+        "order": 11,
+        "serbianText": "učenik",
+        "turkishText": "Erkek öğrenci (okul)",
+        "englishText": "Pupil (male)",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "učenici",
+        "turkishText": "Erkek öğrenciler",
+        "englishText": "Pupils (male)",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 13,
+        "serbianText": "učenica",
+        "turkishText": "Kız öğrenci (okul)",
+        "englishText": "Pupil (female)",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 14,
+        "serbianText": "učenice",
+        "turkishText": "Kız öğrenciler",
+        "englishText": "Pupils (female)",
+        "wordType": "Noun (f, pl)"
+      },
+      {
+        "order": 15,
+        "serbianText": "inženjer",
+        "turkishText": "Erkek mühendis",
+        "englishText": "Engineer (male)",
+        "wordType": "Noun (m, sg)"
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "title": "Zanimanja i profesije 2",
+    "description": "Careers, business professions, and corporate titles 2.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "inženjerka",
+        "turkishText": "Kadın mühendis",
+        "englishText": "Engineer (female)",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "direktor",
+        "turkishText": "Müdür",
+        "englishText": "Director / manager",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "menadžer",
+        "turkishText": "Erkek yönetici",
+        "englishText": "Manager (male)",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "menadžerka",
+        "turkishText": "Kadın yönetici",
+        "englishText": "Manager (female)",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "novinar",
+        "turkishText": "Erkek gazeteci",
+        "englishText": "Journalist (male)",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "novinarka",
+        "turkishText": "Kadın gazeteci",
+        "englishText": "Journalist (female)",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 7,
+        "serbianText": "glumac",
+        "turkishText": "Erkek oyuncu / aktör",
+        "englishText": "Actor",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "glumica",
+        "turkishText": "Kadın oyuncu / aktris",
+        "englishText": "Actress",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "reditelj",
+        "turkishText": "Yönetmen",
+        "englishText": "Director (film/theatre)",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "pisac",
+        "turkishText": "Yazar",
+        "englishText": "Writer",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "pesnik",
+        "turkishText": "Şair",
+        "englishText": "Poet",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "pesnici",
+        "turkishText": "Şairler",
+        "englishText": "Poets",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 13,
+        "serbianText": "naučnik",
+        "turkishText": "Bilim insanı (erkek)",
+        "englishText": "Scientist (male)",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 14,
+        "serbianText": "naučnici",
+        "turkishText": "Bilim insanları",
+        "englishText": "Scientists",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 15,
+        "serbianText": "diplomata",
+        "turkishText": "Erkek diplomat",
+        "englishText": "Diplomat (male)",
+        "wordType": "Noun (m, sg)"
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "title": "Zanimanja i zanati 3",
+    "description": "Trades, crafts, and specialized vocational skills 3.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "diplomatkinja",
+        "turkishText": "Kadın diplomat",
+        "englishText": "Diplomat (female)",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "ekonomista",
+        "turkishText": "Erkek ekonomist",
+        "englishText": "Economist (male)",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "ekonomistkinja",
+        "turkishText": "Kadın ekonomist",
+        "englishText": "Economist (female)",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "kuvar",
+        "turkishText": "Erkek aşçı",
+        "englishText": "Cook / chef (male)",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "kuvarica",
+        "turkishText": "Kadın aşçı",
+        "englishText": "Cook / chef (female)",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "konobar",
+        "turkishText": "Garson",
+        "englishText": "Waiter",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 7,
+        "serbianText": "frizer",
+        "turkishText": "Erkek berber / kuaför",
+        "englishText": "Hairdresser (male)",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "frizerka",
+        "turkishText": "Kadın kuaför",
+        "englishText": "Hairdresser (female)",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "policajac",
+        "turkishText": "Erkek polis",
+        "englishText": "Police officer (male)",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "policajka",
+        "turkishText": "Kadın polis",
+        "englishText": "Police officer (female)",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "vatrogasac",
+        "turkishText": "İtfaiyeci",
+        "englishText": "Firefighter",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "majstor",
+        "turkishText": "Usta / tamirci",
+        "englishText": "Master craftsman / repairman",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "automehaničar",
+        "turkishText": "Oto tamircisi",
+        "englishText": "Car mechanic",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 14,
+        "serbianText": "stjuardesa",
+        "turkishText": "Hostes",
+        "englishText": "Flight attendant",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "ronilac",
+        "turkishText": "Dalgıç",
+        "englishText": "Diver",
+        "wordType": "Noun (m, sg)"
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "title": "Posao i karijera",
+    "description": "Work, career advancement, offices, and employment.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "posao",
+        "turkishText": "İş",
+        "englishText": "Job / work",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "zanimanje",
+        "turkishText": "Meslek",
+        "englishText": "Profession / occupation",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "radna nedelja",
+        "turkishText": "Çalışma haftası",
+        "englishText": "Work week",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 4,
+        "serbianText": "plata",
+        "turkishText": "Maaş / ücret",
+        "englishText": "Salary / wage",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "pauza",
+        "turkishText": "Mola / ara",
+        "englishText": "Break / pause",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "raditi",
+        "turkishText": "Çalışmak / yapmak",
+        "englishText": "To work / do",
+        "wordType": "Verb"
+      },
+      {
+        "order": 7,
+        "serbianText": "zaposlen",
+        "turkishText": "Çalışan / istihdam edilmiş",
+        "englishText": "Employed",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 8,
+        "serbianText": "penzioner",
+        "turkishText": "Emekli",
+        "englishText": "Pensioner / retiree",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "domaćica",
+        "turkishText": "Ev hanımı",
+        "englishText": "Housewife / homemaker",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "ugovor",
+        "turkishText": "Sözleşme",
+        "englishText": "Contract",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "potpisati",
+        "turkishText": "İmzalamak",
+        "englishText": "To sign",
+        "wordType": "Verb"
+      },
+      {
+        "order": 12,
+        "serbianText": "zaraditi",
+        "turkishText": "Kazanmak (para)",
+        "englishText": "To earn (money)",
+        "wordType": "Verb"
+      },
+      {
+        "order": 13,
+        "serbianText": "poslovni",
+        "turkishText": "İşle ilgili / ticari",
+        "englishText": "Business-related",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 14,
+        "serbianText": "poslovni prostor",
+        "turkishText": "İş yeri / ofis alanı",
+        "englishText": "Commercial space",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 15,
+        "serbianText": "fakultetska diploma",
+        "turkishText": "Üniversite diploması",
+        "englishText": "University diploma",
+        "wordType": "Phrase"
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "title": "Hrana i osnovne namirnice",
+    "description": "Basic food items, groceries, and market shopping.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "hrana",
+        "turkishText": "Yemek / yiyecek",
+        "englishText": "Food",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "hleb",
+        "turkishText": "Ekmek",
+        "englishText": "Bread",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "hlebovi",
+        "turkishText": "Ekmekler",
+        "englishText": "Breads",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 4,
+        "serbianText": "sir",
+        "turkishText": "Peynir",
+        "englishText": "Cheese",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "sirevi",
+        "turkishText": "Peynirler",
+        "englishText": "Cheeses",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 6,
+        "serbianText": "meso",
+        "turkishText": "Et",
+        "englishText": "Meat",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 7,
+        "serbianText": "jaje",
+        "turkishText": "Yumurta",
+        "englishText": "Egg",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "so",
+        "turkishText": "Tuz",
+        "englishText": "Salt",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "biber",
+        "turkishText": "Biber (baharat)",
+        "englishText": "Pepper (spice)",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "pirinač",
+        "turkishText": "Pirinç",
+        "englishText": "Rice",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "kobasica",
+        "turkishText": "Sosis / sucuk",
+        "englishText": "Sausage",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "pršuta",
+        "turkishText": "Kuru jambon / prosciutto",
+        "englishText": "Prosciutto",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "maslina",
+        "turkishText": "Zeytin",
+        "englishText": "Olive",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 14,
+        "serbianText": "med",
+        "turkishText": "Bal",
+        "englishText": "Honey",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "grožđe",
+        "turkishText": "Üzüm",
+        "englishText": "Grapes",
+        "wordType": "Noun (n, collective)"
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "title": "Voće i povrće",
+    "description": "Fruits, vegetables, and fresh produce.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "voće",
+        "turkishText": "Meyve",
+        "englishText": "Fruit",
+        "wordType": "Noun (n, collective)"
+      },
+      {
+        "order": 2,
+        "serbianText": "povrće",
+        "turkishText": "Sebze",
+        "englishText": "Vegetables",
+        "wordType": "Noun (n, collective)"
+      },
+      {
+        "order": 3,
+        "serbianText": "jabuka",
+        "turkishText": "Elma",
+        "englishText": "Apple",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "kruška",
+        "turkishText": "Armut",
+        "englishText": "Pear",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "šljiva",
+        "turkishText": "Erik",
+        "englishText": "Plum",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "trešnja",
+        "turkishText": "Kiraz",
+        "englishText": "Cherry",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 7,
+        "serbianText": "kajsija",
+        "turkishText": "Kayısı",
+        "englishText": "Apricot",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "dunja",
+        "turkishText": "Ayva",
+        "englishText": "Quince",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "krompir",
+        "turkishText": "Patates",
+        "englishText": "Potato",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "paradajz",
+        "turkishText": "Domates",
+        "englishText": "Tomato",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "paprika",
+        "turkishText": "Biber (sebze)",
+        "englishText": "Bell pepper",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "luk",
+        "turkishText": "Soğan",
+        "englishText": "Onion",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "kupus",
+        "turkishText": "Lahana",
+        "englishText": "Cabbage",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 14,
+        "serbianText": "grašak",
+        "turkishText": "Bezelye",
+        "englishText": "Peas",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "boranija",
+        "turkishText": "Taze yeşil fasulye",
+        "englishText": "Green beans",
+        "wordType": "Noun (f, sg)"
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "title": "Obedi i priprema hrane",
+    "description": "Meals, cooking, culinary preparation, and dining.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "doručak",
+        "turkishText": "Kahvaltı",
+        "englishText": "Breakfast",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "doručkovati",
+        "turkishText": "Kahvaltı yapmak",
+        "englishText": "To have breakfast",
+        "wordType": "Verb"
+      },
+      {
+        "order": 3,
+        "serbianText": "ručak",
+        "turkishText": "Öğle yemeği",
+        "englishText": "Lunch",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "ručati",
+        "turkishText": "Öğle yemeği yemek",
+        "englishText": "To have lunch",
+        "wordType": "Verb"
+      },
+      {
+        "order": 5,
+        "serbianText": "večera",
+        "turkishText": "Akşam yemeği",
+        "englishText": "Dinner",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "večerati",
+        "turkishText": "Akşam yemeği yemek",
+        "englishText": "To have dinner",
+        "wordType": "Verb"
+      },
+      {
+        "order": 7,
+        "serbianText": "nedeljni ručak",
+        "turkishText": "Pazar öğle yemeği",
+        "englishText": "Sunday lunch",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 8,
+        "serbianText": "predjelo",
+        "turkishText": "Başlangıç / meze",
+        "englishText": "Appetizer / starter",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "meze",
+        "turkishText": "Meze",
+        "englishText": "Meze / finger food",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "supa",
+        "turkishText": "Duru çorba / et suyu",
+        "englishText": "Soup / broth",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "čorba",
+        "turkishText": "Çorba",
+        "englishText": "Thick soup / chowder",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "pasulj",
+        "turkishText": "Kuru fasulye",
+        "englishText": "Beans",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "tikvica",
+        "turkishText": "Kabak",
+        "englishText": "Zucchini",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 14,
+        "serbianText": "roštilj",
+        "turkishText": "Mangal / ızgara",
+        "englishText": "Barbecue / grill",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "pita",
+        "turkishText": "Börek / turta",
+        "englishText": "Pie / pastry",
+        "wordType": "Noun (f, sg)"
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "title": "Pića i poslastice",
+    "description": "Beverages, sweets, desserts, and bakery delights.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "voda",
+        "turkishText": "Su",
+        "englishText": "Water",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "obična voda",
+        "turkishText": "Durgun / gazsız su",
+        "englishText": "Plain / still water",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 3,
+        "serbianText": "kisela voda",
+        "turkishText": "Maden suyu",
+        "englishText": "Mineral water",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 4,
+        "serbianText": "sok",
+        "turkishText": "Meyve suyu",
+        "englishText": "Juice",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "sokovi",
+        "turkishText": "Meyve suları",
+        "englishText": "Juices",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 6,
+        "serbianText": "čaj",
+        "turkishText": "Çay",
+        "englishText": "Tea",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 7,
+        "serbianText": "čajevi",
+        "turkishText": "Çaylar",
+        "englishText": "Teas",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 8,
+        "serbianText": "mleko",
+        "turkishText": "Süt",
+        "englishText": "Milk",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "jogurt",
+        "turkishText": "Yoğurt",
+        "englishText": "Yogurt",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "pivo",
+        "turkishText": "Bira",
+        "englishText": "Beer",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "vino",
+        "turkishText": "Şarap",
+        "englishText": "Wine",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "rakija",
+        "turkishText": "Rakija",
+        "englishText": "Rakia / fruit brandy",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "kolač",
+        "turkishText": "Kek / pasta",
+        "englishText": "Cake / pastry",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 14,
+        "serbianText": "torta",
+        "turkishText": "Yaş pasta",
+        "englishText": "Cake / gateau",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "čokolada",
+        "turkishText": "Çikolata",
+        "englishText": "Chocolate",
+        "wordType": "Noun (f, sg)"
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "title": "Restoran i posluživanje",
+    "description": "Restaurants, cafes, ordering, and hospitality service.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "kafana",
+        "turkishText": "Meyhane / restoran",
+        "englishText": "Traditional tavern",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "kafić",
+        "turkishText": "Kafe",
+        "englishText": "Café",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "restoran",
+        "turkishText": "Restoran",
+        "englishText": "Restaurant",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "jelovnik",
+        "turkishText": "Yemek menüsü",
+        "englishText": "Menu",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "jelovnici",
+        "turkishText": "Menüler",
+        "englishText": "Menus",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 6,
+        "serbianText": "naručiti",
+        "turkishText": "Sipariş vermek",
+        "englishText": "To order",
+        "wordType": "Verb"
+      },
+      {
+        "order": 7,
+        "serbianText": "služiti",
+        "turkishText": "Servis etmek",
+        "englishText": "To serve",
+        "wordType": "Verb"
+      },
+      {
+        "order": 8,
+        "serbianText": "porcija",
+        "turkishText": "Porsiyon",
+        "englishText": "Portion",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "tanjir",
+        "turkishText": "Tabak",
+        "englishText": "Plate",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "šolja",
+        "turkishText": "Fincan",
+        "englishText": "Cup / mug",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "kašičica",
+        "turkishText": "Çay kaşığı",
+        "englishText": "Teaspoon",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "flaša",
+        "turkishText": "Şişe",
+        "englishText": "Bottle",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "švedski sto",
+        "turkishText": "Açık büfe",
+        "englishText": "Buffet",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 14,
+        "serbianText": "palačinka",
+        "turkishText": "Krep",
+        "englishText": "Pancake / crepe",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "štrudla",
+        "turkishText": "Strudel (rulo tatlı)",
+        "englishText": "Strudel",
+        "wordType": "Noun (f, sg)"
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "title": "Grad i lokacije 1",
+    "description": "City exploration, landmarks, and urban navigation 1.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "grad",
+        "turkishText": "Şehir",
+        "englishText": "City / town",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "gradovi",
+        "turkishText": "Şehirler",
+        "englishText": "Cities / towns",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 3,
+        "serbianText": "centar",
+        "turkishText": "Merkez",
+        "englishText": "Center",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "trg",
+        "turkishText": "Meydan",
+        "englishText": "Square",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "trgovi",
+        "turkishText": "Meydanlar",
+        "englishText": "Squares",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 6,
+        "serbianText": "Trg republike",
+        "turkishText": "Cumhuriyet Meydanı",
+        "englishText": "Republic Square",
+        "wordType": "Proper Noun"
+      },
+      {
+        "order": 7,
+        "serbianText": "bulevar",
+        "turkishText": "Bulvar",
+        "englishText": "Boulevard",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "ulica",
+        "turkishText": "Sokak / cadde",
+        "englishText": "Street",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "park",
+        "turkishText": "Park",
+        "englishText": "Park",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "parkovi",
+        "turkishText": "Parklar",
+        "englishText": "Parks",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 11,
+        "serbianText": "zgrada",
+        "turkishText": "Bina",
+        "englishText": "Building",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "banka",
+        "turkishText": "Banka",
+        "englishText": "Bank",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "biblioteka",
+        "turkishText": "Kütüphane",
+        "englishText": "Library",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 14,
+        "serbianText": "knjižara",
+        "turkishText": "Kitapçı",
+        "englishText": "Bookstore",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "prodavnica",
+        "turkishText": "Mağaza / dükkân",
+        "englishText": "Shop / store",
+        "wordType": "Noun (f, sg)"
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "title": "Kultura i gradske ustanove 2",
+    "description": "Culture, museums, theaters, and municipal institutions 2.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "muzej",
+        "turkishText": "Müze",
+        "englishText": "Museum",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "Narodni muzej",
+        "turkishText": "Ulusal Müze",
+        "englishText": "National Museum",
+        "wordType": "Proper Noun"
+      },
+      {
+        "order": 3,
+        "serbianText": "pozorište",
+        "turkishText": "Tiyatro",
+        "englishText": "Theatre",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "Narodno pozorište",
+        "turkishText": "Ulusal Tiyatro",
+        "englishText": "National Theatre",
+        "wordType": "Proper Noun"
+      },
+      {
+        "order": 5,
+        "serbianText": "bioskop",
+        "turkishText": "Sinema",
+        "englishText": "Cinema",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "galerija",
+        "turkishText": "Galeri",
+        "englishText": "Gallery",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 7,
+        "serbianText": "crkva",
+        "turkishText": "Kilise",
+        "englishText": "Church",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "pijaca",
+        "turkishText": "Pazar yeri",
+        "englishText": "Market / green market",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "sajam",
+        "turkishText": "Fuar",
+        "englishText": "Fair",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "sajmovi",
+        "turkishText": "Fuarlar",
+        "englishText": "Fairs",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 11,
+        "serbianText": "festival",
+        "turkishText": "Festival",
+        "englishText": "Festival",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "koncert",
+        "turkishText": "Konser",
+        "englishText": "Concert",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "karneval",
+        "turkishText": "Karnaval",
+        "englishText": "Carnival",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 14,
+        "serbianText": "sirotište",
+        "turkishText": "Yetimhane",
+        "englishText": "Orphanage",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "vrtić",
+        "turkishText": "Anaokulu / kreş",
+        "englishText": "Kindergarten",
+        "wordType": "Noun (m, sg)"
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "title": "Orijentacija i pravci",
+    "description": "Directions, orientation, and spatial navigation.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "levo",
+        "turkishText": "Sola / solda",
+        "englishText": "Left / to the left",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 2,
+        "serbianText": "desno",
+        "turkishText": "Sağa / sağda",
+        "englishText": "Right / to the right",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 3,
+        "serbianText": "pravo",
+        "turkishText": "Dümdüz / doğru",
+        "englishText": "Straight ahead",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 4,
+        "serbianText": "nazad",
+        "turkishText": "Geri / arkaya",
+        "englishText": "Back / backwards",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 5,
+        "serbianText": "ovde",
+        "turkishText": "Burada",
+        "englishText": "Here",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 6,
+        "serbianText": "tamo",
+        "turkishText": "Orada",
+        "englishText": "There",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 7,
+        "serbianText": "blizu",
+        "turkishText": "Yakın / yakında",
+        "englishText": "Near / close",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 8,
+        "serbianText": "daleko",
+        "turkishText": "Uzakta",
+        "englishText": "Far / far away",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 9,
+        "serbianText": "u blizini",
+        "turkishText": "Yakınlarda",
+        "englishText": "Nearby",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 10,
+        "serbianText": "ispred",
+        "turkishText": "Önünde",
+        "englishText": "In front of",
+        "wordType": "Preposition"
+      },
+      {
+        "order": 11,
+        "serbianText": "iza",
+        "turkishText": "Arkasında",
+        "englishText": "Behind",
+        "wordType": "Preposition"
+      },
+      {
+        "order": 12,
+        "serbianText": "pored",
+        "turkishText": "Yanında",
+        "englishText": "Beside / next to",
+        "wordType": "Preposition"
+      },
+      {
+        "order": 13,
+        "serbianText": "između",
+        "turkishText": "Arasında",
+        "englishText": "Between / among",
+        "wordType": "Preposition"
+      },
+      {
+        "order": 14,
+        "serbianText": "iznad",
+        "turkishText": "Üstünde / üzerinde",
+        "englishText": "Above / over",
+        "wordType": "Preposition"
+      },
+      {
+        "order": 15,
+        "serbianText": "ispod",
+        "turkishText": "Altında",
+        "englishText": "Under / below",
+        "wordType": "Preposition"
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "title": "Putovanja i prevoz",
+    "description": "Travel, transportation, trains, buses, and flights.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "putovati",
+        "turkishText": "Seyahat etmek",
+        "englishText": "To travel",
+        "wordType": "Verb"
+      },
+      {
+        "order": 2,
+        "serbianText": "putnik",
+        "turkishText": "Yolcu",
+        "englishText": "Passenger / traveler",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "putnici",
+        "turkishText": "Yolcular",
+        "englishText": "Passengers / travelers",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 4,
+        "serbianText": "javni prevoz",
+        "turkishText": "Toplu taşıma",
+        "englishText": "Public transport",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 5,
+        "serbianText": "autobuska linija",
+        "turkishText": "Otobüs hattı",
+        "englishText": "Bus line",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 6,
+        "serbianText": "aerodrom",
+        "turkishText": "Havalimanı",
+        "englishText": "Airport",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 7,
+        "serbianText": "helikopter",
+        "turkishText": "Helikopter",
+        "englishText": "Helicopter",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "brod",
+        "turkishText": "Gemi",
+        "englishText": "Ship / boat",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "brodovi",
+        "turkishText": "Gemiler",
+        "englishText": "Ships / boats",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 10,
+        "serbianText": "saobraćaj",
+        "turkishText": "Trafik",
+        "englishText": "Traffic",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "voziti se",
+        "turkishText": "Araçla yolculuk etmek",
+        "englishText": "To ride / drive",
+        "wordType": "Verb"
+      },
+      {
+        "order": 12,
+        "serbianText": "dolazak",
+        "turkishText": "Varış / geliş",
+        "englishText": "Arrival",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "dolasci",
+        "turkishText": "Varışlar",
+        "englishText": "Arrivals",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 14,
+        "serbianText": "poslovan put",
+        "turkishText": "İş seyahati",
+        "englishText": "Business trip",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 15,
+        "serbianText": "turneja",
+        "turkishText": "Turne",
+        "englishText": "Tour",
+        "wordType": "Noun (f, sg)"
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "title": "Priprema za put i dokumenta",
+    "description": "Trip preparations, luggage, passports, and travel documents.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "pasoš",
+        "turkishText": "Pasaport",
+        "englishText": "Passport",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "pasoši",
+        "turkishText": "Pasaportlar",
+        "englishText": "Passports",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 3,
+        "serbianText": "viza",
+        "turkishText": "Vize",
+        "englishText": "Visa",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "vozačka dozvola",
+        "turkishText": "Ehliyet / sürücü belgesi",
+        "englishText": "Driver’s license",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 5,
+        "serbianText": "dokument",
+        "turkishText": "Belge / doküman",
+        "englishText": "Document",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "novac",
+        "turkishText": "Para",
+        "englishText": "Money",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 7,
+        "serbianText": "pare",
+        "turkishText": "Para",
+        "englishText": "Money",
+        "wordType": "Noun (f, pl)"
+      },
+      {
+        "order": 8,
+        "serbianText": "novčanik",
+        "turkishText": "Cüzdan",
+        "englishText": "Wallet",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "novčanici",
+        "turkishText": "Cüzdanlar",
+        "englishText": "Wallets",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 10,
+        "serbianText": "kreditna kartica",
+        "turkishText": "Kredi kartı",
+        "englishText": "Credit card",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 11,
+        "serbianText": "kofer",
+        "turkishText": "Bavul / valiz",
+        "englishText": "Suitcase",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "torba",
+        "turkishText": "Çanta",
+        "englishText": "Bag",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "torbe",
+        "turkishText": "Çantalar",
+        "englishText": "Bags",
+        "wordType": "Noun (f, pl)"
+      },
+      {
+        "order": 14,
+        "serbianText": "mapa",
+        "turkishText": "Harita",
+        "englishText": "Map",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "turistička agencija",
+        "turkishText": "Seyahat acentesi",
+        "englishText": "Travel agency",
+        "wordType": "Phrase"
+      }
+    ]
+  },
+  {
+    "order": 21,
+    "title": "Hotel i smeštaj",
+    "description": "Hotels, accommodations, check-ins, and guest amenities.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "hotel",
+        "turkishText": "Otel",
+        "englishText": "Hotel",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "smeštaj",
+        "turkishText": "Konaklama",
+        "englishText": "Accommodation",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "noćenje",
+        "turkishText": "Geceleme",
+        "englishText": "Overnight stay",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "polupansion",
+        "turkishText": "Yarım pansiyon",
+        "englishText": "Half-board",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "jednokrevetna soba",
+        "turkishText": "Tek kişilik oda",
+        "englishText": "Single room",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 6,
+        "serbianText": "dvokrevetna soba",
+        "turkishText": "Çift kişilik oda",
+        "englishText": "Double room",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 7,
+        "serbianText": "rezervisati",
+        "turkishText": "Rezerve etmek",
+        "englishText": "To book / reserve",
+        "wordType": "Verb"
+      },
+      {
+        "order": 8,
+        "serbianText": "rezervisan",
+        "turkishText": "Rezerve edilmiş",
+        "englishText": "Booked / reserved",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 9,
+        "serbianText": "iznajmiti",
+        "turkishText": "Kiralamak",
+        "englishText": "To rent / lease",
+        "wordType": "Verb"
+      },
+      {
+        "order": 10,
+        "serbianText": "prespavati",
+        "turkishText": "Geceyi geçirmek",
+        "englishText": "To spend the night",
+        "wordType": "Verb"
+      },
+      {
+        "order": 11,
+        "serbianText": "kamp",
+        "turkishText": "Kamp",
+        "englishText": "Camp / campsite",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "kampovi",
+        "turkishText": "Kamplar",
+        "englishText": "Camps",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 13,
+        "serbianText": "vila",
+        "turkishText": "Villa",
+        "englishText": "Villa",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 14,
+        "serbianText": "suvenir",
+        "turkishText": "Hediyelik eşya",
+        "englishText": "Souvenir",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "razglednica",
+        "turkishText": "Kartpostal",
+        "englishText": "Postcard",
+        "wordType": "Noun (f, sg)"
+      }
+    ]
+  },
+  {
+    "order": 22,
+    "title": "Stan i nekretnine",
+    "description": "Apartments, housing, leasing, and real estate.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "dom",
+        "turkishText": "Ev / yuva",
+        "englishText": "Home",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "domovi",
+        "turkishText": "Evler / yuvalar",
+        "englishText": "Homes",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 3,
+        "serbianText": "soba",
+        "turkishText": "Oda",
+        "englishText": "Room",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "prostorija",
+        "turkishText": "Mekân / oda",
+        "englishText": "Room / premises",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "garsonjera",
+        "turkishText": "Stüdyo daire",
+        "englishText": "Studio apartment",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "dvosoban",
+        "turkishText": "İki odalı",
+        "englishText": "Two-room",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 7,
+        "serbianText": "trosoban",
+        "turkishText": "Üç odalı",
+        "englishText": "Three-room",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 8,
+        "serbianText": "dvorište",
+        "turkishText": "Avlu / bahçe",
+        "englishText": "Yard / courtyard",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "bašta",
+        "turkishText": "Bahçe",
+        "englishText": "Garden",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "terasa",
+        "turkishText": "Teras / balkon",
+        "englishText": "Terrace / balcony",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "predgrađe",
+        "turkishText": "Banliyö",
+        "englishText": "Suburb",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "selo",
+        "turkishText": "Köy",
+        "englishText": "Village",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "stanarina",
+        "turkishText": "Ev kirası",
+        "englishText": "Rent",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 14,
+        "serbianText": "vlasnik",
+        "turkishText": "Ev / mülk sahibi",
+        "englishText": "Owner / landlord",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "vlasnici",
+        "turkishText": "Mülk sahipleri",
+        "englishText": "Owners",
+        "wordType": "Noun (m, pl)"
+      }
+    ]
+  },
+  {
+    "order": 23,
+    "title": "Nameštaj i prostor 1",
+    "description": "Furniture, home spaces, and interior rooms 1.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "sto",
+        "turkishText": "Masa",
+        "englishText": "Table",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "stolovi",
+        "turkishText": "Masalar",
+        "englishText": "Tables",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 3,
+        "serbianText": "stolica",
+        "turkishText": "Sandalye",
+        "englishText": "Chair",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "stolice",
+        "turkishText": "Sandalyeler",
+        "englishText": "Chairs",
+        "wordType": "Noun (f, pl)"
+      },
+      {
+        "order": 5,
+        "serbianText": "krevet",
+        "turkishText": "Yatak",
+        "englishText": "Bed",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "kauč",
+        "turkishText": "Kanepe / koltuk",
+        "englishText": "Couch / sofa",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 7,
+        "serbianText": "kaučevi",
+        "turkishText": "Kanepeler",
+        "englishText": "Couches",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 8,
+        "serbianText": "fotelja",
+        "turkishText": "Tekli koltuk",
+        "englishText": "Armchair",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "orman",
+        "turkishText": "Dolap / gardırop",
+        "englishText": "Wardrobe / closet",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "komoda",
+        "turkishText": "Şifonyer",
+        "englishText": "Commode / dresser",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "fioka",
+        "turkishText": "Çekmece",
+        "englishText": "Drawer",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "polica",
+        "turkishText": "Raf",
+        "englishText": "Shelf",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "tepih",
+        "turkishText": "Halı",
+        "englishText": "Carpet / rug",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 14,
+        "serbianText": "tepisi",
+        "turkishText": "Halılar",
+        "englishText": "Carpets / rugs",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 15,
+        "serbianText": "lampa",
+        "turkishText": "Lamba",
+        "englishText": "Lamp",
+        "wordType": "Noun (f, sg)"
+      }
+    ]
+  },
+  {
+    "order": 24,
+    "title": "Kućni uređaji i enterijer 2",
+    "description": "Home appliances, electronics, and kitchen equipment 2.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "ogledalo",
+        "turkishText": "Ayna",
+        "englishText": "Mirror",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "prozor",
+        "turkishText": "Pencere",
+        "englishText": "Window",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "vrata",
+        "turkishText": "Kapı",
+        "englishText": "Door",
+        "wordType": "Noun (n, pl)"
+      },
+      {
+        "order": 4,
+        "serbianText": "ulazna vrata",
+        "turkishText": "Giriş kapısı",
+        "englishText": "Entrance door",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 5,
+        "serbianText": "lavabo",
+        "turkishText": "Lavabo",
+        "englishText": "Washbasin / sink",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "lavaboi",
+        "turkishText": "Lavabolar",
+        "englishText": "Washbasins / sinks",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 7,
+        "serbianText": "kada",
+        "turkishText": "Küvet",
+        "englishText": "Bathtub",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "sudopera",
+        "turkishText": "Mutfak evyesi",
+        "englishText": "Kitchen sink",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "šporet",
+        "turkishText": "Ocak / fırın",
+        "englishText": "Stove / cooker",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "frižider",
+        "turkishText": "Buzdolabı",
+        "englishText": "Refrigerator / fridge",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "centralno grejanje",
+        "turkishText": "Merkezi ısıtma",
+        "englishText": "Central heating",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 12,
+        "serbianText": "bežični internet",
+        "turkishText": "Kablosuz internet / Wi-Fi",
+        "englishText": "Wi-Fi",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 13,
+        "serbianText": "kućni aparati",
+        "turkishText": "Ev aletleri",
+        "englishText": "Household appliances",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 14,
+        "serbianText": "kućni red",
+        "turkishText": "Apartman kuralları",
+        "englishText": "House rules",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 15,
+        "serbianText": "namešten",
+        "turkishText": "Mobilyalı",
+        "englishText": "Furnished",
+        "wordType": "Adjective"
+      }
+    ]
+  },
+  {
+    "order": 25,
+    "title": "Odeća 1",
+    "description": "Clothing, everyday attire, and apparel 1.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "odeća",
+        "turkishText": "Kıyafet / giysi",
+        "englishText": "Clothes / clothing",
+        "wordType": "Noun (f, collective)"
+      },
+      {
+        "order": 2,
+        "serbianText": "odelo",
+        "turkishText": "Takım elbise",
+        "englishText": "Suit (men’s)",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "košulja",
+        "turkishText": "Gömlek",
+        "englishText": "Shirt",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "majica",
+        "turkishText": "Tişört",
+        "englishText": "T-shirt",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "džemper",
+        "turkishText": "Kazak",
+        "englishText": "Sweater / jumper",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "jakna",
+        "turkishText": "Ceket / mont",
+        "englishText": "Jacket",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 7,
+        "serbianText": "kaput",
+        "turkishText": "Palto / kaban",
+        "englishText": "Coat",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "mantil",
+        "turkishText": "Pardösü / trençkot",
+        "englishText": "Trench coat",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "sako",
+        "turkishText": "Ceket / blazer",
+        "englishText": "Blazer / jacket",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "pantalone",
+        "turkishText": "Pantolon",
+        "englishText": "Trousers / pants",
+        "wordType": "Noun (f, pl)"
+      },
+      {
+        "order": 11,
+        "serbianText": "farmerice",
+        "turkishText": "Kot pantolon",
+        "englishText": "Jeans",
+        "wordType": "Noun (f, pl)"
+      },
+      {
+        "order": 12,
+        "serbianText": "šorts",
+        "turkishText": "Şort",
+        "englishText": "Shorts",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "šortsevi",
+        "turkishText": "Şortlar",
+        "englishText": "Shorts (pl)",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 14,
+        "serbianText": "haljina",
+        "turkishText": "Elbise",
+        "englishText": "Dress",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "suknja",
+        "turkishText": "Etek",
+        "englishText": "Skirt",
+        "wordType": "Noun (f, sg)"
+      }
+    ]
+  },
+  {
+    "order": 26,
+    "title": "Obuća i modni dodaci 2",
+    "description": "Footwear, accessories, jewelry, and fashion styles 2.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "obuća",
+        "turkishText": "Ayakkabılar",
+        "englishText": "Footwear",
+        "wordType": "Noun (f, collective)"
+      },
+      {
+        "order": 2,
+        "serbianText": "cipela",
+        "turkishText": "Ayakkabı",
+        "englishText": "Shoe",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "patika",
+        "turkishText": "Spor ayakkabı",
+        "englishText": "Sneaker",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "čizma",
+        "turkishText": "Çizme / bot",
+        "englishText": "Boot",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "sandala",
+        "turkishText": "Sandalet",
+        "englishText": "Sandal",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "papuča",
+        "turkishText": "Terlik",
+        "englishText": "Slipper",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 7,
+        "serbianText": "čarapa",
+        "turkishText": "Çorap",
+        "englishText": "Sock",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "kaiš",
+        "turkishText": "Kemer",
+        "englishText": "Belt",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "kaiševi",
+        "turkishText": "Kemerler",
+        "englishText": "Belts",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 10,
+        "serbianText": "šešir",
+        "turkishText": "Şapka",
+        "englishText": "Hat",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "kapa",
+        "turkishText": "Bere / şapka",
+        "englishText": "Cap",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "šal",
+        "turkishText": "Atkı / şal",
+        "englishText": "Scarf",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "šalovi",
+        "turkishText": "Atkılar",
+        "englishText": "Scarves",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 14,
+        "serbianText": "marama",
+        "turkishText": "Eşarp / başörtüsü",
+        "englishText": "Headscarf",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "rukav",
+        "turkishText": "Giysi kolu",
+        "englishText": "Sleeve",
+        "wordType": "Noun (m, sg)"
+      }
+    ]
+  },
+  {
+    "order": 27,
+    "title": "Izgled, nakit i stil",
+    "description": "Appearance, hairstyles, style, and personal look.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "ručni sat",
+        "turkishText": "Kol saati",
+        "englishText": "Wristwatch",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 2,
+        "serbianText": "nakit",
+        "turkishText": "Takı / mücevher",
+        "englishText": "Jewelry",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "naočare",
+        "turkishText": "Gözlük",
+        "englishText": "Glasses",
+        "wordType": "Noun (f, pl)"
+      },
+      {
+        "order": 4,
+        "serbianText": "naočare za sunce",
+        "turkishText": "Güneş gözlüğü",
+        "englishText": "Sunglasses",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 5,
+        "serbianText": "dragi kamen",
+        "turkishText": "Değerli taş",
+        "englishText": "Gemstone",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 6,
+        "serbianText": "kosa",
+        "turkishText": "Saç",
+        "englishText": "Hair",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 7,
+        "serbianText": "frizura",
+        "turkishText": "Saç modeli",
+        "englishText": "Hairstyle",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "našminkan",
+        "turkishText": "Makyajlı",
+        "englishText": "Wearing makeup",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 9,
+        "serbianText": "ležeran",
+        "turkishText": "Rahat / günlük",
+        "englishText": "Casual",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 10,
+        "serbianText": "边界 / elegantan",
+        "turkishText": "Zarif / şık",
+        "englishText": "Elegant",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 11,
+        "serbianText": "moderan",
+        "turkishText": "Modern / modaya uygun",
+        "englishText": "Modern",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 12,
+        "serbianText": "moda",
+        "turkishText": "Moda",
+        "englishText": "Fashion",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "ukras",
+        "turkishText": "Süs / dekorasyon",
+        "englishText": "Decoration",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 14,
+        "serbianText": "uniforma",
+        "turkishText": "Üniforma",
+        "englishText": "Uniform",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "kostim",
+        "turkishText": "Kostüm",
+        "englishText": "Costume",
+        "wordType": "Noun (m, sg)"
+      }
+    ]
+  },
+  {
+    "order": 28,
+    "title": "Telo i anatomija 1",
+    "description": "Human anatomy, body parts, and facial features 1.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "telo",
+        "turkishText": "Vücut / beden",
+        "englishText": "Body",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "glava",
+        "turkishText": "Baş / kafa",
+        "englishText": "Head",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "lice",
+        "turkishText": "Yüz",
+        "englishText": "Face",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "oko",
+        "turkishText": "Göz",
+        "englishText": "Eye",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "oči",
+        "turkishText": "Gözler",
+        "englishText": "Eyes",
+        "wordType": "Noun (f, pl)"
+      },
+      {
+        "order": 6,
+        "serbianText": "uho",
+        "turkishText": "Kulak",
+        "englishText": "Ear",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 7,
+        "serbianText": "uši",
+        "turkishText": "Kulaklar",
+        "englishText": "Ears",
+        "wordType": "Noun (f, pl)"
+      },
+      {
+        "order": 8,
+        "serbianText": "nos",
+        "turkishText": "Burun",
+        "englishText": "Nose",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "nosevi",
+        "turkishText": "Burunlar",
+        "englishText": "Noses",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 10,
+        "serbianText": "usta",
+        "turkishText": "Ağız",
+        "englishText": "Mouth",
+        "wordType": "Noun (n, pl)"
+      },
+      {
+        "order": 11,
+        "serbianText": "zub",
+        "turkishText": "Diş",
+        "englishText": "Tooth",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "vrat",
+        "turkishText": "Boyun",
+        "englishText": "Neck",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "vratovi",
+        "turkishText": "Boyunlar",
+        "englishText": "Necks",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 14,
+        "serbianText": "grlo",
+        "turkishText": "Boğaz",
+        "englishText": "Throat",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "rame",
+        "turkishText": "Omuz",
+        "englishText": "Shoulder",
+        "wordType": "Noun (n, sg)"
+      }
+    ]
+  },
+  {
+    "order": 29,
+    "title": "Telo i fizički izgled 2",
+    "description": "Physical appearance, physique, and stature 2.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "grudi",
+        "turkishText": "Göğüs",
+        "englishText": "Chest / breasts",
+        "wordType": "Noun (f, pl)"
+      },
+      {
+        "order": 2,
+        "serbianText": "srce",
+        "turkishText": "Kalp",
+        "englishText": "Heart",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "stomak",
+        "turkishText": "Mide / karın",
+        "englishText": "Stomach",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "stomaci",
+        "turkishText": "Mideler",
+        "englishText": "Stomachs",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 5,
+        "serbianText": "leđa",
+        "turkishText": "Sırt",
+        "englishText": "Back",
+        "wordType": "Noun (n, pl)"
+      },
+      {
+        "order": 6,
+        "serbianText": "ruka",
+        "turkishText": "Kol / el",
+        "englishText": "Arm / hand",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 7,
+        "serbianText": "noga",
+        "turkishText": "Bacak / ayak",
+        "englishText": "Leg / foot",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "struk",
+        "turkishText": "Bel",
+        "englishText": "Waist",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "koža",
+        "turkishText": "Cilt / deri",
+        "englishText": "Skin",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "visok",
+        "turkishText": "Uzun boylu / yüksek",
+        "englishText": "Tall / high",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 11,
+        "serbianText": "nizak",
+        "turkishText": "Kısa boylu / alçak",
+        "englishText": "Short / low",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 12,
+        "serbianText": "mršav",
+        "turkishText": "Zayıf / ince",
+        "englishText": "Thin / slim",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 13,
+        "serbianText": "debeo",
+        "turkishText": "Şişman / kilolu",
+        "englishText": "Fat / thick",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 14,
+        "serbianText": "krupan",
+        "turkishText": "İri yapılı",
+        "englishText": "Large / stout",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 15,
+        "serbianText": "sed",
+        "turkishText": "Kır saçlı / ak saçlı",
+        "englishText": "Grey-haired",
+        "wordType": "Adjective"
+      }
+    ]
+  },
+  {
+    "order": 30,
+    "title": "Zdravlje i simptomi",
+    "description": "Health, symptoms, illnesses, and medical care.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "zdrav",
+        "turkishText": "Sağlıklı",
+        "englishText": "Healthy",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 2,
+        "serbianText": "bol",
+        "turkishText": "Ağrı / acı",
+        "englishText": "Pain / ache",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "bolestan",
+        "turkishText": "Hasta",
+        "englishText": "Sick / ill",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 4,
+        "serbianText": "bolest",
+        "turkishText": "Hastalık",
+        "englishText": "Disease / illness",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "groznica",
+        "turkishText": "Ateş / sıtma",
+        "englishText": "Fever / chills",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "kašljati",
+        "turkishText": "Öksürmek",
+        "englishText": "To cough",
+        "wordType": "Verb"
+      },
+      {
+        "order": 7,
+        "serbianText": "curiti",
+        "turkishText": "Akmak (burun)",
+        "englishText": "To drip / run (nose)",
+        "wordType": "Verb"
+      },
+      {
+        "order": 8,
+        "serbianText": "zubobolja",
+        "turkishText": "Diş ağrısı",
+        "englishText": "Toothache",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "alergija",
+        "turkishText": "Alerji",
+        "englishText": "Allergy",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "osip",
+        "turkishText": "Döküntü / kızarıklık",
+        "englishText": "Rash",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "terapija",
+        "turkishText": "Tedavi / terapi",
+        "englishText": "Therapy",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "lek",
+        "turkishText": "İlaç",
+        "englishText": "Medicine",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "lekovi",
+        "turkishText": "İlaçlar",
+        "englishText": "Medicines",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 14,
+        "serbianText": "vakcina",
+        "turkishText": "Aşı",
+        "englishText": "Vaccine",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "sunčanica",
+        "turkishText": "Güneş çarpması",
+        "englishText": "Sunstroke",
+        "wordType": "Noun (f, sg)"
+      }
+    ]
+  },
+  {
+    "order": 31,
+    "title": "Hitni slučajevi i opasnost",
+    "description": "Emergencies, urgent situations, police, and danger.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "Upomoć!",
+        "turkishText": "İmdat!",
+        "englishText": "Help!",
+        "wordType": "Interjection"
+      },
+      {
+        "order": 2,
+        "serbianText": "hitna pomoć",
+        "turkishText": "Ambulans / acil yardım",
+        "englishText": "Ambulance / emergency service",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 3,
+        "serbianText": "kolaps",
+        "turkishText": "Bayılma / çökme",
+        "englishText": "Collapse / fainting",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "opasan",
+        "turkishText": "Tehlikeli",
+        "englishText": "Dangerous",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 5,
+        "serbianText": "opasno",
+        "turkishText": "Tehlikeli biçimde",
+        "englishText": "Dangerously",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 6,
+        "serbianText": "strah",
+        "turkishText": "Korku",
+        "englishText": "Fear",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 7,
+        "serbianText": "strahovi",
+        "turkishText": "Korkular",
+        "englishText": "Fears",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 8,
+        "serbianText": "plašiti se",
+        "turkishText": "Korkmak",
+        "englishText": "To fear / be afraid",
+        "wordType": "Verb"
+      },
+      {
+        "order": 9,
+        "serbianText": "paničiti",
+        "turkishText": "Panik yapmak",
+        "englishText": "To panic",
+        "wordType": "Verb"
+      },
+      {
+        "order": 10,
+        "serbianText": "smrt",
+        "turkishText": "Ölüm",
+        "englishText": "Death",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "tragedija",
+        "turkishText": "Trajedi",
+        "englishText": "Tragedy",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "poplava",
+        "turkishText": "Sel / su baskını",
+        "englishText": "Flood",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "provalnik",
+        "turkishText": "Hırsız",
+        "englishText": "Burglar",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 14,
+        "serbianText": "provalnici",
+        "turkishText": "Hırsızlar",
+        "englishText": "Burglars",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 15,
+        "serbianText": "lopov",
+        "turkishText": "Hırsız",
+        "englishText": "Thief",
+        "wordType": "Noun (m, sg)"
+      }
+    ]
+  },
+  {
+    "order": 32,
+    "title": "Vreme i meteorologija",
+    "description": "Weather conditions, climate, and meteorology.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "sunce",
+        "turkishText": "Güneş",
+        "englishText": "Sun",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "sunčan",
+        "turkishText": "Güneşli",
+        "englishText": "Sunny",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 3,
+        "serbianText": "kiša",
+        "turkishText": "Yağmur",
+        "englishText": "Rain",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "kišovit",
+        "turkishText": "Yağmurlu",
+        "englishText": "Rainy",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 5,
+        "serbianText": "pljusak",
+        "turkishText": "Sağanak yağış",
+        "englishText": "Downpour",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "pljuskovi",
+        "turkishText": "Sağanak yağışlar",
+        "englishText": "Downpours",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 7,
+        "serbianText": "sneg",
+        "turkishText": "Kar",
+        "englishText": "Snow",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "vetar",
+        "turkishText": "Rüzgâr",
+        "englishText": "Wind",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "vetrovit",
+        "turkishText": "Rüzgârlı",
+        "englishText": "Windy",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 10,
+        "serbianText": "magla",
+        "turkishText": "Sis",
+        "englishText": "Fog",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "maglovit",
+        "turkishText": "Sisli",
+        "englishText": "Foggy",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 12,
+        "serbianText": "mećava",
+        "turkishText": "Kar fırtınası / tipi",
+        "englishText": "Blizzard",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "oluja",
+        "turkishText": "Fırtına",
+        "englishText": "Storm",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 14,
+        "serbianText": "nevreme",
+        "turkishText": "Kötü hava / fırtına",
+        "englishText": "Bad weather / storm",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "temperatura",
+        "turkishText": "Sıcaklık / derece",
+        "englishText": "Temperature",
+        "wordType": "Noun (f, sg)"
+      }
+    ]
+  },
+  {
+    "order": 33,
+    "title": "Godišnja doba i priroda",
+    "description": "Seasons, nature, geography, and landscapes.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "godišnje doba",
+        "turkishText": "Mevsim",
+        "englishText": "Season",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 2,
+        "serbianText": "proleće",
+        "turkishText": "İlkbahar",
+        "englishText": "Spring",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "prolećni",
+        "turkishText": "İlkbahara ait",
+        "englishText": "Spring-",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 4,
+        "serbianText": "leto",
+        "turkishText": "Yaz",
+        "englishText": "Summer",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "letnji",
+        "turkishText": "Yazlık",
+        "englishText": "Summer-",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 6,
+        "serbianText": "jesen",
+        "turkishText": "Sonbahar",
+        "englishText": "Autumn",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 7,
+        "serbianText": "zima",
+        "turkishText": "Kış",
+        "englishText": "Winter",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "priroda",
+        "turkishText": "Doğa",
+        "englishText": "Nature",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 9,
+        "serbianText": "reka",
+        "turkishText": "Nehir",
+        "englishText": "River",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "drvo",
+        "turkishText": "Ağaç / odun",
+        "englishText": "Tree / wood",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "drveće",
+        "turkishText": "Ağaçlar",
+        "englishText": "Trees",
+        "wordType": "Noun (n, collective)"
+      },
+      {
+        "order": 12,
+        "serbianText": "kamen",
+        "turkishText": "Taş",
+        "englishText": "Stone",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "kamenje",
+        "turkishText": "Taşlar",
+        "englishText": "Stones",
+        "wordType": "Noun (n, collective)"
+      },
+      {
+        "order": 14,
+        "serbianText": "cvet",
+        "turkishText": "Çiçek",
+        "englishText": "Flower",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "cveće",
+        "turkishText": "Çiçekler",
+        "englishText": "Flowers",
+        "wordType": "Noun (n, collective)"
+      }
+    ]
+  },
+  {
+    "order": 34,
+    "title": "Osobine ličnosti i karakter",
+    "description": "Personality traits, personal character, and demeanor.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "srećan",
+        "turkishText": "Mutlu / şanslı",
+        "englishText": "Happy / lucky",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 2,
+        "serbianText": "nesrećan",
+        "turkishText": "Mutsuz",
+        "englishText": "Unhappy",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 3,
+        "serbianText": "veseo",
+        "turkishText": "Neşeli",
+        "englishText": "Cheerful",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 4,
+        "serbianText": "nasmejan",
+        "turkishText": "Gülümseyen",
+        "englishText": "Smiling",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 5,
+        "serbianText": "raspoložen",
+        "turkishText": "Keyifli / neşeli",
+        "englishText": "In a good mood",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 6,
+        "serbianText": "hrabar",
+        "turkishText": "Cesur",
+        "englishText": "Brave",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 7,
+        "serbianText": "pristojan",
+        "turkishText": "Kibar / terbiyeli",
+        "englishText": "Polite / decent",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 8,
+        "serbianText": "skroman",
+        "turkishText": "Mütevazı",
+        "englishText": "Modest / humble",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 9,
+        "serbianText": "velikodušan",
+        "turkishText": "Cömert",
+        "englishText": "Generous",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 10,
+        "serbianText": "vredan",
+        "turkishText": "Çalışkan / değerli",
+        "englishText": "Hardworking / valuable",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 11,
+        "serbianText": "lenština",
+        "turkishText": "Tembel kimse",
+        "englishText": "Lazy person",
+        "wordType": "Noun (f/common, sg)"
+      },
+      {
+        "order": 12,
+        "serbianText": "miran",
+        "turkishText": "Sakin / huzurlu",
+        "englishText": "Calm / peaceful",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 13,
+        "serbianText": "radoznao",
+        "turkishText": "Meraklı",
+        "englishText": "Curious",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 14,
+        "serbianText": "naivan",
+        "turkishText": "Saf / naif",
+        "englishText": "Naive",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 15,
+        "serbianText": "povučen",
+        "turkishText": "İçine kapanık",
+        "englishText": "Withdrawn / reserved",
+        "wordType": "Adjective"
+      }
+    ]
+  },
+  {
+    "order": 35,
+    "title": "Opisni pridevi i boje",
+    "description": "Descriptive adjectives, vibrant colors, and qualities.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "velik",
+        "turkishText": "Büyük",
+        "englishText": "Big / large",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 2,
+        "serbianText": "mali",
+        "turkishText": "Küçük",
+        "englishText": "Small / little",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 3,
+        "serbianText": "lep",
+        "turkishText": "Güzel",
+        "englishText": "Beautiful",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 4,
+        "serbianText": "divan",
+        "turkishText": "Harika",
+        "englishText": "Wonderful",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 5,
+        "serbianText": "brz",
+        "turkishText": "Hızlı",
+        "englishText": "Fast / quick",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 6,
+        "serbianText": "čist",
+        "turkishText": "Temiz",
+        "englishText": "Clean",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 7,
+        "serbianText": "star",
+        "turkishText": "Eski / yaşlı",
+        "englishText": "Old",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 8,
+        "serbianText": "mlad",
+        "turkishText": "Genç",
+        "englishText": "Young",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 9,
+        "serbianText": "beo",
+        "turkishText": "Beyaz",
+        "englishText": "White",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 10,
+        "serbianText": "žut",
+        "turkishText": "Sarı",
+        "englishText": "Yellow",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 11,
+        "serbianText": "zelen",
+        "turkishText": "Yeşil",
+        "englishText": "Green",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 12,
+        "serbianText": "smeđ",
+        "turkishText": "Kahverengi",
+        "englishText": "Brown",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 13,
+        "serbianText": "šaren",
+        "turkishText": "Renkli / alacalı",
+        "englishText": "Colorful",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 14,
+        "serbianText": "svetao",
+        "turkishText": "Açık renkli / parlak",
+        "englishText": "Light-colored / bright",
+        "wordType": "Adjective"
+      },
+      {
+        "order": 15,
+        "serbianText": "taman",
+        "turkishText": "Koyu renkli",
+        "englishText": "Dark-colored",
+        "wordType": "Adjective"
+      }
+    ]
+  },
+  {
+    "order": 36,
+    "title": "Svakodnevne radnje i aktivnosti 1",
+    "description": "Daily routines, common activities, and daily life 1.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "živeti",
+        "turkishText": "Yaşamak",
+        "englishText": "To live",
+        "wordType": "Verb"
+      },
+      {
+        "order": 2,
+        "serbianText": "spavati",
+        "turkishText": "Uyumak",
+        "englishText": "To sleep",
+        "wordType": "Verb"
+      },
+      {
+        "order": 3,
+        "serbianText": "čitati",
+        "turkishText": "Okumak",
+        "englishText": "To read",
+        "wordType": "Verb"
+      },
+      {
+        "order": 4,
+        "serbianText": "pisati",
+        "turkishText": "Yazmak",
+        "englishText": "To write",
+        "wordType": "Verb"
+      },
+      {
+        "order": 5,
+        "serbianText": "slušati",
+        "turkishText": "Dinlemek",
+        "englishText": "To listen",
+        "wordType": "Verb"
+      },
+      {
+        "order": 6,
+        "serbianText": "gledati",
+        "turkishText": "İzlemek / bakmak",
+        "englishText": "To watch / look",
+        "wordType": "Verb"
+      },
+      {
+        "order": 7,
+        "serbianText": "govoriti",
+        "turkishText": "Konuşmak",
+        "englishText": "To speak",
+        "wordType": "Verb"
+      },
+      {
+        "order": 8,
+        "serbianText": "pevati",
+        "turkishText": "Şarkı söylemek",
+        "englishText": "To sing",
+        "wordType": "Verb"
+      },
+      {
+        "order": 9,
+        "serbianText": "igrati",
+        "turkishText": "Oynamak / dans etmek",
+        "englishText": "To play / dance",
+        "wordType": "Verb"
+      },
+      {
+        "order": 10,
+        "serbianText": "šetati se",
+        "turkishText": "Yürümek / gezinmek",
+        "englishText": "To take a walk",
+        "wordType": "Verb"
+      },
+      {
+        "order": 11,
+        "serbianText": "kuvati",
+        "turkishText": "Yemek pişirmek",
+        "englishText": "To cook",
+        "wordType": "Verb"
+      },
+      {
+        "order": 12,
+        "serbianText": "kupovati",
+        "turkishText": "Satın almak",
+        "englishText": "To buy",
+        "wordType": "Verb"
+      },
+      {
+        "order": 13,
+        "serbianText": "prodavati",
+        "turkishText": "Satmak",
+        "englishText": "To sell",
+        "wordType": "Verb"
+      },
+      {
+        "order": 14,
+        "serbianText": "nositi",
+        "turkishText": "Taşımak / giymek",
+        "englishText": "To carry / wear",
+        "wordType": "Verb"
+      },
+      {
+        "order": 15,
+        "serbianText": "trenirati",
+        "turkishText": "Antrenman yapmak",
+        "englishText": "To train / practice",
+        "wordType": "Verb"
+      }
+    ]
+  },
+  {
+    "order": 37,
+    "title": "Glagoli kretanja i radnje 2",
+    "description": "Verbs of motion, physical actions, and movements 2.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "doći",
+        "turkishText": "Gelmek",
+        "englishText": "To come",
+        "wordType": "Verb"
+      },
+      {
+        "order": 2,
+        "serbianText": "ići",
+        "turkishText": "Gitmek",
+        "englishText": "To go",
+        "wordType": "Verb"
+      },
+      {
+        "order": 3,
+        "serbianText": "izlaziti",
+        "turkishText": "Dışarı çıkmak",
+        "englishText": "To go out / exit",
+        "wordType": "Verb"
+      },
+      {
+        "order": 4,
+        "serbianText": "ulaziti",
+        "turkishText": "İçeri girmek",
+        "englishText": "To enter",
+        "wordType": "Verb"
+      },
+      {
+        "order": 5,
+        "serbianText": "naći",
+        "turkishText": "Bulmak",
+        "englishText": "To find",
+        "wordType": "Verb"
+      },
+      {
+        "order": 6,
+        "serbianText": "izgubiti",
+        "turkishText": "Kaybetmek",
+        "englishText": "To lose",
+        "wordType": "Verb"
+      },
+      {
+        "order": 7,
+        "serbianText": "otvoriti",
+        "turkishText": "Açmak",
+        "englishText": "To open",
+        "wordType": "Verb"
+      },
+      {
+        "order": 8,
+        "serbianText": "zatvoriti",
+        "turkishText": "Kapatmak",
+        "englishText": "To close",
+        "wordType": "Verb"
+      },
+      {
+        "order": 9,
+        "serbianText": "upaliti",
+        "turkishText": "Açmak / yakmak",
+        "englishText": "To turn on / light",
+        "wordType": "Verb"
+      },
+      {
+        "order": 10,
+        "serbianText": "ugasiti",
+        "turkishText": "Söndürmek / kapatmak",
+        "englishText": "To turn off",
+        "wordType": "Verb"
+      },
+      {
+        "order": 11,
+        "serbianText": "zaključati",
+        "turkishText": "Kilitlemek",
+        "englishText": "To lock",
+        "wordType": "Verb"
+      },
+      {
+        "order": 12,
+        "serbianText": "ostaviti",
+        "turkishText": "Bırakmak",
+        "englishText": "To leave",
+        "wordType": "Verb"
+      },
+      {
+        "order": 13,
+        "serbianText": "doneti",
+        "turkishText": "Getirmek",
+        "englishText": "To bring",
+        "wordType": "Verb"
+      },
+      {
+        "order": 14,
+        "serbianText": "dobiti",
+        "turkishText": "Almak / elde etmek",
+        "englishText": "To receive / get",
+        "wordType": "Verb"
+      },
+      {
+        "order": 15,
+        "serbianText": "sesti",
+        "turkishText": "Oturmak",
+        "englishText": "To sit down",
+        "wordType": "Verb"
+      }
+    ]
+  },
+  {
+    "order": 38,
+    "title": "Mentalne radnje i modalni glagoli 3",
+    "description": "Mental actions, modal verbs, thinking, and desires 3.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "voleti",
+        "turkishText": "Sevmek",
+        "englishText": "To love / like",
+        "wordType": "Verb"
+      },
+      {
+        "order": 2,
+        "serbianText": "mrzeti",
+        "turkishText": "Nefret etmek",
+        "englishText": "To hate",
+        "wordType": "Verb"
+      },
+      {
+        "order": 3,
+        "serbianText": "želeti",
+        "turkishText": "İstemek / dilemek",
+        "englishText": "To want / wish",
+        "wordType": "Verb"
+      },
+      {
+        "order": 4,
+        "serbianText": "moći",
+        "turkishText": "-ebilmek / yapabilmek",
+        "englishText": "Can / to be able to",
+        "wordType": "Verb"
+      },
+      {
+        "order": 5,
+        "serbianText": "morati",
+        "turkishText": "Zorunda olmak",
+        "englishText": "Must / to have to",
+        "wordType": "Verb"
+      },
+      {
+        "order": 6,
+        "serbianText": "smeti",
+        "turkishText": "İzni olmak / cesaret etmek",
+        "englishText": "To be allowed to / dare",
+        "wordType": "Verb"
+      },
+      {
+        "order": 7,
+        "serbianText": "razmisliti",
+        "turkishText": "Düşünmek / tartmak",
+        "englishText": "To consider / think over",
+        "wordType": "Verb"
+      },
+      {
+        "order": 8,
+        "serbianText": "poznavati",
+        "turkishText": "Tanımak / bilmek",
+        "englishText": "To know / be acquainted",
+        "wordType": "Verb"
+      },
+      {
+        "order": 9,
+        "serbianText": "razumeti",
+        "turkishText": "Anlamak",
+        "englishText": "To understand",
+        "wordType": "Verb"
+      },
+      {
+        "order": 10,
+        "serbianText": "pamtiti",
+        "turkishText": "Hatırlamak / aklında tutmak",
+        "englishText": "To remember",
+        "wordType": "Verb"
+      },
+      {
+        "order": 11,
+        "serbianText": "zaboraviti",
+        "turkishText": "Unutmak",
+        "englishText": "To forget",
+        "wordType": "Verb"
+      },
+      {
+        "order": 12,
+        "serbianText": "osećati",
+        "turkishText": "Hissetmek",
+        "englishText": "To feel",
+        "wordType": "Verb"
+      },
+      {
+        "order": 13,
+        "serbianText": "maštati",
+        "turkishText": "Hayal kurmak",
+        "englishText": "To daydream / imagine",
+        "wordType": "Verb"
+      },
+      {
+        "order": 14,
+        "serbianText": "učiti",
+        "turkishText": "Öğrenmek / ders çalışmak",
+        "englishText": "To learn / study",
+        "wordType": "Verb"
+      },
+      {
+        "order": 15,
+        "serbianText": "studirati",
+        "turkishText": "Üniversitede okumak",
+        "englishText": "To study (at university)",
+        "wordType": "Verb"
+      }
+    ]
+  },
+  {
+    "order": 39,
+    "title": "Prilozi i vremenski izrazi",
+    "description": "Adverbs of time, frequency, and temporal expressions.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "sada",
+        "turkishText": "Şimdi",
+        "englishText": "Now",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 2,
+        "serbianText": "tada",
+        "turkishText": "O zaman",
+        "englishText": "Then",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 3,
+        "serbianText": "uvek",
+        "turkishText": "Her zaman",
+        "englishText": "Always",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 4,
+        "serbianText": "često",
+        "turkishText": "Sık sık",
+        "englishText": "Often",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 5,
+        "serbianText": "obično",
+        "turkishText": "Genellikle",
+        "englishText": "Usually",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 6,
+        "serbianText": "ponekad",
+        "turkishText": "Bazen",
+        "englishText": "Sometimes",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 7,
+        "serbianText": "retko",
+        "turkishText": "Nadiren",
+        "englishText": "Rarely",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 8,
+        "serbianText": "već",
+        "turkishText": "Zaten / çoktan",
+        "englishText": "Already",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 9,
+        "serbianText": "još",
+        "turkishText": "Hâlâ / daha",
+        "englishText": "Still / yet",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 10,
+        "serbianText": "uskoro",
+        "turkishText": "Yakında",
+        "englishText": "Soon",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 11,
+        "serbianText": "ranije",
+        "turkishText": "Daha önce / önceden",
+        "englishText": "Earlier / previously",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 12,
+        "serbianText": "kasnije",
+        "turkishText": "Daha sonra",
+        "englishText": "Later",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 13,
+        "serbianText": "uveče",
+        "turkishText": "Akşamları",
+        "englishText": "In the evening",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 14,
+        "serbianText": "noću",
+        "turkishText": "Geceleri",
+        "englishText": "At night",
+        "wordType": "Adverb"
+      },
+      {
+        "order": 15,
+        "serbianText": "svakodnevno",
+        "turkishText": "Günlük olarak",
+        "englishText": "Daily / every day",
+        "wordType": "Adverb"
+      }
+    ]
+  },
+  {
+    "order": 40,
+    "title": "Izrazi stanja i osećanja",
+    "description": "Expressions of states, emotions, feelings, and well-being.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "Kako si (ti)?",
+        "turkishText": "Nasılsın?",
+        "englishText": "How are you? (informal)",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 2,
+        "serbianText": "Kako ste (Vi)?",
+        "turkishText": "Nasılsınız?",
+        "englishText": "How are you? (formal/plural)",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 3,
+        "serbianText": "Dobro sam",
+        "turkishText": "İyiyim",
+        "englishText": "I am well",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 4,
+        "serbianText": "Nije mi dobro",
+        "turkishText": "Kendimi iyi hissetmiyorum",
+        "englishText": "I am not feeling well",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 5,
+        "serbianText": "Ne osećam se dobro",
+        "turkishText": "İyi hissetmiyorum",
+        "englishText": "I don’t feel well",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 6,
+        "serbianText": "Lakše mi je",
+        "turkishText": "Daha iyiyim / rahatladım",
+        "englishText": "I feel better / relieved",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 7,
+        "serbianText": "Muka mi je",
+        "turkishText": "Midem bulanıyor",
+        "englishText": "I feel nauseous",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 8,
+        "serbianText": "Spava mi se",
+        "turkishText": "Uykum var / uykum geliyor",
+        "englishText": "I am sleepy",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 9,
+        "serbianText": "Svrbi me",
+        "turkishText": "Kaşınıyor",
+        "englishText": "It itches",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 10,
+        "serbianText": "Šta ti je?",
+        "turkishText": "Neyin var?",
+        "englishText": "What is wrong with you?",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 11,
+        "serbianText": "Sviđa mi se",
+        "turkishText": "Hoşuma gidiyor / beğeniyorum",
+        "englishText": "I like it",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 12,
+        "serbianText": "Ne sviđa mi se",
+        "turkishText": "Sevmiyorum / beğenmiyorum",
+        "englishText": "I don’t like it",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 13,
+        "serbianText": "Odgovara mi",
+        "turkishText": "Bana uyuyor / uygun",
+        "englishText": "It suits me",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 14,
+        "serbianText": "Svejedno mi je",
+        "turkishText": "Fark etmez / umurumda değil",
+        "englishText": "It doesn’t matter to me",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 15,
+        "serbianText": "U pravu si",
+        "turkishText": "Haklısın",
+        "englishText": "You are right",
+        "wordType": "Phrase"
+      }
+    ]
+  }
+]

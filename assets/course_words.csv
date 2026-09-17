@@ -1,0 +1,601 @@
+course_order,course,order,word,type,turkish,english
+1,Pozdravljanje i osnovna komunikacija,1,Dobro jutro,Phrase,Günaydın,Good morning
+1,Pozdravljanje i osnovna komunikacija,2,Dobar dan,Phrase,İyi günler,Good day / Good afternoon
+1,Pozdravljanje i osnovna komunikacija,3,Dobro veče,Phrase,İyi akşamlar,Good evening
+1,Pozdravljanje i osnovna komunikacija,4,Doviđenja,Phrase,Hoşça kalın,Goodbye
+1,Pozdravljanje i osnovna komunikacija,5,Prijatno,Phrase,İyi günler / Hoşça kalın,Have a nice day / Goodbye
+1,Pozdravljanje i osnovna komunikacija,6,Zdravo,Phrase,Merhaba,Hello / Hi
+1,Pozdravljanje i osnovna komunikacija,7,Ćao,Phrase,Merhaba / Hoşça kal,Hi / Bye
+1,Pozdravljanje i osnovna komunikacija,8,Vidimo se,Phrase,Görüşürüz,See you
+1,Pozdravljanje i osnovna komunikacija,9,Hvala,Phrase,Teşekkürler,Thank you
+1,Pozdravljanje i osnovna komunikacija,10,Izvolite,Phrase,Buyrunuz,Here you go / Please
+1,Pozdravljanje i osnovna komunikacija,11,Izvini,Phrase,Özür dilerim,Excuse me / Sorry
+1,Pozdravljanje i osnovna komunikacija,12,Drago mi je,Phrase,Memnun oldum,Nice to meet you
+1,Pozdravljanje i osnovna komunikacija,13,Dobro došli,Phrase,Hoş geldiniz,Welcome
+1,Pozdravljanje i osnovna komunikacija,14,pozdrav,Noun (m, sg),Selam,Greeting
+1,Pozdravljanje i osnovna komunikacija,15,pozdravi,Noun (m, pl),Selamlar,Greetings
+2,Lične zamenice i glagol biti,1,ja,Pronoun,Ben,I
+2,Lične zamenice i glagol biti,2,ti,Pronoun,Sen,You (singular)
+2,Lične zamenice i glagol biti,3,on,Pronoun,O (erkek),He
+2,Lične zamenice i glagol biti,4,ona,Pronoun,O (kadın),She
+2,Lične zamenice i glagol biti,5,ono,Pronoun,O (nötr),It
+2,Lične zamenice i glagol biti,6,mi,Pronoun,Biz,We
+2,Lične zamenice i glagol biti,7,vi,Pronoun,Siz,You (plural/formal)
+2,Lične zamenice i glagol biti,8,oni,Pronoun,Onlar (eril/karma),They (masculine/mixed)
+2,Lične zamenice i glagol biti,9,one,Pronoun,Onlar (dişil),They (feminine)
+2,Lične zamenice i glagol biti,10,sam / jesam,Verb,-yim (ben),I am
+2,Lične zamenice i glagol biti,11,si / jesi,Verb,-sin (sen),You are
+2,Lične zamenice i glagol biti,12,je / jeste,Verb,-dir (o),He/She/It is
+2,Lične zamenice i glagol biti,13,smo / jesmo,Verb,-yiz (biz),We are
+2,Lične zamenice i glagol biti,14,ste / jeste,Verb,-siniz (siz),You are
+2,Lične zamenice i glagol biti,15,su / jesu,Verb,-dirler (onlar),They are
+3,Odrični oblici i gramatika,1,nisam,Verb,Değilim,I am not
+3,Odrični oblici i gramatika,2,nisi,Verb,Değilsin,You are not
+3,Odrični oblici i gramatika,3,nije,Verb,Değil,He/She/It is not
+3,Odrični oblici i gramatika,4,nismo,Verb,Değiliz,We are not
+3,Odrični oblici i gramatika,5,niste,Verb,Değilsiniz,You are not
+3,Odrični oblici i gramatika,6,nisu,Verb,Değiller,They are not
+3,Odrični oblici i gramatika,7,bio je,Verb,O (erkek) idi,He was
+3,Odrični oblici i gramatika,8,bila je,Verb,O (kadın) idi,She was
+3,Odrični oblici i gramatika,9,jednina,Grammar term,Tekil,Singular
+3,Odrični oblici i gramatika,10,množina,Grammar term,Çoğul,Plural
+3,Odrični oblici i gramatika,11,muški rod,Grammar term,Eril cinsiyet,Masculine gender
+3,Odrični oblici i gramatika,12,ženski rod,Grammar term,Dişil cinsiyet,Feminine gender
+3,Odrični oblici i gramatika,13,srednji rod,Grammar term,Nötr cinsiyet,Neuter gender
+3,Odrični oblici i gramatika,14,meki glasovi,Grammar term,Yumuşak sesler,Soft sounds
+3,Odrični oblici i gramatika,15,tvrdi glasovi,Grammar term,Sert sesler,Hard sounds
+4,Porodica i rodbina 1,1,porodica,Noun (f, sg),Aile,Family
+4,Porodica i rodbina 1,2,otac,Noun (m, sg),Baba,Father
+4,Porodica i rodbina 1,3,tata,Noun (m, sg),Baba,Dad
+4,Porodica i rodbina 1,4,majka,Noun (f, sg),Anne,Mother
+4,Porodica i rodbina 1,5,mama,Noun (f, sg),Anne,Mom
+4,Porodica i rodbina 1,6,roditelji,Noun (m, pl),Ebeveynler,Parents
+4,Porodica i rodbina 1,7,sin,Noun (m, sg),Oğul,Son
+4,Porodica i rodbina 1,8,sinovi,Noun (m, pl),Oğullar,Sons
+4,Porodica i rodbina 1,9,ćerka,Noun (f, sg),Kız evlat,Daughter
+4,Porodica i rodbina 1,10,brat,Noun (m, sg),Erkek kardeş,Brother
+4,Porodica i rodbina 1,11,braća,Noun (pl collective),Erkek kardeşler,Brothers
+4,Porodica i rodbina 1,12,sestra,Noun (f, sg),Kız kardeş,Sister
+4,Porodica i rodbina 1,13,sestre,Noun (f, pl),Kız kardeşler,Sisters
+4,Porodica i rodbina 1,14,dete,Noun (n, sg),Çocuk,Child
+4,Porodica i rodbina 1,15,deca,Noun (pl collective),Çocuklar,Children
+5,Porodica i rodbina 2,1,deda,Noun (m, sg),Büyükbaba / dede,Grandfather
+5,Porodica i rodbina 2,2,baka,Noun (f, sg),Büyükanne / nine,Grandmother
+5,Porodica i rodbina 2,3,unuk,Noun (m, sg),Erkek torun,Grandson
+5,Porodica i rodbina 2,4,unuci,Noun (m, pl),Erkek torunlar,Grandsons
+5,Porodica i rodbina 2,5,muž,Noun (m, sg),Koca / eş,Husband
+5,Porodica i rodbina 2,6,muževi,Noun (m, pl),Kocalar / eşler,Husbands
+5,Porodica i rodbina 2,7,žena,Noun (f, sg),Kadın / eş,Woman / wife
+5,Porodica i rodbina 2,8,žene,Noun (f, pl),Kadınlar / eşler,Women / wives
+5,Porodica i rodbina 2,9,snaja,Noun (f, sg),Gelin,Daughter-in-law / sister-in-law
+5,Porodica i rodbina 2,10,zet,Noun (m, sg),Damat,Son-in-law / brother-in-law
+5,Porodica i rodbina 2,11,zetovi,Noun (m, pl),Damatlar,Sons-in-law
+5,Porodica i rodbina 2,12,venčanje,Noun (n, sg),Düğün / evlilik töreni,Wedding
+5,Porodica i rodbina 2,13,udata,Adjective (f),Evli (kadın),Married (female)
+5,Porodica i rodbina 2,14,neudata,Adjective (f),Bekâr (kadın),Unmarried (female)
+5,Porodica i rodbina 2,15,rođendan,Noun (m, sg),Doğum günü,Birthday
+6,Prijatelji i društvo,1,prijatelj,Noun (m, sg),Arkadaş / dost,Friend
+6,Prijatelji i društvo,2,prijatelji,Noun (m, pl),Arkadaşlar / dostlar,Friends
+6,Prijatelji i društvo,3,drug,Noun (m, sg),Erkek arkadaş,Friend (male)
+6,Prijatelji i društvo,4,drugovi,Noun (m, pl),Erkek arkadaşlar,Friends (male/mixed)
+6,Prijatelji i društvo,5,drugarica,Noun (f, sg),Kadın arkadaş,Female friend
+6,Prijatelji i društvo,6,drugarice,Noun (f, pl),Kadın arkadaşlar,Female friends
+6,Prijatelji i društvo,7,kolega,Noun (m, sg),Meslektaş,Colleague (male)
+6,Prijatelji i društvo,8,kolege,Noun (m, pl),Meslektaşlar,Colleagues
+6,Prijatelji i društvo,9,komšija,Noun (m, sg),Erkek komşu,Neighbor (male)
+6,Prijatelji i društvo,10,komšinica,Noun (f, sg),Kadın komşu,Neighbor (female)
+6,Prijatelji i društvo,11,gost,Noun (m, sg),Misafir / konuk,Guest
+6,Prijatelji i društvo,12,društvo,Noun (n, sg),Arkadaş grubu / cemiyet,Company of friends / society
+6,Prijatelji i društvo,13,druženje,Noun (n, sg),Sosyalleşme,Socializing
+6,Prijatelji i društvo,14,gostoprimstvo,Noun (n, sg),Misafirperverlik,Hospitality
+6,Prijatelji i društvo,15,osoba,Noun (f, sg),Kişi / şahıs,Person
+7,Zanimanja i obrazovanje 1,1,lekar,Noun (m, sg),Erkek doktor,Doctor (male)
+7,Zanimanja i obrazovanje 1,2,lekari,Noun (m, pl),Doktorlar,Doctors
+7,Zanimanja i obrazovanje 1,3,lekarka,Noun (f, sg),Kadın doktor,Doctor (female)
+7,Zanimanja i obrazovanje 1,4,profesor,Noun (m, sg),Erkek profesör / öğretmen,Professor / teacher (male)
+7,Zanimanja i obrazovanje 1,5,profesorica,Noun (f, sg),Kadın profesör / öğretmen,Professor / teacher (female)
+7,Zanimanja i obrazovanje 1,6,profesorice,Noun (f, pl),Kadın öğretmenler,Female teachers
+7,Zanimanja i obrazovanje 1,7,student,Noun (m, sg),Erkek üniversite öğrencisi,University student (male)
+7,Zanimanja i obrazovanje 1,8,studenti,Noun (m, pl),Üniversite öğrencileri,University students
+7,Zanimanja i obrazovanje 1,9,studentkinja,Noun (f, sg),Kız üniversite öğrencisi,University student (female)
+7,Zanimanja i obrazovanje 1,10,studentkinje,Noun (f, pl),Kız üniversite öğrencileri,Female university students
+7,Zanimanja i obrazovanje 1,11,učenik,Noun (m, sg),Erkek öğrenci (okul),Pupil (male)
+7,Zanimanja i obrazovanje 1,12,učenici,Noun (m, pl),Erkek öğrenciler,Pupils (male)
+7,Zanimanja i obrazovanje 1,13,učenica,Noun (f, sg),Kız öğrenci (okul),Pupil (female)
+7,Zanimanja i obrazovanje 1,14,učenice,Noun (f, pl),Kız öğrenciler,Pupils (female)
+7,Zanimanja i obrazovanje 1,15,inženjer,Noun (m, sg),Erkek mühendis,Engineer (male)
+8,Zanimanja i profesije 2,1,inženjerka,Noun (f, sg),Kadın mühendis,Engineer (female)
+8,Zanimanja i profesije 2,2,direktor,Noun (m, sg),Müdür,Director / manager
+8,Zanimanja i profesije 2,3,menadžer,Noun (m, sg),Erkek yönetici,Manager (male)
+8,Zanimanja i profesije 2,4,menadžerka,Noun (f, sg),Kadın yönetici,Manager (female)
+8,Zanimanja i profesije 2,5,novinar,Noun (m, sg),Erkek gazeteci,Journalist (male)
+8,Zanimanja i profesije 2,6,novinarka,Noun (f, sg),Kadın gazeteci,Journalist (female)
+8,Zanimanja i profesije 2,7,glumac,Noun (m, sg),Erkek oyuncu / aktör,Actor
+8,Zanimanja i profesije 2,8,glumica,Noun (f, sg),Kadın oyuncu / aktris,Actress
+8,Zanimanja i profesije 2,9,reditelj,Noun (m, sg),Yönetmen,Director (film/theatre)
+8,Zanimanja i profesije 2,10,pisac,Noun (m, sg),Yazar,Writer
+8,Zanimanja i profesije 2,11,pesnik,Noun (m, sg),Şair,Poet
+8,Zanimanja i profesije 2,12,pesnici,Noun (m, pl),Şairler,Poets
+8,Zanimanja i profesije 2,13,naučnik,Noun (m, sg),Bilim insanı (erkek),Scientist (male)
+8,Zanimanja i profesije 2,14,naučnici,Noun (m, pl),Bilim insanları,Scientists
+8,Zanimanja i profesije 2,15,diplomata,Noun (m, sg),Erkek diplomat,Diplomat (male)
+9,Zanimanja i zanati 3,1,diplomatkinja,Noun (f, sg),Kadın diplomat,Diplomat (female)
+9,Zanimanja i zanati 3,2,ekonomista,Noun (m, sg),Erkek ekonomist,Economist (male)
+9,Zanimanja i zanati 3,3,ekonomistkinja,Noun (f, sg),Kadın ekonomist,Economist (female)
+9,Zanimanja i zanati 3,4,kuvar,Noun (m, sg),Erkek aşçı,Cook / chef (male)
+9,Zanimanja i zanati 3,5,kuvarica,Noun (f, sg),Kadın aşçı,Cook / chef (female)
+9,Zanimanja i zanati 3,6,konobar,Noun (m, sg),Garson,Waiter
+9,Zanimanja i zanati 3,7,frizer,Noun (m, sg),Erkek berber / kuaför,Hairdresser (male)
+9,Zanimanja i zanati 3,8,frizerka,Noun (f, sg),Kadın kuaför,Hairdresser (female)
+9,Zanimanja i zanati 3,9,policajac,Noun (m, sg),Erkek polis,Police officer (male)
+9,Zanimanja i zanati 3,10,policajka,Noun (f, sg),Kadın polis,Police officer (female)
+9,Zanimanja i zanati 3,11,vatrogasac,Noun (m, sg),İtfaiyeci,Firefighter
+9,Zanimanja i zanati 3,12,majstor,Noun (m, sg),Usta / tamirci,Master craftsman / repairman
+9,Zanimanja i zanati 3,13,automehaničar,Noun (m, sg),Oto tamircisi,Car mechanic
+9,Zanimanja i zanati 3,14,stjuardesa,Noun (f, sg),Hostes,Flight attendant
+9,Zanimanja i zanati 3,15,ronilac,Noun (m, sg),Dalgıç,Diver
+10,Posao i karijera,1,posao,Noun (m, sg),İş,Job / work
+10,Posao i karijera,2,zanimanje,Noun (n, sg),Meslek,Profession / occupation
+10,Posao i karijera,3,radna nedelja,Phrase,Çalışma haftası,Work week
+10,Posao i karijera,4,plata,Noun (f, sg),Maaş / ücret,Salary / wage
+10,Posao i karijera,5,pauza,Noun (f, sg),Mola / ara,Break / pause
+10,Posao i karijera,6,raditi,Verb,Çalışmak / yapmak,To work / do
+10,Posao i karijera,7,zaposlen,Adjective,Çalışan / istihdam edilmiş,Employed
+10,Posao i karijera,8,penzioner,Noun (m, sg),Emekli,Pensioner / retiree
+10,Posao i karijera,9,domaćica,Noun (f, sg),Ev hanımı,Housewife / homemaker
+10,Posao i karijera,10,ugovor,Noun (m, sg),Sözleşme,Contract
+10,Posao i karijera,11,potpisati,Verb,İmzalamak,To sign
+10,Posao i karijera,12,zaraditi,Verb,Kazanmak (para),To earn (money)
+10,Posao i karijera,13,poslovni,Adjective,İşle ilgili / ticari,Business-related
+10,Posao i karijera,14,poslovni prostor,Phrase,İş yeri / ofis alanı,Commercial space
+10,Posao i karijera,15,fakultetska diploma,Phrase,Üniversite diploması,University diploma
+11,Hrana i osnovne namirnice,1,hrana,Noun (f, sg),Yemek / yiyecek,Food
+11,Hrana i osnovne namirnice,2,hleb,Noun (m, sg),Ekmek,Bread
+11,Hrana i osnovne namirnice,3,hlebovi,Noun (m, pl),Ekmekler,Breads
+11,Hrana i osnovne namirnice,4,sir,Noun (m, sg),Peynir,Cheese
+11,Hrana i osnovne namirnice,5,sirevi,Noun (m, pl),Peynirler,Cheeses
+11,Hrana i osnovne namirnice,6,meso,Noun (n, sg),Et,Meat
+11,Hrana i osnovne namirnice,7,jaje,Noun (n, sg),Yumurta,Egg
+11,Hrana i osnovne namirnice,8,so,Noun (f, sg),Tuz,Salt
+11,Hrana i osnovne namirnice,9,biber,Noun (m, sg),Biber (baharat),Pepper (spice)
+11,Hrana i osnovne namirnice,10,pirinač,Noun (m, sg),Pirinç,Rice
+11,Hrana i osnovne namirnice,11,kobasica,Noun (f, sg),Sosis / sucuk,Sausage
+11,Hrana i osnovne namirnice,12,pršuta,Noun (f, sg),Kuru jambon / prosciutto,Prosciutto
+11,Hrana i osnovne namirnice,13,maslina,Noun (f, sg),Zeytin,Olive
+11,Hrana i osnovne namirnice,14,med,Noun (m, sg),Bal,Honey
+11,Hrana i osnovne namirnice,15,grožđe,Noun (n, collective),Üzüm,Grapes
+12,Voće i povrće,1,voće,Noun (n, collective),Meyve,Fruit
+12,Voće i povrće,2,povrće,Noun (n, collective),Sebze,Vegetables
+12,Voće i povrće,3,jabuka,Noun (f, sg),Elma,Apple
+12,Voće i povrće,4,kruška,Noun (f, sg),Armut,Pear
+12,Voće i povrće,5,šljiva,Noun (f, sg),Erik,Plum
+12,Voće i povrće,6,trešnja,Noun (f, sg),Kiraz,Cherry
+12,Voće i povrće,7,kajsija,Noun (f, sg),Kayısı,Apricot
+12,Voće i povrće,8,dunja,Noun (f, sg),Ayva,Quince
+12,Voće i povrće,9,krompir,Noun (m, sg),Patates,Potato
+12,Voće i povrće,10,paradajz,Noun (m, sg),Domates,Tomato
+12,Voće i povrće,11,paprika,Noun (f, sg),Biber (sebze),Bell pepper
+12,Voće i povrće,12,luk,Noun (m, sg),Soğan,Onion
+12,Voće i povrće,13,kupus,Noun (m, sg),Lahana,Cabbage
+12,Voće i povrće,14,grašak,Noun (m, sg),Bezelye,Peas
+12,Voće i povrće,15,boranija,Noun (f, sg),Taze yeşil fasulye,Green beans
+13,Obedi i priprema hrane,1,doručak,Noun (m, sg),Kahvaltı,Breakfast
+13,Obedi i priprema hrane,2,doručkovati,Verb,Kahvaltı yapmak,To have breakfast
+13,Obedi i priprema hrane,3,ručak,Noun (m, sg),Öğle yemeği,Lunch
+13,Obedi i priprema hrane,4,ručati,Verb,Öğle yemeği yemek,To have lunch
+13,Obedi i priprema hrane,5,večera,Noun (f, sg),Akşam yemeği,Dinner
+13,Obedi i priprema hrane,6,večerati,Verb,Akşam yemeği yemek,To have dinner
+13,Obedi i priprema hrane,7,nedeljni ručak,Phrase,Pazar öğle yemeği,Sunday lunch
+13,Obedi i priprema hrane,8,predjelo,Noun (n, sg),Başlangıç / meze,Appetizer / starter
+13,Obedi i priprema hrane,9,meze,Noun (n, sg),Meze,Meze / finger food
+13,Obedi i priprema hrane,10,supa,Noun (f, sg),Duru çorba / et suyu,Soup / broth
+13,Obedi i priprema hrane,11,čorba,Noun (f, sg),Çorba,Thick soup / chowder
+13,Obedi i priprema hrane,12,pasulj,Noun (m, sg),Kuru fasulye,Beans
+13,Obedi i priprema hrane,13,tikvica,Noun (f, sg),Kabak,Zucchini
+13,Obedi i priprema hrane,14,roštilj,Noun (m, sg),Mangal / ızgara,Barbecue / grill
+13,Obedi i priprema hrane,15,pita,Noun (f, sg),Börek / turta,Pie / pastry
+14,Pića i poslastice,1,voda,Noun (f, sg),Su,Water
+14,Pića i poslastice,2,obična voda,Phrase,Durgun / gazsız su,Plain / still water
+14,Pića i poslastice,3,kisela voda,Phrase,Maden suyu,Mineral water
+14,Pića i poslastice,4,sok,Noun (m, sg),Meyve suyu,Juice
+14,Pića i poslastice,5,sokovi,Noun (m, pl),Meyve suları,Juices
+14,Pića i poslastice,6,čaj,Noun (m, sg),Çay,Tea
+14,Pića i poslastice,7,čajevi,Noun (m, pl),Çaylar,Teas
+14,Pića i poslastice,8,mleko,Noun (n, sg),Süt,Milk
+14,Pića i poslastice,9,jogurt,Noun (m, sg),Yoğurt,Yogurt
+14,Pića i poslastice,10,pivo,Noun (n, sg),Bira,Beer
+14,Pića i poslastice,11,vino,Noun (n, sg),Şarap,Wine
+14,Pića i poslastice,12,rakija,Noun (f, sg),Rakija,Rakia / fruit brandy
+14,Pića i poslastice,13,kolač,Noun (m, sg),Kek / pasta,Cake / pastry
+14,Pića i poslastice,14,torta,Noun (f, sg),Yaş pasta,Cake / gateau
+14,Pića i poslastice,15,čokolada,Noun (f, sg),Çikolata,Chocolate
+15,Restoran i posluživanje,1,kafana,Noun (f, sg),Meyhane / restoran,Traditional tavern
+15,Restoran i posluživanje,2,kafić,Noun (m, sg),Kafe,Café
+15,Restoran i posluživanje,3,restoran,Noun (m, sg),Restoran,Restaurant
+15,Restoran i posluživanje,4,jelovnik,Noun (m, sg),Yemek menüsü,Menu
+15,Restoran i posluživanje,5,jelovnici,Noun (m, pl),Menüler,Menus
+15,Restoran i posluživanje,6,naručiti,Verb,Sipariş vermek,To order
+15,Restoran i posluživanje,7,služiti,Verb,Servis etmek,To serve
+15,Restoran i posluživanje,8,porcija,Noun (f, sg),Porsiyon,Portion
+15,Restoran i posluživanje,9,tanjir,Noun (m, sg),Tabak,Plate
+15,Restoran i posluživanje,10,šolja,Noun (f, sg),Fincan,Cup / mug
+15,Restoran i posluživanje,11,kašičica,Noun (f, sg),Çay kaşığı,Teaspoon
+15,Restoran i posluživanje,12,flaša,Noun (f, sg),Şişe,Bottle
+15,Restoran i posluživanje,13,švedski sto,Phrase,Açık büfe,Buffet
+15,Restoran i posluživanje,14,palačinka,Noun (f, sg),Krep,Pancake / crepe
+15,Restoran i posluživanje,15,štrudla,Noun (f, sg),Strudel (rulo tatlı),Strudel
+16,Grad i lokacije 1,1,grad,Noun (m, sg),Şehir,City / town
+16,Grad i lokacije 1,2,gradovi,Noun (m, pl),Şehirler,Cities / towns
+16,Grad i lokacije 1,3,centar,Noun (m, sg),Merkez,Center
+16,Grad i lokacije 1,4,trg,Noun (m, sg),Meydan,Square
+16,Grad i lokacije 1,5,trgovi,Noun (m, pl),Meydanlar,Squares
+16,Grad i lokacije 1,6,Trg republike,Proper Noun,Cumhuriyet Meydanı,Republic Square
+16,Grad i lokacije 1,7,bulevar,Noun (m, sg),Bulvar,Boulevard
+16,Grad i lokacije 1,8,ulica,Noun (f, sg),Sokak / cadde,Street
+16,Grad i lokacije 1,9,park,Noun (m, sg),Park,Park
+16,Grad i lokacije 1,10,parkovi,Noun (m, pl),Parklar,Parks
+16,Grad i lokacije 1,11,zgrada,Noun (f, sg),Bina,Building
+16,Grad i lokacije 1,12,banka,Noun (f, sg),Banka,Bank
+16,Grad i lokacije 1,13,biblioteka,Noun (f, sg),Kütüphane,Library
+16,Grad i lokacije 1,14,knjižara,Noun (f, sg),Kitapçı,Bookstore
+16,Grad i lokacije 1,15,prodavnica,Noun (f, sg),Mağaza / dükkân,Shop / store
+17,Kultura i gradske ustanove 2,1,muzej,Noun (m, sg),Müze,Museum
+17,Kultura i gradske ustanove 2,2,Narodni muzej,Proper Noun,Ulusal Müze,National Museum
+17,Kultura i gradske ustanove 2,3,pozorište,Noun (n, sg),Tiyatro,Theatre
+17,Kultura i gradske ustanove 2,4,Narodno pozorište,Proper Noun,Ulusal Tiyatro,National Theatre
+17,Kultura i gradske ustanove 2,5,bioskop,Noun (m, sg),Sinema,Cinema
+17,Kultura i gradske ustanove 2,6,galerija,Noun (f, sg),Galeri,Gallery
+17,Kultura i gradske ustanove 2,7,crkva,Noun (f, sg),Kilise,Church
+17,Kultura i gradske ustanove 2,8,pijaca,Noun (f, sg),Pazar yeri,Market / green market
+17,Kultura i gradske ustanove 2,9,sajam,Noun (m, sg),Fuar,Fair
+17,Kultura i gradske ustanove 2,10,sajmovi,Noun (m, pl),Fuarlar,Fairs
+17,Kultura i gradske ustanove 2,11,festival,Noun (m, sg),Festival,Festival
+17,Kultura i gradske ustanove 2,12,koncert,Noun (m, sg),Konser,Concert
+17,Kultura i gradske ustanove 2,13,karneval,Noun (m, sg),Karnaval,Carnival
+17,Kultura i gradske ustanove 2,14,sirotište,Noun (n, sg),Yetimhane,Orphanage
+17,Kultura i gradske ustanove 2,15,vrtić,Noun (m, sg),Anaokulu / kreş,Kindergarten
+18,Orijentacija i pravci,1,levo,Adverb,Sola / solda,Left / to the left
+18,Orijentacija i pravci,2,desno,Adverb,Sağa / sağda,Right / to the right
+18,Orijentacija i pravci,3,pravo,Adverb,Dümdüz / doğru,Straight ahead
+18,Orijentacija i pravci,4,nazad,Adverb,Geri / arkaya,Back / backwards
+18,Orijentacija i pravci,5,ovde,Adverb,Burada,Here
+18,Orijentacija i pravci,6,tamo,Adverb,Orada,There
+18,Orijentacija i pravci,7,blizu,Adverb,Yakın / yakında,Near / close
+18,Orijentacija i pravci,8,daleko,Adverb,Uzakta,Far / far away
+18,Orijentacija i pravci,9,u blizini,Phrase,Yakınlarda,Nearby
+18,Orijentacija i pravci,10,ispred,Preposition,Önünde,In front of
+18,Orijentacija i pravci,11,iza,Preposition,Arkasında,Behind
+18,Orijentacija i pravci,12,pored,Preposition,Yanında,Beside / next to
+18,Orijentacija i pravci,13,između,Preposition,Arasında,Between / among
+18,Orijentacija i pravci,14,iznad,Preposition,Üstünde / üzerinde,Above / over
+18,Orijentacija i pravci,15,ispod,Preposition,Altında,Under / below
+19,Putovanja i prevoz,1,putovati,Verb,Seyahat etmek,To travel
+19,Putovanja i prevoz,2,putnik,Noun (m, sg),Yolcu,Passenger / traveler
+19,Putovanja i prevoz,3,putnici,Noun (m, pl),Yolcular,Passengers / travelers
+19,Putovanja i prevoz,4,javni prevoz,Phrase,Toplu taşıma,Public transport
+19,Putovanja i prevoz,5,autobuska linija,Phrase,Otobüs hattı,Bus line
+19,Putovanja i prevoz,6,aerodrom,Noun (m, sg),Havalimanı,Airport
+19,Putovanja i prevoz,7,helikopter,Noun (m, sg),Helikopter,Helicopter
+19,Putovanja i prevoz,8,brod,Noun (m, sg),Gemi,Ship / boat
+19,Putovanja i prevoz,9,brodovi,Noun (m, pl),Gemiler,Ships / boats
+19,Putovanja i prevoz,10,saobraćaj,Noun (m, sg),Trafik,Traffic
+19,Putovanja i prevoz,11,voziti se,Verb,Araçla yolculuk etmek,To ride / drive
+19,Putovanja i prevoz,12,dolazak,Noun (m, sg),Varış / geliş,Arrival
+19,Putovanja i prevoz,13,dolasci,Noun (m, pl),Varışlar,Arrivals
+19,Putovanja i prevoz,14,poslovan put,Phrase,İş seyahati,Business trip
+19,Putovanja i prevoz,15,turneja,Noun (f, sg),Turne,Tour
+20,Priprema za put i dokumenta,1,pasoš,Noun (m, sg),Pasaport,Passport
+20,Priprema za put i dokumenta,2,pasoši,Noun (m, pl),Pasaportlar,Passports
+20,Priprema za put i dokumenta,3,viza,Noun (f, sg),Vize,Visa
+20,Priprema za put i dokumenta,4,vozačka dozvola,Phrase,Ehliyet / sürücü belgesi,Driver’s license
+20,Priprema za put i dokumenta,5,dokument,Noun (m, sg),Belge / doküman,Document
+20,Priprema za put i dokumenta,6,novac,Noun (m, sg),Para,Money
+20,Priprema za put i dokumenta,7,pare,Noun (f, pl),Para,Money
+20,Priprema za put i dokumenta,8,novčanik,Noun (m, sg),Cüzdan,Wallet
+20,Priprema za put i dokumenta,9,novčanici,Noun (m, pl),Cüzdanlar,Wallets
+20,Priprema za put i dokumenta,10,kreditna kartica,Phrase,Kredi kartı,Credit card
+20,Priprema za put i dokumenta,11,kofer,Noun (m, sg),Bavul / valiz,Suitcase
+20,Priprema za put i dokumenta,12,torba,Noun (f, sg),Çanta,Bag
+20,Priprema za put i dokumenta,13,torbe,Noun (f, pl),Çantalar,Bags
+20,Priprema za put i dokumenta,14,mapa,Noun (f, sg),Harita,Map
+20,Priprema za put i dokumenta,15,turistička agencija,Phrase,Seyahat acentesi,Travel agency
+21,Hotel i smeštaj,1,hotel,Noun (m, sg),Otel,Hotel
+21,Hotel i smeštaj,2,smeštaj,Noun (m, sg),Konaklama,Accommodation
+21,Hotel i smeštaj,3,noćenje,Noun (n, sg),Geceleme,Overnight stay
+21,Hotel i smeštaj,4,polupansion,Noun (m, sg),Yarım pansiyon,Half-board
+21,Hotel i smeštaj,5,jednokrevetna soba,Phrase,Tek kişilik oda,Single room
+21,Hotel i smeštaj,6,dvokrevetna soba,Phrase,Çift kişilik oda,Double room
+21,Hotel i smeštaj,7,rezervisati,Verb,Rezerve etmek,To book / reserve
+21,Hotel i smeštaj,8,rezervisan,Adjective,Rezerve edilmiş,Booked / reserved
+21,Hotel i smeštaj,9,iznajmiti,Verb,Kiralamak,To rent / lease
+21,Hotel i smeštaj,10,prespavati,Verb,Geceyi geçirmek,To spend the night
+21,Hotel i smeštaj,11,kamp,Noun (m, sg),Kamp,Camp / campsite
+21,Hotel i smeštaj,12,kampovi,Noun (m, pl),Kamplar,Camps
+21,Hotel i smeštaj,13,vila,Noun (f, sg),Villa,Villa
+21,Hotel i smeštaj,14,suvenir,Noun (m, sg),Hediyelik eşya,Souvenir
+21,Hotel i smeštaj,15,razglednica,Noun (f, sg),Kartpostal,Postcard
+22,Stan i nekretnine,1,dom,Noun (m, sg),Ev / yuva,Home
+22,Stan i nekretnine,2,domovi,Noun (m, pl),Evler / yuvalar,Homes
+22,Stan i nekretnine,3,soba,Noun (f, sg),Oda,Room
+22,Stan i nekretnine,4,prostorija,Noun (f, sg),Mekân / oda,Room / premises
+22,Stan i nekretnine,5,garsonjera,Noun (f, sg),Stüdyo daire,Studio apartment
+22,Stan i nekretnine,6,dvosoban,Adjective,İki odalı,Two-room
+22,Stan i nekretnine,7,trosoban,Adjective,Üç odalı,Three-room
+22,Stan i nekretnine,8,dvorište,Noun (n, sg),Avlu / bahçe,Yard / courtyard
+22,Stan i nekretnine,9,bašta,Noun (f, sg),Bahçe,Garden
+22,Stan i nekretnine,10,terasa,Noun (f, sg),Teras / balkon,Terrace / balcony
+22,Stan i nekretnine,11,predgrađe,Noun (n, sg),Banliyö,Suburb
+22,Stan i nekretnine,12,selo,Noun (n, sg),Köy,Village
+22,Stan i nekretnine,13,stanarina,Noun (f, sg),Ev kirası,Rent
+22,Stan i nekretnine,14,vlasnik,Noun (m, sg),Ev / mülk sahibi,Owner / landlord
+22,Stan i nekretnine,15,vlasnici,Noun (m, pl),Mülk sahipleri,Owners
+23,Nameštaj i prostor 1,1,sto,Noun (m, sg),Masa,Table
+23,Nameštaj i prostor 1,2,stolovi,Noun (m, pl),Masalar,Tables
+23,Nameštaj i prostor 1,3,stolica,Noun (f, sg),Sandalye,Chair
+23,Nameštaj i prostor 1,4,stolice,Noun (f, pl),Sandalyeler,Chairs
+23,Nameštaj i prostor 1,5,krevet,Noun (m, sg),Yatak,Bed
+23,Nameštaj i prostor 1,6,kauč,Noun (m, sg),Kanepe / koltuk,Couch / sofa
+23,Nameštaj i prostor 1,7,kaučevi,Noun (m, pl),Kanepeler,Couches
+23,Nameštaj i prostor 1,8,fotelja,Noun (f, sg),Tekli koltuk,Armchair
+23,Nameštaj i prostor 1,9,orman,Noun (m, sg),Dolap / gardırop,Wardrobe / closet
+23,Nameštaj i prostor 1,10,komoda,Noun (f, sg),Şifonyer,Commode / dresser
+23,Nameštaj i prostor 1,11,fioka,Noun (f, sg),Çekmece,Drawer
+23,Nameštaj i prostor 1,12,polica,Noun (f, sg),Raf,Shelf
+23,Nameštaj i prostor 1,13,tepih,Noun (m, sg),Halı,Carpet / rug
+23,Nameštaj i prostor 1,14,tepisi,Noun (m, pl),Halılar,Carpets / rugs
+23,Nameštaj i prostor 1,15,lampa,Noun (f, sg),Lamba,Lamp
+24,Kućni uređaji i enterijer 2,1,ogledalo,Noun (n, sg),Ayna,Mirror
+24,Kućni uređaji i enterijer 2,2,prozor,Noun (m, sg),Pencere,Window
+24,Kućni uređaji i enterijer 2,3,vrata,Noun (n, pl),Kapı,Door
+24,Kućni uređaji i enterijer 2,4,ulazna vrata,Phrase,Giriş kapısı,Entrance door
+24,Kućni uređaji i enterijer 2,5,lavabo,Noun (m, sg),Lavabo,Washbasin / sink
+24,Kućni uređaji i enterijer 2,6,lavaboi,Noun (m, pl),Lavabolar,Washbasins / sinks
+24,Kućni uređaji i enterijer 2,7,kada,Noun (f, sg),Küvet,Bathtub
+24,Kućni uređaji i enterijer 2,8,sudopera,Noun (f, sg),Mutfak evyesi,Kitchen sink
+24,Kućni uređaji i enterijer 2,9,šporet,Noun (m, sg),Ocak / fırın,Stove / cooker
+24,Kućni uređaji i enterijer 2,10,frižider,Noun (m, sg),Buzdolabı,Refrigerator / fridge
+24,Kućni uređaji i enterijer 2,11,centralno grejanje,Phrase,Merkezi ısıtma,Central heating
+24,Kućni uređaji i enterijer 2,12,bežični internet,Phrase,Kablosuz internet / Wi-Fi,Wi-Fi
+24,Kućni uređaji i enterijer 2,13,kućni aparati,Phrase,Ev aletleri,Household appliances
+24,Kućni uređaji i enterijer 2,14,kućni red,Phrase,Apartman kuralları,House rules
+24,Kućni uređaji i enterijer 2,15,namešten,Adjective,Mobilyalı,Furnished
+25,Odeća 1,1,odeća,Noun (f, collective),Kıyafet / giysi,Clothes / clothing
+25,Odeća 1,2,odelo,Noun (n, sg),Takım elbise,Suit (men’s)
+25,Odeća 1,3,košulja,Noun (f, sg),Gömlek,Shirt
+25,Odeća 1,4,majica,Noun (f, sg),Tişört,T-shirt
+25,Odeća 1,5,džemper,Noun (m, sg),Kazak,Sweater / jumper
+25,Odeća 1,6,jakna,Noun (f, sg),Ceket / mont,Jacket
+25,Odeća 1,7,kaput,Noun (m, sg),Palto / kaban,Coat
+25,Odeća 1,8,mantil,Noun (m, sg),Pardösü / trençkot,Trench coat
+25,Odeća 1,9,sako,Noun (m, sg),Ceket / blazer,Blazer / jacket
+25,Odeća 1,10,pantalone,Noun (f, pl),Pantolon,Trousers / pants
+25,Odeća 1,11,farmerice,Noun (f, pl),Kot pantolon,Jeans
+25,Odeća 1,12,šorts,Noun (m, sg),Şort,Shorts
+25,Odeća 1,13,šortsevi,Noun (m, pl),Şortlar,Shorts (pl)
+25,Odeća 1,14,haljina,Noun (f, sg),Elbise,Dress
+25,Odeća 1,15,suknja,Noun (f, sg),Etek,Skirt
+26,Obuća i modni dodaci 2,1,obuća,Noun (f, collective),Ayakkabılar,Footwear
+26,Obuća i modni dodaci 2,2,cipela,Noun (f, sg),Ayakkabı,Shoe
+26,Obuća i modni dodaci 2,3,patika,Noun (f, sg),Spor ayakkabı,Sneaker
+26,Obuća i modni dodaci 2,4,čizma,Noun (f, sg),Çizme / bot,Boot
+26,Obuća i modni dodaci 2,5,sandala,Noun (f, sg),Sandalet,Sandal
+26,Obuća i modni dodaci 2,6,papuča,Noun (f, sg),Terlik,Slipper
+26,Obuća i modni dodaci 2,7,čarapa,Noun (f, sg),Çorap,Sock
+26,Obuća i modni dodaci 2,8,kaiš,Noun (m, sg),Kemer,Belt
+26,Obuća i modni dodaci 2,9,kaiševi,Noun (m, pl),Kemerler,Belts
+26,Obuća i modni dodaci 2,10,šešir,Noun (m, sg),Şapka,Hat
+26,Obuća i modni dodaci 2,11,kapa,Noun (f, sg),Bere / şapka,Cap
+26,Obuća i modni dodaci 2,12,šal,Noun (m, sg),Atkı / şal,Scarf
+26,Obuća i modni dodaci 2,13,šalovi,Noun (m, pl),Atkılar,Scarves
+26,Obuća i modni dodaci 2,14,marama,Noun (f, sg),Eşarp / başörtüsü,Headscarf
+26,Obuća i modni dodaci 2,15,rukav,Noun (m, sg),Giysi kolu,Sleeve
+27,Izgled, nakit i stil,1,ručni sat,Phrase,Kol saati,Wristwatch
+27,Izgled, nakit i stil,2,nakit,Noun (m, sg),Takı / mücevher,Jewelry
+27,Izgled, nakit i stil,3,naočare,Noun (f, pl),Gözlük,Glasses
+27,Izgled, nakit i stil,4,naočare za sunce,Phrase,Güneş gözlüğü,Sunglasses
+27,Izgled, nakit i stil,5,dragi kamen,Phrase,Değerli taş,Gemstone
+27,Izgled, nakit i stil,6,kosa,Noun (f, sg),Saç,Hair
+27,Izgled, nakit i stil,7,frizura,Noun (f, sg),Saç modeli,Hairstyle
+27,Izgled, nakit i stil,8,našminkan,Adjective,Makyajlı,Wearing makeup
+27,Izgled, nakit i stil,9,ležeran,Adjective,Rahat / günlük,Casual
+27,Izgled, nakit i stil,10,边界 / elegantan,Adjective,Zarif / şık,Elegant
+27,Izgled, nakit i stil,11,moderan,Adjective,Modern / modaya uygun,Modern
+27,Izgled, nakit i stil,12,moda,Noun (f, sg),Moda,Fashion
+27,Izgled, nakit i stil,13,ukras,Noun (m, sg),Süs / dekorasyon,Decoration
+27,Izgled, nakit i stil,14,uniforma,Noun (f, sg),Üniforma,Uniform
+27,Izgled, nakit i stil,15,kostim,Noun (m, sg),Kostüm,Costume
+28,Telo i anatomija 1,1,telo,Noun (n, sg),Vücut / beden,Body
+28,Telo i anatomija 1,2,glava,Noun (f, sg),Baş / kafa,Head
+28,Telo i anatomija 1,3,lice,Noun (n, sg),Yüz,Face
+28,Telo i anatomija 1,4,oko,Noun (n, sg),Göz,Eye
+28,Telo i anatomija 1,5,oči,Noun (f, pl),Gözler,Eyes
+28,Telo i anatomija 1,6,uho,Noun (n, sg),Kulak,Ear
+28,Telo i anatomija 1,7,uši,Noun (f, pl),Kulaklar,Ears
+28,Telo i anatomija 1,8,nos,Noun (m, sg),Burun,Nose
+28,Telo i anatomija 1,9,nosevi,Noun (m, pl),Burunlar,Noses
+28,Telo i anatomija 1,10,usta,Noun (n, pl),Ağız,Mouth
+28,Telo i anatomija 1,11,zub,Noun (m, sg),Diş,Tooth
+28,Telo i anatomija 1,12,vrat,Noun (m, sg),Boyun,Neck
+28,Telo i anatomija 1,13,vratovi,Noun (m, pl),Boyunlar,Necks
+28,Telo i anatomija 1,14,grlo,Noun (n, sg),Boğaz,Throat
+28,Telo i anatomija 1,15,rame,Noun (n, sg),Omuz,Shoulder
+29,Telo i fizički izgled 2,1,grudi,Noun (f, pl),Göğüs,Chest / breasts
+29,Telo i fizički izgled 2,2,srce,Noun (n, sg),Kalp,Heart
+29,Telo i fizički izgled 2,3,stomak,Noun (m, sg),Mide / karın,Stomach
+29,Telo i fizički izgled 2,4,stomaci,Noun (m, pl),Mideler,Stomachs
+29,Telo i fizički izgled 2,5,leđa,Noun (n, pl),Sırt,Back
+29,Telo i fizički izgled 2,6,ruka,Noun (f, sg),Kol / el,Arm / hand
+29,Telo i fizički izgled 2,7,noga,Noun (f, sg),Bacak / ayak,Leg / foot
+29,Telo i fizički izgled 2,8,struk,Noun (m, sg),Bel,Waist
+29,Telo i fizički izgled 2,9,koža,Noun (f, sg),Cilt / deri,Skin
+29,Telo i fizički izgled 2,10,visok,Adjective,Uzun boylu / yüksek,Tall / high
+29,Telo i fizički izgled 2,11,nizak,Adjective,Kısa boylu / alçak,Short / low
+29,Telo i fizički izgled 2,12,mršav,Adjective,Zayıf / ince,Thin / slim
+29,Telo i fizički izgled 2,13,debeo,Adjective,Şişman / kilolu,Fat / thick
+29,Telo i fizički izgled 2,14,krupan,Adjective,İri yapılı,Large / stout
+29,Telo i fizički izgled 2,15,sed,Adjective,Kır saçlı / ak saçlı,Grey-haired
+30,Zdravlje i simptomi,1,zdrav,Adjective,Sağlıklı,Healthy
+30,Zdravlje i simptomi,2,bol,Noun (m, sg),Ağrı / acı,Pain / ache
+30,Zdravlje i simptomi,3,bolestan,Adjective,Hasta,Sick / ill
+30,Zdravlje i simptomi,4,bolest,Noun (f, sg),Hastalık,Disease / illness
+30,Zdravlje i simptomi,5,groznica,Noun (f, sg),Ateş / sıtma,Fever / chills
+30,Zdravlje i simptomi,6,kašljati,Verb,Öksürmek,To cough
+30,Zdravlje i simptomi,7,curiti,Verb,Akmak (burun),To drip / run (nose)
+30,Zdravlje i simptomi,8,zubobolja,Noun (f, sg),Diş ağrısı,Toothache
+30,Zdravlje i simptomi,9,alergija,Noun (f, sg),Alerji,Allergy
+30,Zdravlje i simptomi,10,osip,Noun (m, sg),Döküntü / kızarıklık,Rash
+30,Zdravlje i simptomi,11,terapija,Noun (f, sg),Tedavi / terapi,Therapy
+30,Zdravlje i simptomi,12,lek,Noun (m, sg),İlaç,Medicine
+30,Zdravlje i simptomi,13,lekovi,Noun (m, pl),İlaçlar,Medicines
+30,Zdravlje i simptomi,14,vakcina,Noun (f, sg),Aşı,Vaccine
+30,Zdravlje i simptomi,15,sunčanica,Noun (f, sg),Güneş çarpması,Sunstroke
+31,Hitni slučajevi i opasnost,1,Upomoć!,Interjection,İmdat!,Help!
+31,Hitni slučajevi i opasnost,2,hitna pomoć,Phrase,Ambulans / acil yardım,Ambulance / emergency service
+31,Hitni slučajevi i opasnost,3,kolaps,Noun (m, sg),Bayılma / çökme,Collapse / fainting
+31,Hitni slučajevi i opasnost,4,opasan,Adjective,Tehlikeli,Dangerous
+31,Hitni slučajevi i opasnost,5,opasno,Adverb,Tehlikeli biçimde,Dangerously
+31,Hitni slučajevi i opasnost,6,strah,Noun (m, sg),Korku,Fear
+31,Hitni slučajevi i opasnost,7,strahovi,Noun (m, pl),Korkular,Fears
+31,Hitni slučajevi i opasnost,8,plašiti se,Verb,Korkmak,To fear / be afraid
+31,Hitni slučajevi i opasnost,9,paničiti,Verb,Panik yapmak,To panic
+31,Hitni slučajevi i opasnost,10,smrt,Noun (f, sg),Ölüm,Death
+31,Hitni slučajevi i opasnost,11,tragedija,Noun (f, sg),Trajedi,Tragedy
+31,Hitni slučajevi i opasnost,12,poplava,Noun (f, sg),Sel / su baskını,Flood
+31,Hitni slučajevi i opasnost,13,provalnik,Noun (m, sg),Hırsız,Burglar
+31,Hitni slučajevi i opasnost,14,provalnici,Noun (m, pl),Hırsızlar,Burglars
+31,Hitni slučajevi i opasnost,15,lopov,Noun (m, sg),Hırsız,Thief
+32,Vreme i meteorologija,1,sunce,Noun (n, sg),Güneş,Sun
+32,Vreme i meteorologija,2,sunčan,Adjective,Güneşli,Sunny
+32,Vreme i meteorologija,3,kiša,Noun (f, sg),Yağmur,Rain
+32,Vreme i meteorologija,4,kišovit,Adjective,Yağmurlu,Rainy
+32,Vreme i meteorologija,5,pljusak,Noun (m, sg),Sağanak yağış,Downpour
+32,Vreme i meteorologija,6,pljuskovi,Noun (m, pl),Sağanak yağışlar,Downpours
+32,Vreme i meteorologija,7,sneg,Noun (m, sg),Kar,Snow
+32,Vreme i meteorologija,8,vetar,Noun (m, sg),Rüzgâr,Wind
+32,Vreme i meteorologija,9,vetrovit,Adjective,Rüzgârlı,Windy
+32,Vreme i meteorologija,10,magla,Noun (f, sg),Sis,Fog
+32,Vreme i meteorologija,11,maglovit,Adjective,Sisli,Foggy
+32,Vreme i meteorologija,12,mećava,Noun (f, sg),Kar fırtınası / tipi,Blizzard
+32,Vreme i meteorologija,13,oluja,Noun (f, sg),Fırtına,Storm
+32,Vreme i meteorologija,14,nevreme,Noun (n, sg),Kötü hava / fırtına,Bad weather / storm
+32,Vreme i meteorologija,15,temperatura,Noun (f, sg),Sıcaklık / derece,Temperature
+33,Godišnja doba i priroda,1,godišnje doba,Phrase,Mevsim,Season
+33,Godišnja doba i priroda,2,proleće,Noun (n, sg),İlkbahar,Spring
+33,Godišnja doba i priroda,3,prolećni,Adjective,İlkbahara ait,Spring-
+33,Godišnja doba i priroda,4,leto,Noun (n, sg),Yaz,Summer
+33,Godišnja doba i priroda,5,letnji,Adjective,Yazlık,Summer-
+33,Godišnja doba i priroda,6,jesen,Noun (f, sg),Sonbahar,Autumn
+33,Godišnja doba i priroda,7,zima,Noun (f, sg),Kış,Winter
+33,Godišnja doba i priroda,8,priroda,Noun (f, sg),Doğa,Nature
+33,Godišnja doba i priroda,9,reka,Noun (f, sg),Nehir,River
+33,Godišnja doba i priroda,10,drvo,Noun (n, sg),Ağaç / odun,Tree / wood
+33,Godišnja doba i priroda,11,drveće,Noun (n, collective),Ağaçlar,Trees
+33,Godišnja doba i priroda,12,kamen,Noun (m, sg),Taş,Stone
+33,Godišnja doba i priroda,13,kamenje,Noun (n, collective),Taşlar,Stones
+33,Godišnja doba i priroda,14,cvet,Noun (m, sg),Çiçek,Flower
+33,Godišnja doba i priroda,15,cveće,Noun (n, collective),Çiçekler,Flowers
+34,Osobine ličnosti i karakter,1,srećan,Adjective,Mutlu / şanslı,Happy / lucky
+34,Osobine ličnosti i karakter,2,nesrećan,Adjective,Mutsuz,Unhappy
+34,Osobine ličnosti i karakter,3,veseo,Adjective,Neşeli,Cheerful
+34,Osobine ličnosti i karakter,4,nasmejan,Adjective,Gülümseyen,Smiling
+34,Osobine ličnosti i karakter,5,raspoložen,Adjective,Keyifli / neşeli,In a good mood
+34,Osobine ličnosti i karakter,6,hrabar,Adjective,Cesur,Brave
+34,Osobine ličnosti i karakter,7,pristojan,Adjective,Kibar / terbiyeli,Polite / decent
+34,Osobine ličnosti i karakter,8,skroman,Adjective,Mütevazı,Modest / humble
+34,Osobine ličnosti i karakter,9,velikodušan,Adjective,Cömert,Generous
+34,Osobine ličnosti i karakter,10,vredan,Adjective,Çalışkan / değerli,Hardworking / valuable
+34,Osobine ličnosti i karakter,11,lenština,Noun (f/common, sg),Tembel kimse,Lazy person
+34,Osobine ličnosti i karakter,12,miran,Adjective,Sakin / huzurlu,Calm / peaceful
+34,Osobine ličnosti i karakter,13,radoznao,Adjective,Meraklı,Curious
+34,Osobine ličnosti i karakter,14,naivan,Adjective,Saf / naif,Naive
+34,Osobine ličnosti i karakter,15,povučen,Adjective,İçine kapanık,Withdrawn / reserved
+35,Opisni pridevi i boje,1,velik,Adjective,Büyük,Big / large
+35,Opisni pridevi i boje,2,mali,Adjective,Küçük,Small / little
+35,Opisni pridevi i boje,3,lep,Adjective,Güzel,Beautiful
+35,Opisni pridevi i boje,4,divan,Adjective,Harika,Wonderful
+35,Opisni pridevi i boje,5,brz,Adjective,Hızlı,Fast / quick
+35,Opisni pridevi i boje,6,čist,Adjective,Temiz,Clean
+35,Opisni pridevi i boje,7,star,Adjective,Eski / yaşlı,Old
+35,Opisni pridevi i boje,8,mlad,Adjective,Genç,Young
+35,Opisni pridevi i boje,9,beo,Adjective,Beyaz,White
+35,Opisni pridevi i boje,10,žut,Adjective,Sarı,Yellow
+35,Opisni pridevi i boje,11,zelen,Adjective,Yeşil,Green
+35,Opisni pridevi i boje,12,smeđ,Adjective,Kahverengi,Brown
+35,Opisni pridevi i boje,13,šaren,Adjective,Renkli / alacalı,Colorful
+35,Opisni pridevi i boje,14,svetao,Adjective,Açık renkli / parlak,Light-colored / bright
+35,Opisni pridevi i boje,15,taman,Adjective,Koyu renkli,Dark-colored
+36,Svakodnevne radnje i aktivnosti 1,1,živeti,Verb,Yaşamak,To live
+36,Svakodnevne radnje i aktivnosti 1,2,spavati,Verb,Uyumak,To sleep
+36,Svakodnevne radnje i aktivnosti 1,3,čitati,Verb,Okumak,To read
+36,Svakodnevne radnje i aktivnosti 1,4,pisati,Verb,Yazmak,To write
+36,Svakodnevne radnje i aktivnosti 1,5,slušati,Verb,Dinlemek,To listen
+36,Svakodnevne radnje i aktivnosti 1,6,gledati,Verb,İzlemek / bakmak,To watch / look
+36,Svakodnevne radnje i aktivnosti 1,7,govoriti,Verb,Konuşmak,To speak
+36,Svakodnevne radnje i aktivnosti 1,8,pevati,Verb,Şarkı söylemek,To sing
+36,Svakodnevne radnje i aktivnosti 1,9,igrati,Verb,Oynamak / dans etmek,To play / dance
+36,Svakodnevne radnje i aktivnosti 1,10,šetati se,Verb,Yürümek / gezinmek,To take a walk
+36,Svakodnevne radnje i aktivnosti 1,11,kuvati,Verb,Yemek pişirmek,To cook
+36,Svakodnevne radnje i aktivnosti 1,12,kupovati,Verb,Satın almak,To buy
+36,Svakodnevne radnje i aktivnosti 1,13,prodavati,Verb,Satmak,To sell
+36,Svakodnevne radnje i aktivnosti 1,14,nositi,Verb,Taşımak / giymek,To carry / wear
+36,Svakodnevne radnje i aktivnosti 1,15,trenirati,Verb,Antrenman yapmak,To train / practice
+37,Glagoli kretanja i radnje 2,1,doći,Verb,Gelmek,To come
+37,Glagoli kretanja i radnje 2,2,ići,Verb,Gitmek,To go
+37,Glagoli kretanja i radnje 2,3,izlaziti,Verb,Dışarı çıkmak,To go out / exit
+37,Glagoli kretanja i radnje 2,4,ulaziti,Verb,İçeri girmek,To enter
+37,Glagoli kretanja i radnje 2,5,naći,Verb,Bulmak,To find
+37,Glagoli kretanja i radnje 2,6,izgubiti,Verb,Kaybetmek,To lose
+37,Glagoli kretanja i radnje 2,7,otvoriti,Verb,Açmak,To open
+37,Glagoli kretanja i radnje 2,8,zatvoriti,Verb,Kapatmak,To close
+37,Glagoli kretanja i radnje 2,9,upaliti,Verb,Açmak / yakmak,To turn on / light
+37,Glagoli kretanja i radnje 2,10,ugasiti,Verb,Söndürmek / kapatmak,To turn off
+37,Glagoli kretanja i radnje 2,11,zaključati,Verb,Kilitlemek,To lock
+37,Glagoli kretanja i radnje 2,12,ostaviti,Verb,Bırakmak,To leave
+37,Glagoli kretanja i radnje 2,13,doneti,Verb,Getirmek,To bring
+37,Glagoli kretanja i radnje 2,14,dobiti,Verb,Almak / elde etmek,To receive / get
+37,Glagoli kretanja i radnje 2,15,sesti,Verb,Oturmak,To sit down
+38,Mentalne radnje i modalni glagoli 3,1,voleti,Verb,Sevmek,To love / like
+38,Mentalne radnje i modalni glagoli 3,2,mrzeti,Verb,Nefret etmek,To hate
+38,Mentalne radnje i modalni glagoli 3,3,želeti,Verb,İstemek / dilemek,To want / wish
+38,Mentalne radnje i modalni glagoli 3,4,moći,Verb,-ebilmek / yapabilmek,Can / to be able to
+38,Mentalne radnje i modalni glagoli 3,5,morati,Verb,Zorunda olmak,Must / to have to
+38,Mentalne radnje i modalni glagoli 3,6,smeti,Verb,İzni olmak / cesaret etmek,To be allowed to / dare
+38,Mentalne radnje i modalni glagoli 3,7,razmisliti,Verb,Düşünmek / tartmak,To consider / think over
+38,Mentalne radnje i modalni glagoli 3,8,poznavati,Verb,Tanımak / bilmek,To know / be acquainted
+38,Mentalne radnje i modalni glagoli 3,9,razumeti,Verb,Anlamak,To understand
+38,Mentalne radnje i modalni glagoli 3,10,pamtiti,Verb,Hatırlamak / aklında tutmak,To remember
+38,Mentalne radnje i modalni glagoli 3,11,zaboraviti,Verb,Unutmak,To forget
+38,Mentalne radnje i modalni glagoli 3,12,osećati,Verb,Hissetmek,To feel
+38,Mentalne radnje i modalni glagoli 3,13,maštati,Verb,Hayal kurmak,To daydream / imagine
+38,Mentalne radnje i modalni glagoli 3,14,učiti,Verb,Öğrenmek / ders çalışmak,To learn / study
+38,Mentalne radnje i modalni glagoli 3,15,studirati,Verb,Üniversitede okumak,To study (at university)
+39,Prilozi i vremenski izrazi,1,sada,Adverb,Şimdi,Now
+39,Prilozi i vremenski izrazi,2,tada,Adverb,O zaman,Then
+39,Prilozi i vremenski izrazi,3,uvek,Adverb,Her zaman,Always
+39,Prilozi i vremenski izrazi,4,često,Adverb,Sık sık,Often
+39,Prilozi i vremenski izrazi,5,obično,Adverb,Genellikle,Usually
+39,Prilozi i vremenski izrazi,6,ponekad,Adverb,Bazen,Sometimes
+39,Prilozi i vremenski izrazi,7,retko,Adverb,Nadiren,Rarely
+39,Prilozi i vremenski izrazi,8,već,Adverb,Zaten / çoktan,Already
+39,Prilozi i vremenski izrazi,9,još,Adverb,Hâlâ / daha,Still / yet
+39,Prilozi i vremenski izrazi,10,uskoro,Adverb,Yakında,Soon
+39,Prilozi i vremenski izrazi,11,ranije,Adverb,Daha önce / önceden,Earlier / previously
+39,Prilozi i vremenski izrazi,12,kasnije,Adverb,Daha sonra,Later
+39,Prilozi i vremenski izrazi,13,uveče,Adverb,Akşamları,In the evening
+39,Prilozi i vremenski izrazi,14,noću,Adverb,Geceleri,At night
+39,Prilozi i vremenski izrazi,15,svakodnevno,Adverb,Günlük olarak,Daily / every day
+40,Izrazi stanja i osećanja,1,Kako si (ti)?,Phrase,Nasılsın?,How are you? (informal)
+40,Izrazi stanja i osećanja,2,Kako ste (Vi)?,Phrase,Nasılsınız?,How are you? (formal/plural)
+40,Izrazi stanja i osećanja,3,Dobro sam,Phrase,İyiyim,I am well
+40,Izrazi stanja i osećanja,4,Nije mi dobro,Phrase,Kendimi iyi hissetmiyorum,I am not feeling well
+40,Izrazi stanja i osećanja,5,Ne osećam se dobro,Phrase,İyi hissetmiyorum,I don’t feel well
+40,Izrazi stanja i osećanja,6,Lakše mi je,Phrase,Daha iyiyim / rahatladım,I feel better / relieved
+40,Izrazi stanja i osećanja,7,Muka mi je,Phrase,Midem bulanıyor,I feel nauseous
+40,Izrazi stanja i osećanja,8,Spava mi se,Phrase,Uykum var / uykum geliyor,I am sleepy
+40,Izrazi stanja i osećanja,9,Svrbi me,Phrase,Kaşınıyor,It itches
+40,Izrazi stanja i osećanja,10,Šta ti je?,Phrase,Neyin var?,What is wrong with you?
+40,Izrazi stanja i osećanja,11,Sviđa mi se,Phrase,Hoşuma gidiyor / beğeniyorum,I like it
+40,Izrazi stanja i osećanja,12,Ne sviđa mi se,Phrase,Sevmiyorum / beğenmiyorum,I don’t like it
+40,Izrazi stanja i osećanja,13,Odgovara mi,Phrase,Bana uyuyor / uygun,It suits me
+40,Izrazi stanja i osećanja,14,Svejedno mi je,Phrase,Fark etmez / umurumda değil,It doesn’t matter to me
+40,Izrazi stanja i osećanja,15,U pravu si,Phrase,Haklısın,You are right

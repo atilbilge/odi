@@ -1,0 +1,562 @@
+[
+  {
+    "order": 1,
+    "title": "Pozdravljanje i osnovna komunikacija",
+    "description": "Essential greetings, polite expressions, and everyday communication in Serbian.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "Dobro jutro",
+        "turkishText": "Günaydın",
+        "englishText": "Good morning",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 2,
+        "serbianText": "Dobar dan",
+        "turkishText": "İyi günler",
+        "englishText": "Good day / Good afternoon",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 3,
+        "serbianText": "Dobro veče",
+        "turkishText": "İyi akşamlar",
+        "englishText": "Good evening",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 4,
+        "serbianText": "Doviđenja",
+        "turkishText": "Hoşça kalın",
+        "englishText": "Goodbye",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 5,
+        "serbianText": "Prijatno",
+        "turkishText": "İyi günler / Hoşça kalın",
+        "englishText": "Have a nice day / Goodbye",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 6,
+        "serbianText": "Zdravo",
+        "turkishText": "Merhaba",
+        "englishText": "Hello / Hi",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 7,
+        "serbianText": "Ćao",
+        "turkishText": "Merhaba / Hoşça kal",
+        "englishText": "Hi / Bye",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 8,
+        "serbianText": "Vidimo se",
+        "turkishText": "Görüşürüz",
+        "englishText": "See you",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 9,
+        "serbianText": "Hvala",
+        "turkishText": "Teşekkürler",
+        "englishText": "Thank you",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 10,
+        "serbianText": "Izvolite",
+        "turkishText": "Buyrunuz",
+        "englishText": "Here you go / Please",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 11,
+        "serbianText": "Izvini",
+        "turkishText": "Özür dilerim",
+        "englishText": "Excuse me / Sorry",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 12,
+        "serbianText": "Drago mi je",
+        "turkishText": "Memnun oldum",
+        "englishText": "Nice to meet you",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 13,
+        "serbianText": "Dobro došli",
+        "turkishText": "Hoş geldiniz",
+        "englishText": "Welcome",
+        "wordType": "Phrase"
+      },
+      {
+        "order": 14,
+        "serbianText": "pozdrav",
+        "turkishText": "Selam",
+        "englishText": "Greeting",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "pozdravi",
+        "turkishText": "Selamlar",
+        "englishText": "Greetings",
+        "wordType": "Noun (m, pl)"
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "title": "Lične zamenice i glagol biti",
+    "description": "Personal pronouns and present tense conjugations of the auxiliary verb \"biti\" (to be).",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "ja",
+        "turkishText": "Ben",
+        "englishText": "I",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 2,
+        "serbianText": "ti",
+        "turkishText": "Sen",
+        "englishText": "You (singular)",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 3,
+        "serbianText": "on",
+        "turkishText": "O (erkek)",
+        "englishText": "He",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 4,
+        "serbianText": "ona",
+        "turkishText": "O (kadın)",
+        "englishText": "She",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 5,
+        "serbianText": "ono",
+        "turkishText": "O (nötr)",
+        "englishText": "It",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 6,
+        "serbianText": "mi",
+        "turkishText": "Biz",
+        "englishText": "We",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 7,
+        "serbianText": "vi",
+        "turkishText": "Siz",
+        "englishText": "You (plural/formal)",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 8,
+        "serbianText": "oni",
+        "turkishText": "Onlar (eril/karma)",
+        "englishText": "They (masculine/mixed)",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 9,
+        "serbianText": "one",
+        "turkishText": "Onlar (dişil)",
+        "englishText": "They (feminine)",
+        "wordType": "Pronoun"
+      },
+      {
+        "order": 10,
+        "serbianText": "sam / jesam",
+        "turkishText": "-yim (ben)",
+        "englishText": "I am",
+        "wordType": "Verb"
+      },
+      {
+        "order": 11,
+        "serbianText": "si / jesi",
+        "turkishText": "-sin (sen)",
+        "englishText": "You are",
+        "wordType": "Verb"
+      },
+      {
+        "order": 12,
+        "serbianText": "je / jeste",
+        "turkishText": "-dir (o)",
+        "englishText": "He/She/It is",
+        "wordType": "Verb"
+      },
+      {
+        "order": 13,
+        "serbianText": "smo / jesmo",
+        "turkishText": "-yiz (biz)",
+        "englishText": "We are",
+        "wordType": "Verb"
+      },
+      {
+        "order": 14,
+        "serbianText": "ste / jeste",
+        "turkishText": "-siniz (siz)",
+        "englishText": "You are",
+        "wordType": "Verb"
+      },
+      {
+        "order": 15,
+        "serbianText": "su / jesu",
+        "turkishText": "-dirler (onlar)",
+        "englishText": "They are",
+        "wordType": "Verb"
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "title": "Odrični oblici i gramatika",
+    "description": "Negative verb forms, grammatical genders, and linguistic fundamentals.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "nisam",
+        "turkishText": "Değilim",
+        "englishText": "I am not",
+        "wordType": "Verb"
+      },
+      {
+        "order": 2,
+        "serbianText": "nisi",
+        "turkishText": "Değilsin",
+        "englishText": "You are not",
+        "wordType": "Verb"
+      },
+      {
+        "order": 3,
+        "serbianText": "nije",
+        "turkishText": "Değil",
+        "englishText": "He/She/It is not",
+        "wordType": "Verb"
+      },
+      {
+        "order": 4,
+        "serbianText": "nismo",
+        "turkishText": "Değiliz",
+        "englishText": "We are not",
+        "wordType": "Verb"
+      },
+      {
+        "order": 5,
+        "serbianText": "niste",
+        "turkishText": "Değilsiniz",
+        "englishText": "You are not",
+        "wordType": "Verb"
+      },
+      {
+        "order": 6,
+        "serbianText": "nisu",
+        "turkishText": "Değiller",
+        "englishText": "They are not",
+        "wordType": "Verb"
+      },
+      {
+        "order": 7,
+        "serbianText": "bio je",
+        "turkishText": "O (erkek) idi",
+        "englishText": "He was",
+        "wordType": "Verb"
+      },
+      {
+        "order": 8,
+        "serbianText": "bila je",
+        "turkishText": "O (kadın) idi",
+        "englishText": "She was",
+        "wordType": "Verb"
+      },
+      {
+        "order": 9,
+        "serbianText": "jednina",
+        "turkishText": "Tekil",
+        "englishText": "Singular",
+        "wordType": "Grammar term"
+      },
+      {
+        "order": 10,
+        "serbianText": "množina",
+        "turkishText": "Çoğul",
+        "englishText": "Plural",
+        "wordType": "Grammar term"
+      },
+      {
+        "order": 11,
+        "serbianText": "muški rod",
+        "turkishText": "Eril cinsiyet",
+        "englishText": "Masculine gender",
+        "wordType": "Grammar term"
+      },
+      {
+        "order": 12,
+        "serbianText": "ženski rod",
+        "turkishText": "Dişil cinsiyet",
+        "englishText": "Feminine gender",
+        "wordType": "Grammar term"
+      },
+      {
+        "order": 13,
+        "serbianText": "srednji rod",
+        "turkishText": "Nötr cinsiyet",
+        "englishText": "Neuter gender",
+        "wordType": "Grammar term"
+      },
+      {
+        "order": 14,
+        "serbianText": "meki glasovi",
+        "turkishText": "Yumuşak sesler",
+        "englishText": "Soft sounds",
+        "wordType": "Grammar term"
+      },
+      {
+        "order": 15,
+        "serbianText": "tvrdi glasovi",
+        "turkishText": "Sert sesler",
+        "englishText": "Hard sounds",
+        "wordType": "Grammar term"
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "title": "Porodica i rodbina 1",
+    "description": "Immediate family members, parents, siblings, and children.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "porodica",
+        "turkishText": "Aile",
+        "englishText": "Family",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "otac",
+        "turkishText": "Baba",
+        "englishText": "Father",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "tata",
+        "turkishText": "Baba",
+        "englishText": "Dad",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "majka",
+        "turkishText": "Anne",
+        "englishText": "Mother",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 5,
+        "serbianText": "mama",
+        "turkishText": "Anne",
+        "englishText": "Mom",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "roditelji",
+        "turkishText": "Ebeveynler",
+        "englishText": "Parents",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 7,
+        "serbianText": "sin",
+        "turkishText": "Oğul",
+        "englishText": "Son",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "sinovi",
+        "turkishText": "Oğullar",
+        "englishText": "Sons",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 9,
+        "serbianText": "ćerka",
+        "turkishText": "Kız evlat",
+        "englishText": "Daughter",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "brat",
+        "turkishText": "Erkek kardeş",
+        "englishText": "Brother",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "braća",
+        "turkishText": "Erkek kardeşler",
+        "englishText": "Brothers",
+        "wordType": "Noun (pl collective)"
+      },
+      {
+        "order": 12,
+        "serbianText": "sestra",
+        "turkishText": "Kız kardeş",
+        "englishText": "Sister",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "sestre",
+        "turkishText": "Kız kardeşler",
+        "englishText": "Sisters",
+        "wordType": "Noun (f, pl)"
+      },
+      {
+        "order": 14,
+        "serbianText": "dete",
+        "turkishText": "Çocuk",
+        "englishText": "Child",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 15,
+        "serbianText": "deca",
+        "turkishText": "Çocuklar",
+        "englishText": "Children",
+        "wordType": "Noun (pl collective)"
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "title": "Porodica i rodbina 2",
+    "description": "Extended family, grandparents, in-laws, and relationships.",
+    "vocabulary": [
+      {
+        "order": 1,
+        "serbianText": "deda",
+        "turkishText": "Büyükbaba / dede",
+        "englishText": "Grandfather",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 2,
+        "serbianText": "baka",
+        "turkishText": "Büyükanne / nine",
+        "englishText": "Grandmother",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 3,
+        "serbianText": "unuk",
+        "turkishText": "Erkek torun",
+        "englishText": "Grandson",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 4,
+        "serbianText": "unuci",
+        "turkishText": "Erkek torunlar",
+        "englishText": "Grandsons",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 5,
+        "serbianText": "muž",
+        "turkishText": "Koca / eş",
+        "englishText": "Husband",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 6,
+        "serbianText": "muževi",
+        "turkishText": "Kocalar / eşler",
+        "englishText": "Husbands",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 7,
+        "serbianText": "žena",
+        "turkishText": "Kadın / eş",
+        "englishText": "Woman / wife",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 8,
+        "serbianText": "žene",
+        "turkishText": "Kadınlar / eşler",
+        "englishText": "Women / wives",
+        "wordType": "Noun (f, pl)"
+      },
+      {
+        "order": 9,
+        "serbianText": "snaja",
+        "turkishText": "Gelin",
+        "englishText": "Daughter-in-law / sister-in-law",
+        "wordType": "Noun (f, sg)"
+      },
+      {
+        "order": 10,
+        "serbianText": "zet",
+        "turkishText": "Damat",
+        "englishText": "Son-in-law / brother-in-law",
+        "wordType": "Noun (m, sg)"
+      },
+      {
+        "order": 11,
+        "serbianText": "zetovi",
+        "turkishText": "Damatlar",
+        "englishText": "Sons-in-law",
+        "wordType": "Noun (m, pl)"
+      },
+      {
+        "order": 12,
+        "serbianText": "venčanje",
+        "turkishText": "Düğün / evlilik töreni",
+        "englishText": "Wedding",
+        "wordType": "Noun (n, sg)"
+      },
+      {
+        "order": 13,
+        "serbianText": "udata",
+        "turkishText": "Evli (kadın)",
+        "englishText": "Married (female)",
+        "wordType": "Adjective (f)"
+      },
+      {
+        "order": 14,
+        "serbianText": "neudata",
+        "turkishText": "Bekâr (kadın)",
+        "englishText": "Unmarried (female)",
+        "wordType": "Adjective (f)"
+      },
+      {
+        "order": 15,
+        "serbianText": "rođendan",
+        "turkishText": "Doğum günü",
+        "englishText": "Birthday",
+        "wordType": "Noun (m, sg)"
+      }
+    ]
+  }
+]
