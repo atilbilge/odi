@@ -22,11 +22,7 @@ const VocabularySchema = CollectionSchema(
       name: r'englishText',
       type: IsarType.string,
     ),
-    r'interval': PropertySchema(
-      id: 1,
-      name: r'interval',
-      type: IsarType.long,
-    ),
+    r'interval': PropertySchema(id: 1, name: r'interval', type: IsarType.long),
     r'isLearned': PropertySchema(
       id: 2,
       name: r'isLearned',
@@ -37,11 +33,7 @@ const VocabularySchema = CollectionSchema(
       name: r'lastPracticedDate',
       type: IsarType.dateTime,
     ),
-    r'lessonId': PropertySchema(
-      id: 4,
-      name: r'lessonId',
-      type: IsarType.long,
-    ),
+    r'lessonId': PropertySchema(id: 4, name: r'lessonId', type: IsarType.long),
     r'nextPracticeDate': PropertySchema(
       id: 5,
       name: r'nextPracticeDate',
@@ -71,8 +63,9 @@ const VocabularySchema = CollectionSchema(
       id: 10,
       name: r'wordType',
       type: IsarType.string,
-    )
+    ),
   },
+
   estimateSize: _vocabularyEstimateSize,
   serialize: _vocabularySerialize,
   deserialize: _vocabularyDeserialize,
@@ -81,10 +74,11 @@ const VocabularySchema = CollectionSchema(
   indexes: {},
   links: {},
   embeddedSchemas: {},
+
   getId: _vocabularyGetId,
   getLinks: _vocabularyGetLinks,
   attach: _vocabularyAttach,
-  version: '3.1.0+1',
+  version: '3.3.2',
 );
 
 int _vocabularyEstimateSize(
@@ -210,10 +204,7 @@ extension VocabularyQueryWhere
     on QueryBuilder<Vocabulary, Vocabulary, QWhereClause> {
   QueryBuilder<Vocabulary, Vocabulary, QAfterWhereClause> idEqualTo(Id id) {
     return QueryBuilder.apply(this, (query) {
-      return query.addWhereClause(IdWhereClause.between(
-        lower: id,
-        upper: id,
-      ));
+      return query.addWhereClause(IdWhereClause.between(lower: id, upper: id));
     });
   }
 
@@ -239,8 +230,10 @@ extension VocabularyQueryWhere
     });
   }
 
-  QueryBuilder<Vocabulary, Vocabulary, QAfterWhereClause> idGreaterThan(Id id,
-      {bool include = false}) {
+  QueryBuilder<Vocabulary, Vocabulary, QAfterWhereClause> idGreaterThan(
+    Id id, {
+    bool include = false,
+  }) {
     return QueryBuilder.apply(this, (query) {
       return query.addWhereClause(
         IdWhereClause.greaterThan(lower: id, includeLower: include),
@@ -248,8 +241,10 @@ extension VocabularyQueryWhere
     });
   }
 
-  QueryBuilder<Vocabulary, Vocabulary, QAfterWhereClause> idLessThan(Id id,
-      {bool include = false}) {
+  QueryBuilder<Vocabulary, Vocabulary, QAfterWhereClause> idLessThan(
+    Id id, {
+    bool include = false,
+  }) {
     return QueryBuilder.apply(this, (query) {
       return query.addWhereClause(
         IdWhereClause.lessThan(upper: id, includeUpper: include),
@@ -264,12 +259,14 @@ extension VocabularyQueryWhere
     bool includeUpper = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addWhereClause(IdWhereClause.between(
-        lower: lowerId,
-        includeLower: includeLower,
-        upper: upperId,
-        includeUpper: includeUpper,
-      ));
+      return query.addWhereClause(
+        IdWhereClause.between(
+          lower: lowerId,
+          includeLower: includeLower,
+          upper: upperId,
+          includeUpper: includeUpper,
+        ),
+      );
     });
   }
 }
@@ -277,71 +274,74 @@ extension VocabularyQueryWhere
 extension VocabularyQueryFilter
     on QueryBuilder<Vocabulary, Vocabulary, QFilterCondition> {
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      englishTextIsNull() {
+  englishTextIsNull() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(const FilterCondition.isNull(
-        property: r'englishText',
-      ));
+      return query.addFilterCondition(
+        const FilterCondition.isNull(property: r'englishText'),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      englishTextIsNotNull() {
+  englishTextIsNotNull() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(const FilterCondition.isNotNull(
-        property: r'englishText',
-      ));
+      return query.addFilterCondition(
+        const FilterCondition.isNotNull(property: r'englishText'),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      englishTextEqualTo(
-    String? value, {
-    bool caseSensitive = true,
-  }) {
+  englishTextEqualTo(String? value, {bool caseSensitive = true}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'englishText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(
+          property: r'englishText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      englishTextGreaterThan(
-    String? value, {
-    bool include = false,
-    bool caseSensitive = true,
-  }) {
-    return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        include: include,
-        property: r'englishText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
-    });
-  }
-
-  QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      englishTextLessThan(
+  englishTextGreaterThan(
     String? value, {
     bool include = false,
     bool caseSensitive = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.lessThan(
-        include: include,
-        property: r'englishText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(
+          include: include,
+          property: r'englishText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      englishTextBetween(
+  englishTextLessThan(
+    String? value, {
+    bool include = false,
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(
+        FilterCondition.lessThan(
+          include: include,
+          property: r'englishText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
+    });
+  }
+
+  QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
+  englishTextBetween(
     String? lower,
     String? upper, {
     bool includeLower = true,
@@ -349,94 +349,96 @@ extension VocabularyQueryFilter
     bool caseSensitive = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.between(
-        property: r'englishText',
-        lower: lower,
-        includeLower: includeLower,
-        upper: upper,
-        includeUpper: includeUpper,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.between(
+          property: r'englishText',
+          lower: lower,
+          includeLower: includeLower,
+          upper: upper,
+          includeUpper: includeUpper,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      englishTextStartsWith(
-    String value, {
-    bool caseSensitive = true,
-  }) {
+  englishTextStartsWith(String value, {bool caseSensitive = true}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.startsWith(
-        property: r'englishText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.startsWith(
+          property: r'englishText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      englishTextEndsWith(
-    String value, {
-    bool caseSensitive = true,
-  }) {
+  englishTextEndsWith(String value, {bool caseSensitive = true}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.endsWith(
-        property: r'englishText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.endsWith(
+          property: r'englishText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      englishTextContains(String value, {bool caseSensitive = true}) {
+  englishTextContains(String value, {bool caseSensitive = true}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.contains(
-        property: r'englishText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.contains(
+          property: r'englishText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      englishTextMatches(String pattern, {bool caseSensitive = true}) {
+  englishTextMatches(String pattern, {bool caseSensitive = true}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.matches(
-        property: r'englishText',
-        wildcard: pattern,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.matches(
+          property: r'englishText',
+          wildcard: pattern,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      englishTextIsEmpty() {
+  englishTextIsEmpty() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'englishText',
-        value: '',
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(property: r'englishText', value: ''),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      englishTextIsNotEmpty() {
+  englishTextIsNotEmpty() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        property: r'englishText',
-        value: '',
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(property: r'englishText', value: ''),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition> idEqualTo(
-      Id value) {
+    Id value,
+  ) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'id',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(property: r'id', value: value),
+      );
     });
   }
 
@@ -445,11 +447,13 @@ extension VocabularyQueryFilter
     bool include = false,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        include: include,
-        property: r'id',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(
+          include: include,
+          property: r'id',
+          value: value,
+        ),
+      );
     });
   }
 
@@ -458,11 +462,13 @@ extension VocabularyQueryFilter
     bool include = false,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.lessThan(
-        include: include,
-        property: r'id',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.lessThan(
+          include: include,
+          property: r'id',
+          value: value,
+        ),
+      );
     });
   }
 
@@ -473,37 +479,38 @@ extension VocabularyQueryFilter
     bool includeUpper = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.between(
-        property: r'id',
-        lower: lower,
-        includeLower: includeLower,
-        upper: upper,
-        includeUpper: includeUpper,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.between(
+          property: r'id',
+          lower: lower,
+          includeLower: includeLower,
+          upper: upper,
+          includeUpper: includeUpper,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition> intervalEqualTo(
-      int value) {
+    int value,
+  ) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'interval',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(property: r'interval', value: value),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      intervalGreaterThan(
-    int value, {
-    bool include = false,
-  }) {
+  intervalGreaterThan(int value, {bool include = false}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        include: include,
-        property: r'interval',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(
+          include: include,
+          property: r'interval',
+          value: value,
+        ),
+      );
     });
   }
 
@@ -512,11 +519,13 @@ extension VocabularyQueryFilter
     bool include = false,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.lessThan(
-        include: include,
-        property: r'interval',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.lessThan(
+          include: include,
+          property: r'interval',
+          value: value,
+        ),
+      );
     });
   }
 
@@ -527,138 +536,138 @@ extension VocabularyQueryFilter
     bool includeUpper = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.between(
-        property: r'interval',
-        lower: lower,
-        includeLower: includeLower,
-        upper: upper,
-        includeUpper: includeUpper,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.between(
+          property: r'interval',
+          lower: lower,
+          includeLower: includeLower,
+          upper: upper,
+          includeUpper: includeUpper,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition> isLearnedEqualTo(
-      bool value) {
+    bool value,
+  ) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'isLearned',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(property: r'isLearned', value: value),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      lastPracticedDateIsNull() {
+  lastPracticedDateIsNull() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(const FilterCondition.isNull(
-        property: r'lastPracticedDate',
-      ));
+      return query.addFilterCondition(
+        const FilterCondition.isNull(property: r'lastPracticedDate'),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      lastPracticedDateIsNotNull() {
+  lastPracticedDateIsNotNull() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(const FilterCondition.isNotNull(
-        property: r'lastPracticedDate',
-      ));
+      return query.addFilterCondition(
+        const FilterCondition.isNotNull(property: r'lastPracticedDate'),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      lastPracticedDateEqualTo(DateTime? value) {
+  lastPracticedDateEqualTo(DateTime? value) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'lastPracticedDate',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(property: r'lastPracticedDate', value: value),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      lastPracticedDateGreaterThan(
-    DateTime? value, {
-    bool include = false,
-  }) {
+  lastPracticedDateGreaterThan(DateTime? value, {bool include = false}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        include: include,
-        property: r'lastPracticedDate',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(
+          include: include,
+          property: r'lastPracticedDate',
+          value: value,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      lastPracticedDateLessThan(
-    DateTime? value, {
-    bool include = false,
-  }) {
+  lastPracticedDateLessThan(DateTime? value, {bool include = false}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.lessThan(
-        include: include,
-        property: r'lastPracticedDate',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.lessThan(
+          include: include,
+          property: r'lastPracticedDate',
+          value: value,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      lastPracticedDateBetween(
+  lastPracticedDateBetween(
     DateTime? lower,
     DateTime? upper, {
     bool includeLower = true,
     bool includeUpper = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.between(
-        property: r'lastPracticedDate',
-        lower: lower,
-        includeLower: includeLower,
-        upper: upper,
-        includeUpper: includeUpper,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.between(
+          property: r'lastPracticedDate',
+          lower: lower,
+          includeLower: includeLower,
+          upper: upper,
+          includeUpper: includeUpper,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition> lessonIdIsNull() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(const FilterCondition.isNull(
-        property: r'lessonId',
-      ));
+      return query.addFilterCondition(
+        const FilterCondition.isNull(property: r'lessonId'),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      lessonIdIsNotNull() {
+  lessonIdIsNotNull() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(const FilterCondition.isNotNull(
-        property: r'lessonId',
-      ));
+      return query.addFilterCondition(
+        const FilterCondition.isNotNull(property: r'lessonId'),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition> lessonIdEqualTo(
-      int? value) {
+    int? value,
+  ) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'lessonId',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(property: r'lessonId', value: value),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      lessonIdGreaterThan(
-    int? value, {
-    bool include = false,
-  }) {
+  lessonIdGreaterThan(int? value, {bool include = false}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        include: include,
-        property: r'lessonId',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(
+          include: include,
+          property: r'lessonId',
+          value: value,
+        ),
+      );
     });
   }
 
@@ -667,11 +676,13 @@ extension VocabularyQueryFilter
     bool include = false,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.lessThan(
-        include: include,
-        property: r'lessonId',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.lessThan(
+          include: include,
+          property: r'lessonId',
+          value: value,
+        ),
+      );
     });
   }
 
@@ -682,194 +693,197 @@ extension VocabularyQueryFilter
     bool includeUpper = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.between(
-        property: r'lessonId',
-        lower: lower,
-        includeLower: includeLower,
-        upper: upper,
-        includeUpper: includeUpper,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.between(
+          property: r'lessonId',
+          lower: lower,
+          includeLower: includeLower,
+          upper: upper,
+          includeUpper: includeUpper,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      nextPracticeDateIsNull() {
+  nextPracticeDateIsNull() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(const FilterCondition.isNull(
-        property: r'nextPracticeDate',
-      ));
+      return query.addFilterCondition(
+        const FilterCondition.isNull(property: r'nextPracticeDate'),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      nextPracticeDateIsNotNull() {
+  nextPracticeDateIsNotNull() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(const FilterCondition.isNotNull(
-        property: r'nextPracticeDate',
-      ));
+      return query.addFilterCondition(
+        const FilterCondition.isNotNull(property: r'nextPracticeDate'),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      nextPracticeDateEqualTo(DateTime? value) {
+  nextPracticeDateEqualTo(DateTime? value) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'nextPracticeDate',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(property: r'nextPracticeDate', value: value),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      nextPracticeDateGreaterThan(
-    DateTime? value, {
-    bool include = false,
-  }) {
+  nextPracticeDateGreaterThan(DateTime? value, {bool include = false}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        include: include,
-        property: r'nextPracticeDate',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(
+          include: include,
+          property: r'nextPracticeDate',
+          value: value,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      nextPracticeDateLessThan(
-    DateTime? value, {
-    bool include = false,
-  }) {
+  nextPracticeDateLessThan(DateTime? value, {bool include = false}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.lessThan(
-        include: include,
-        property: r'nextPracticeDate',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.lessThan(
+          include: include,
+          property: r'nextPracticeDate',
+          value: value,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      nextPracticeDateBetween(
+  nextPracticeDateBetween(
     DateTime? lower,
     DateTime? upper, {
     bool includeLower = true,
     bool includeUpper = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.between(
-        property: r'nextPracticeDate',
-        lower: lower,
-        includeLower: includeLower,
-        upper: upper,
-        includeUpper: includeUpper,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.between(
+          property: r'nextPracticeDate',
+          lower: lower,
+          includeLower: includeLower,
+          upper: upper,
+          includeUpper: includeUpper,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      repetitionCountEqualTo(int value) {
+  repetitionCountEqualTo(int value) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'repetitionCount',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(property: r'repetitionCount', value: value),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      repetitionCountGreaterThan(
-    int value, {
-    bool include = false,
-  }) {
+  repetitionCountGreaterThan(int value, {bool include = false}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        include: include,
-        property: r'repetitionCount',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(
+          include: include,
+          property: r'repetitionCount',
+          value: value,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      repetitionCountLessThan(
-    int value, {
-    bool include = false,
-  }) {
+  repetitionCountLessThan(int value, {bool include = false}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.lessThan(
-        include: include,
-        property: r'repetitionCount',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.lessThan(
+          include: include,
+          property: r'repetitionCount',
+          value: value,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      repetitionCountBetween(
+  repetitionCountBetween(
     int lower,
     int upper, {
     bool includeLower = true,
     bool includeUpper = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.between(
-        property: r'repetitionCount',
-        lower: lower,
-        includeLower: includeLower,
-        upper: upper,
-        includeUpper: includeUpper,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.between(
+          property: r'repetitionCount',
+          lower: lower,
+          includeLower: includeLower,
+          upper: upper,
+          includeUpper: includeUpper,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      serbianTextEqualTo(
-    String value, {
-    bool caseSensitive = true,
-  }) {
+  serbianTextEqualTo(String value, {bool caseSensitive = true}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'serbianText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(
+          property: r'serbianText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      serbianTextGreaterThan(
-    String value, {
-    bool include = false,
-    bool caseSensitive = true,
-  }) {
-    return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        include: include,
-        property: r'serbianText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
-    });
-  }
-
-  QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      serbianTextLessThan(
+  serbianTextGreaterThan(
     String value, {
     bool include = false,
     bool caseSensitive = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.lessThan(
-        include: include,
-        property: r'serbianText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(
+          include: include,
+          property: r'serbianText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      serbianTextBetween(
+  serbianTextLessThan(
+    String value, {
+    bool include = false,
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(
+        FilterCondition.lessThan(
+          include: include,
+          property: r'serbianText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
+    });
+  }
+
+  QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
+  serbianTextBetween(
     String lower,
     String upper, {
     bool includeLower = true,
@@ -877,135 +891,143 @@ extension VocabularyQueryFilter
     bool caseSensitive = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.between(
-        property: r'serbianText',
-        lower: lower,
-        includeLower: includeLower,
-        upper: upper,
-        includeUpper: includeUpper,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.between(
+          property: r'serbianText',
+          lower: lower,
+          includeLower: includeLower,
+          upper: upper,
+          includeUpper: includeUpper,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      serbianTextStartsWith(
-    String value, {
-    bool caseSensitive = true,
-  }) {
+  serbianTextStartsWith(String value, {bool caseSensitive = true}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.startsWith(
-        property: r'serbianText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.startsWith(
+          property: r'serbianText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      serbianTextEndsWith(
-    String value, {
-    bool caseSensitive = true,
-  }) {
+  serbianTextEndsWith(String value, {bool caseSensitive = true}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.endsWith(
-        property: r'serbianText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.endsWith(
+          property: r'serbianText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      serbianTextContains(String value, {bool caseSensitive = true}) {
+  serbianTextContains(String value, {bool caseSensitive = true}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.contains(
-        property: r'serbianText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.contains(
+          property: r'serbianText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      serbianTextMatches(String pattern, {bool caseSensitive = true}) {
+  serbianTextMatches(String pattern, {bool caseSensitive = true}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.matches(
-        property: r'serbianText',
-        wildcard: pattern,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.matches(
+          property: r'serbianText',
+          wildcard: pattern,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      serbianTextIsEmpty() {
+  serbianTextIsEmpty() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'serbianText',
-        value: '',
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(property: r'serbianText', value: ''),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      serbianTextIsNotEmpty() {
+  serbianTextIsNotEmpty() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        property: r'serbianText',
-        value: '',
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(property: r'serbianText', value: ''),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      successRateEqualTo(
-    double value, {
-    double epsilon = Query.epsilon,
-  }) {
+  successRateEqualTo(double value, {double epsilon = Query.epsilon}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'successRate',
-        value: value,
-        epsilon: epsilon,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(
+          property: r'successRate',
+          value: value,
+
+          epsilon: epsilon,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      successRateGreaterThan(
-    double value, {
-    bool include = false,
-    double epsilon = Query.epsilon,
-  }) {
-    return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        include: include,
-        property: r'successRate',
-        value: value,
-        epsilon: epsilon,
-      ));
-    });
-  }
-
-  QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      successRateLessThan(
+  successRateGreaterThan(
     double value, {
     bool include = false,
     double epsilon = Query.epsilon,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.lessThan(
-        include: include,
-        property: r'successRate',
-        value: value,
-        epsilon: epsilon,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(
+          include: include,
+          property: r'successRate',
+          value: value,
+
+          epsilon: epsilon,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      successRateBetween(
+  successRateLessThan(
+    double value, {
+    bool include = false,
+    double epsilon = Query.epsilon,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(
+        FilterCondition.lessThan(
+          include: include,
+          property: r'successRate',
+          value: value,
+
+          epsilon: epsilon,
+        ),
+      );
+    });
+  }
+
+  QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
+  successRateBetween(
     double lower,
     double upper, {
     bool includeLower = true,
@@ -1013,65 +1035,71 @@ extension VocabularyQueryFilter
     double epsilon = Query.epsilon,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.between(
-        property: r'successRate',
-        lower: lower,
-        includeLower: includeLower,
-        upper: upper,
-        includeUpper: includeUpper,
-        epsilon: epsilon,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.between(
+          property: r'successRate',
+          lower: lower,
+          includeLower: includeLower,
+          upper: upper,
+          includeUpper: includeUpper,
+
+          epsilon: epsilon,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      turkishTextEqualTo(
-    String value, {
-    bool caseSensitive = true,
-  }) {
+  turkishTextEqualTo(String value, {bool caseSensitive = true}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'turkishText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(
+          property: r'turkishText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      turkishTextGreaterThan(
-    String value, {
-    bool include = false,
-    bool caseSensitive = true,
-  }) {
-    return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        include: include,
-        property: r'turkishText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
-    });
-  }
-
-  QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      turkishTextLessThan(
+  turkishTextGreaterThan(
     String value, {
     bool include = false,
     bool caseSensitive = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.lessThan(
-        include: include,
-        property: r'turkishText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(
+          include: include,
+          property: r'turkishText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      turkishTextBetween(
+  turkishTextLessThan(
+    String value, {
+    bool include = false,
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(
+        FilterCondition.lessThan(
+          include: include,
+          property: r'turkishText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
+    });
+  }
+
+  QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
+  turkishTextBetween(
     String lower,
     String upper, {
     bool includeLower = true,
@@ -1079,101 +1107,103 @@ extension VocabularyQueryFilter
     bool caseSensitive = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.between(
-        property: r'turkishText',
-        lower: lower,
-        includeLower: includeLower,
-        upper: upper,
-        includeUpper: includeUpper,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.between(
+          property: r'turkishText',
+          lower: lower,
+          includeLower: includeLower,
+          upper: upper,
+          includeUpper: includeUpper,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      turkishTextStartsWith(
-    String value, {
-    bool caseSensitive = true,
-  }) {
+  turkishTextStartsWith(String value, {bool caseSensitive = true}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.startsWith(
-        property: r'turkishText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.startsWith(
+          property: r'turkishText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      turkishTextEndsWith(
-    String value, {
-    bool caseSensitive = true,
-  }) {
+  turkishTextEndsWith(String value, {bool caseSensitive = true}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.endsWith(
-        property: r'turkishText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.endsWith(
+          property: r'turkishText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      turkishTextContains(String value, {bool caseSensitive = true}) {
+  turkishTextContains(String value, {bool caseSensitive = true}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.contains(
-        property: r'turkishText',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.contains(
+          property: r'turkishText',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      turkishTextMatches(String pattern, {bool caseSensitive = true}) {
+  turkishTextMatches(String pattern, {bool caseSensitive = true}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.matches(
-        property: r'turkishText',
-        wildcard: pattern,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.matches(
+          property: r'turkishText',
+          wildcard: pattern,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      turkishTextIsEmpty() {
+  turkishTextIsEmpty() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'turkishText',
-        value: '',
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(property: r'turkishText', value: ''),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      turkishTextIsNotEmpty() {
+  turkishTextIsNotEmpty() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        property: r'turkishText',
-        value: '',
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(property: r'turkishText', value: ''),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition> wordTypeIsNull() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(const FilterCondition.isNull(
-        property: r'wordType',
-      ));
+      return query.addFilterCondition(
+        const FilterCondition.isNull(property: r'wordType'),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      wordTypeIsNotNull() {
+  wordTypeIsNotNull() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(const FilterCondition.isNotNull(
-        property: r'wordType',
-      ));
+      return query.addFilterCondition(
+        const FilterCondition.isNotNull(property: r'wordType'),
+      );
     });
   }
 
@@ -1182,27 +1212,31 @@ extension VocabularyQueryFilter
     bool caseSensitive = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'wordType',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(
+          property: r'wordType',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      wordTypeGreaterThan(
+  wordTypeGreaterThan(
     String? value, {
     bool include = false,
     bool caseSensitive = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        include: include,
-        property: r'wordType',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(
+          include: include,
+          property: r'wordType',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
@@ -1212,12 +1246,14 @@ extension VocabularyQueryFilter
     bool caseSensitive = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.lessThan(
-        include: include,
-        property: r'wordType',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.lessThan(
+          include: include,
+          property: r'wordType',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
@@ -1229,28 +1265,29 @@ extension VocabularyQueryFilter
     bool caseSensitive = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.between(
-        property: r'wordType',
-        lower: lower,
-        includeLower: includeLower,
-        upper: upper,
-        includeUpper: includeUpper,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.between(
+          property: r'wordType',
+          lower: lower,
+          includeLower: includeLower,
+          upper: upper,
+          includeUpper: includeUpper,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      wordTypeStartsWith(
-    String value, {
-    bool caseSensitive = true,
-  }) {
+  wordTypeStartsWith(String value, {bool caseSensitive = true}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.startsWith(
-        property: r'wordType',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.startsWith(
+          property: r'wordType',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
@@ -1259,55 +1296,61 @@ extension VocabularyQueryFilter
     bool caseSensitive = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.endsWith(
-        property: r'wordType',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.endsWith(
+          property: r'wordType',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition> wordTypeContains(
-      String value,
-      {bool caseSensitive = true}) {
+    String value, {
+    bool caseSensitive = true,
+  }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.contains(
-        property: r'wordType',
-        value: value,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.contains(
+          property: r'wordType',
+          value: value,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition> wordTypeMatches(
-      String pattern,
-      {bool caseSensitive = true}) {
+    String pattern, {
+    bool caseSensitive = true,
+  }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.matches(
-        property: r'wordType',
-        wildcard: pattern,
-        caseSensitive: caseSensitive,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.matches(
+          property: r'wordType',
+          wildcard: pattern,
+          caseSensitive: caseSensitive,
+        ),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      wordTypeIsEmpty() {
+  wordTypeIsEmpty() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'wordType',
-        value: '',
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(property: r'wordType', value: ''),
+      );
     });
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterFilterCondition>
-      wordTypeIsNotEmpty() {
+  wordTypeIsNotEmpty() {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        property: r'wordType',
-        value: '',
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(property: r'wordType', value: ''),
+      );
     });
   }
 }
@@ -1363,7 +1406,7 @@ extension VocabularyQuerySortBy
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterSortBy>
-      sortByLastPracticedDateDesc() {
+  sortByLastPracticedDateDesc() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'lastPracticedDate', Sort.desc);
     });
@@ -1388,7 +1431,7 @@ extension VocabularyQuerySortBy
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterSortBy>
-      sortByNextPracticeDateDesc() {
+  sortByNextPracticeDateDesc() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'nextPracticeDate', Sort.desc);
     });
@@ -1401,7 +1444,7 @@ extension VocabularyQuerySortBy
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterSortBy>
-      sortByRepetitionCountDesc() {
+  sortByRepetitionCountDesc() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'repetitionCount', Sort.desc);
     });
@@ -1513,7 +1556,7 @@ extension VocabularyQuerySortThenBy
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterSortBy>
-      thenByLastPracticedDateDesc() {
+  thenByLastPracticedDateDesc() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'lastPracticedDate', Sort.desc);
     });
@@ -1538,7 +1581,7 @@ extension VocabularyQuerySortThenBy
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterSortBy>
-      thenByNextPracticeDateDesc() {
+  thenByNextPracticeDateDesc() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'nextPracticeDate', Sort.desc);
     });
@@ -1551,7 +1594,7 @@ extension VocabularyQuerySortThenBy
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QAfterSortBy>
-      thenByRepetitionCountDesc() {
+  thenByRepetitionCountDesc() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'repetitionCount', Sort.desc);
     });
@@ -1608,8 +1651,9 @@ extension VocabularyQuerySortThenBy
 
 extension VocabularyQueryWhereDistinct
     on QueryBuilder<Vocabulary, Vocabulary, QDistinct> {
-  QueryBuilder<Vocabulary, Vocabulary, QDistinct> distinctByEnglishText(
-      {bool caseSensitive = true}) {
+  QueryBuilder<Vocabulary, Vocabulary, QDistinct> distinctByEnglishText({
+    bool caseSensitive = true,
+  }) {
     return QueryBuilder.apply(this, (query) {
       return query.addDistinctBy(r'englishText', caseSensitive: caseSensitive);
     });
@@ -1628,7 +1672,7 @@ extension VocabularyQueryWhereDistinct
   }
 
   QueryBuilder<Vocabulary, Vocabulary, QDistinct>
-      distinctByLastPracticedDate() {
+  distinctByLastPracticedDate() {
     return QueryBuilder.apply(this, (query) {
       return query.addDistinctBy(r'lastPracticedDate');
     });
@@ -1652,8 +1696,9 @@ extension VocabularyQueryWhereDistinct
     });
   }
 
-  QueryBuilder<Vocabulary, Vocabulary, QDistinct> distinctBySerbianText(
-      {bool caseSensitive = true}) {
+  QueryBuilder<Vocabulary, Vocabulary, QDistinct> distinctBySerbianText({
+    bool caseSensitive = true,
+  }) {
     return QueryBuilder.apply(this, (query) {
       return query.addDistinctBy(r'serbianText', caseSensitive: caseSensitive);
     });
@@ -1665,15 +1710,17 @@ extension VocabularyQueryWhereDistinct
     });
   }
 
-  QueryBuilder<Vocabulary, Vocabulary, QDistinct> distinctByTurkishText(
-      {bool caseSensitive = true}) {
+  QueryBuilder<Vocabulary, Vocabulary, QDistinct> distinctByTurkishText({
+    bool caseSensitive = true,
+  }) {
     return QueryBuilder.apply(this, (query) {
       return query.addDistinctBy(r'turkishText', caseSensitive: caseSensitive);
     });
   }
 
-  QueryBuilder<Vocabulary, Vocabulary, QDistinct> distinctByWordType(
-      {bool caseSensitive = true}) {
+  QueryBuilder<Vocabulary, Vocabulary, QDistinct> distinctByWordType({
+    bool caseSensitive = true,
+  }) {
     return QueryBuilder.apply(this, (query) {
       return query.addDistinctBy(r'wordType', caseSensitive: caseSensitive);
     });
@@ -1707,7 +1754,7 @@ extension VocabularyQueryProperty
   }
 
   QueryBuilder<Vocabulary, DateTime?, QQueryOperations>
-      lastPracticedDateProperty() {
+  lastPracticedDateProperty() {
     return QueryBuilder.apply(this, (query) {
       return query.addPropertyName(r'lastPracticedDate');
     });
@@ -1720,7 +1767,7 @@ extension VocabularyQueryProperty
   }
 
   QueryBuilder<Vocabulary, DateTime?, QQueryOperations>
-      nextPracticeDateProperty() {
+  nextPracticeDateProperty() {
     return QueryBuilder.apply(this, (query) {
       return query.addPropertyName(r'nextPracticeDate');
     });

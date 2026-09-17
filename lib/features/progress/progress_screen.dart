@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:isar/isar.dart';
+import 'package:isar_community/isar.dart';
 import '../../core/database/database_service.dart';
 import '../../core/database/models/daily_progress.dart';
 import '../../core/theme/app_theme.dart';

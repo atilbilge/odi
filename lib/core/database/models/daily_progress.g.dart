@@ -17,11 +17,7 @@ const DailyProgressSchema = CollectionSchema(
   name: r'DailyProgress',
   id: -8837413339009818120,
   properties: {
-    r'date': PropertySchema(
-      id: 0,
-      name: r'date',
-      type: IsarType.dateTime,
-    ),
+    r'date': PropertySchema(id: 0, name: r'date', type: IsarType.dateTime),
     r'lessonsCompleted': PropertySchema(
       id: 1,
       name: r'lessonsCompleted',
@@ -36,8 +32,9 @@ const DailyProgressSchema = CollectionSchema(
       id: 3,
       name: r'wordsLearned',
       type: IsarType.long,
-    )
+    ),
   },
+
   estimateSize: _dailyProgressEstimateSize,
   serialize: _dailyProgressSerialize,
   deserialize: _dailyProgressDeserialize,
@@ -46,10 +43,11 @@ const DailyProgressSchema = CollectionSchema(
   indexes: {},
   links: {},
   embeddedSchemas: {},
+
   getId: _dailyProgressGetId,
   getLinks: _dailyProgressGetLinks,
   attach: _dailyProgressAttach,
-  version: '3.1.0+1',
+  version: '3.3.2',
 );
 
 int _dailyProgressEstimateSize(
@@ -117,7 +115,10 @@ List<IsarLinkBase<dynamic>> _dailyProgressGetLinks(DailyProgress object) {
 }
 
 void _dailyProgressAttach(
-    IsarCollection<dynamic> col, Id id, DailyProgress object) {
+  IsarCollection<dynamic> col,
+  Id id,
+  DailyProgress object,
+) {
   object.id = id;
 }
 
@@ -133,17 +134,16 @@ extension DailyProgressQueryWhereSort
 extension DailyProgressQueryWhere
     on QueryBuilder<DailyProgress, DailyProgress, QWhereClause> {
   QueryBuilder<DailyProgress, DailyProgress, QAfterWhereClause> idEqualTo(
-      Id id) {
+    Id id,
+  ) {
     return QueryBuilder.apply(this, (query) {
-      return query.addWhereClause(IdWhereClause.between(
-        lower: id,
-        upper: id,
-      ));
+      return query.addWhereClause(IdWhereClause.between(lower: id, upper: id));
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterWhereClause> idNotEqualTo(
-      Id id) {
+    Id id,
+  ) {
     return QueryBuilder.apply(this, (query) {
       if (query.whereSort == Sort.asc) {
         return query
@@ -166,8 +166,9 @@ extension DailyProgressQueryWhere
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterWhereClause> idGreaterThan(
-      Id id,
-      {bool include = false}) {
+    Id id, {
+    bool include = false,
+  }) {
     return QueryBuilder.apply(this, (query) {
       return query.addWhereClause(
         IdWhereClause.greaterThan(lower: id, includeLower: include),
@@ -176,8 +177,9 @@ extension DailyProgressQueryWhere
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterWhereClause> idLessThan(
-      Id id,
-      {bool include = false}) {
+    Id id, {
+    bool include = false,
+  }) {
     return QueryBuilder.apply(this, (query) {
       return query.addWhereClause(
         IdWhereClause.lessThan(upper: id, includeUpper: include),
@@ -192,12 +194,14 @@ extension DailyProgressQueryWhere
     bool includeUpper = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addWhereClause(IdWhereClause.between(
-        lower: lowerId,
-        includeLower: includeLower,
-        upper: upperId,
-        includeUpper: includeUpper,
-      ));
+      return query.addWhereClause(
+        IdWhereClause.between(
+          lower: lowerId,
+          includeLower: includeLower,
+          upper: upperId,
+          includeUpper: includeUpper,
+        ),
+      );
     });
   }
 }
@@ -205,40 +209,38 @@ extension DailyProgressQueryWhere
 extension DailyProgressQueryFilter
     on QueryBuilder<DailyProgress, DailyProgress, QFilterCondition> {
   QueryBuilder<DailyProgress, DailyProgress, QAfterFilterCondition> dateEqualTo(
-      DateTime value) {
+    DateTime value,
+  ) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'date',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(property: r'date', value: value),
+      );
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterFilterCondition>
-      dateGreaterThan(
-    DateTime value, {
-    bool include = false,
-  }) {
+  dateGreaterThan(DateTime value, {bool include = false}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        include: include,
-        property: r'date',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(
+          include: include,
+          property: r'date',
+          value: value,
+        ),
+      );
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterFilterCondition>
-      dateLessThan(
-    DateTime value, {
-    bool include = false,
-  }) {
+  dateLessThan(DateTime value, {bool include = false}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.lessThan(
-        include: include,
-        property: r'date',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.lessThan(
+          include: include,
+          property: r'date',
+          value: value,
+        ),
+      );
     });
   }
 
@@ -249,37 +251,38 @@ extension DailyProgressQueryFilter
     bool includeUpper = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.between(
-        property: r'date',
-        lower: lower,
-        includeLower: includeLower,
-        upper: upper,
-        includeUpper: includeUpper,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.between(
+          property: r'date',
+          lower: lower,
+          includeLower: includeLower,
+          upper: upper,
+          includeUpper: includeUpper,
+        ),
+      );
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterFilterCondition> idEqualTo(
-      Id value) {
+    Id value,
+  ) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'id',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(property: r'id', value: value),
+      );
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterFilterCondition>
-      idGreaterThan(
-    Id value, {
-    bool include = false,
-  }) {
+  idGreaterThan(Id value, {bool include = false}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        include: include,
-        property: r'id',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(
+          include: include,
+          property: r'id',
+          value: value,
+        ),
+      );
     });
   }
 
@@ -288,11 +291,13 @@ extension DailyProgressQueryFilter
     bool include = false,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.lessThan(
-        include: include,
-        property: r'id',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.lessThan(
+          include: include,
+          property: r'id',
+          value: value,
+        ),
+      );
     });
   }
 
@@ -303,181 +308,180 @@ extension DailyProgressQueryFilter
     bool includeUpper = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.between(
-        property: r'id',
-        lower: lower,
-        includeLower: includeLower,
-        upper: upper,
-        includeUpper: includeUpper,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.between(
+          property: r'id',
+          lower: lower,
+          includeLower: includeLower,
+          upper: upper,
+          includeUpper: includeUpper,
+        ),
+      );
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterFilterCondition>
-      lessonsCompletedEqualTo(int value) {
+  lessonsCompletedEqualTo(int value) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'lessonsCompleted',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(property: r'lessonsCompleted', value: value),
+      );
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterFilterCondition>
-      lessonsCompletedGreaterThan(
-    int value, {
-    bool include = false,
-  }) {
+  lessonsCompletedGreaterThan(int value, {bool include = false}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        include: include,
-        property: r'lessonsCompleted',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(
+          include: include,
+          property: r'lessonsCompleted',
+          value: value,
+        ),
+      );
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterFilterCondition>
-      lessonsCompletedLessThan(
-    int value, {
-    bool include = false,
-  }) {
+  lessonsCompletedLessThan(int value, {bool include = false}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.lessThan(
-        include: include,
-        property: r'lessonsCompleted',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.lessThan(
+          include: include,
+          property: r'lessonsCompleted',
+          value: value,
+        ),
+      );
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterFilterCondition>
-      lessonsCompletedBetween(
+  lessonsCompletedBetween(
     int lower,
     int upper, {
     bool includeLower = true,
     bool includeUpper = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.between(
-        property: r'lessonsCompleted',
-        lower: lower,
-        includeLower: includeLower,
-        upper: upper,
-        includeUpper: includeUpper,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.between(
+          property: r'lessonsCompleted',
+          lower: lower,
+          includeLower: includeLower,
+          upper: upper,
+          includeUpper: includeUpper,
+        ),
+      );
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterFilterCondition>
-      minutesSpentEqualTo(int value) {
+  minutesSpentEqualTo(int value) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'minutesSpent',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(property: r'minutesSpent', value: value),
+      );
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterFilterCondition>
-      minutesSpentGreaterThan(
-    int value, {
-    bool include = false,
-  }) {
+  minutesSpentGreaterThan(int value, {bool include = false}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        include: include,
-        property: r'minutesSpent',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(
+          include: include,
+          property: r'minutesSpent',
+          value: value,
+        ),
+      );
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterFilterCondition>
-      minutesSpentLessThan(
-    int value, {
-    bool include = false,
-  }) {
+  minutesSpentLessThan(int value, {bool include = false}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.lessThan(
-        include: include,
-        property: r'minutesSpent',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.lessThan(
+          include: include,
+          property: r'minutesSpent',
+          value: value,
+        ),
+      );
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterFilterCondition>
-      minutesSpentBetween(
+  minutesSpentBetween(
     int lower,
     int upper, {
     bool includeLower = true,
     bool includeUpper = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.between(
-        property: r'minutesSpent',
-        lower: lower,
-        includeLower: includeLower,
-        upper: upper,
-        includeUpper: includeUpper,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.between(
+          property: r'minutesSpent',
+          lower: lower,
+          includeLower: includeLower,
+          upper: upper,
+          includeUpper: includeUpper,
+        ),
+      );
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterFilterCondition>
-      wordsLearnedEqualTo(int value) {
+  wordsLearnedEqualTo(int value) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.equalTo(
-        property: r'wordsLearned',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.equalTo(property: r'wordsLearned', value: value),
+      );
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterFilterCondition>
-      wordsLearnedGreaterThan(
-    int value, {
-    bool include = false,
-  }) {
+  wordsLearnedGreaterThan(int value, {bool include = false}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.greaterThan(
-        include: include,
-        property: r'wordsLearned',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.greaterThan(
+          include: include,
+          property: r'wordsLearned',
+          value: value,
+        ),
+      );
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterFilterCondition>
-      wordsLearnedLessThan(
-    int value, {
-    bool include = false,
-  }) {
+  wordsLearnedLessThan(int value, {bool include = false}) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.lessThan(
-        include: include,
-        property: r'wordsLearned',
-        value: value,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.lessThan(
+          include: include,
+          property: r'wordsLearned',
+          value: value,
+        ),
+      );
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterFilterCondition>
-      wordsLearnedBetween(
+  wordsLearnedBetween(
     int lower,
     int upper, {
     bool includeLower = true,
     bool includeUpper = true,
   }) {
     return QueryBuilder.apply(this, (query) {
-      return query.addFilterCondition(FilterCondition.between(
-        property: r'wordsLearned',
-        lower: lower,
-        includeLower: includeLower,
-        upper: upper,
-        includeUpper: includeUpper,
-      ));
+      return query.addFilterCondition(
+        FilterCondition.between(
+          property: r'wordsLearned',
+          lower: lower,
+          includeLower: includeLower,
+          upper: upper,
+          includeUpper: includeUpper,
+        ),
+      );
     });
   }
 }
@@ -503,42 +507,42 @@ extension DailyProgressQuerySortBy
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterSortBy>
-      sortByLessonsCompleted() {
+  sortByLessonsCompleted() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'lessonsCompleted', Sort.asc);
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterSortBy>
-      sortByLessonsCompletedDesc() {
+  sortByLessonsCompletedDesc() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'lessonsCompleted', Sort.desc);
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterSortBy>
-      sortByMinutesSpent() {
+  sortByMinutesSpent() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'minutesSpent', Sort.asc);
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterSortBy>
-      sortByMinutesSpentDesc() {
+  sortByMinutesSpentDesc() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'minutesSpent', Sort.desc);
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterSortBy>
-      sortByWordsLearned() {
+  sortByWordsLearned() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'wordsLearned', Sort.asc);
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterSortBy>
-      sortByWordsLearnedDesc() {
+  sortByWordsLearnedDesc() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'wordsLearned', Sort.desc);
     });
@@ -572,42 +576,42 @@ extension DailyProgressQuerySortThenBy
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterSortBy>
-      thenByLessonsCompleted() {
+  thenByLessonsCompleted() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'lessonsCompleted', Sort.asc);
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterSortBy>
-      thenByLessonsCompletedDesc() {
+  thenByLessonsCompletedDesc() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'lessonsCompleted', Sort.desc);
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterSortBy>
-      thenByMinutesSpent() {
+  thenByMinutesSpent() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'minutesSpent', Sort.asc);
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterSortBy>
-      thenByMinutesSpentDesc() {
+  thenByMinutesSpentDesc() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'minutesSpent', Sort.desc);
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterSortBy>
-      thenByWordsLearned() {
+  thenByWordsLearned() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'wordsLearned', Sort.asc);
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QAfterSortBy>
-      thenByWordsLearnedDesc() {
+  thenByWordsLearnedDesc() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'wordsLearned', Sort.desc);
     });
@@ -623,21 +627,21 @@ extension DailyProgressQueryWhereDistinct
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QDistinct>
-      distinctByLessonsCompleted() {
+  distinctByLessonsCompleted() {
     return QueryBuilder.apply(this, (query) {
       return query.addDistinctBy(r'lessonsCompleted');
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QDistinct>
-      distinctByMinutesSpent() {
+  distinctByMinutesSpent() {
     return QueryBuilder.apply(this, (query) {
       return query.addDistinctBy(r'minutesSpent');
     });
   }
 
   QueryBuilder<DailyProgress, DailyProgress, QDistinct>
-      distinctByWordsLearned() {
+  distinctByWordsLearned() {
     return QueryBuilder.apply(this, (query) {
       return query.addDistinctBy(r'wordsLearned');
     });
@@ -659,7 +663,7 @@ extension DailyProgressQueryProperty
   }
 
   QueryBuilder<DailyProgress, int, QQueryOperations>
-      lessonsCompletedProperty() {
+  lessonsCompletedProperty() {
     return QueryBuilder.apply(this, (query) {
       return query.addPropertyName(r'lessonsCompleted');
     });

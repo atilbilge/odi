@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:isar/isar.dart';
+import 'package:isar_community/isar.dart';
 import 'package:odjek/core/database/database_service.dart';
 import 'package:odjek/core/database/models/vocabulary.dart';
 import 'package:odjek/core/database/models/lesson.dart';
